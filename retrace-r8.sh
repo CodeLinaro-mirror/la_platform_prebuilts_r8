@@ -14,11 +14,11 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# Call retrace with the r8-master map file.
+# Call retrace with the r8 map file.
 #
 # Usage:
 #
-#     retrace-r8-master.sh [-verbose] [<stacktrace_file>]
+#     retrace-r8.sh [-verbose] [<stacktrace_file>]
 #
 # Read from stdin if stacktrace file is not specified.
 
@@ -56,7 +56,7 @@ if [ ! -r "${retracedir}/${proguardjar}" ]; then
     exit 1
 fi
 
-mapfile="r8-master.jar.map"
+mapfile="r8.jar.map"
 
 if [ ! -r "${progdir}/${mapfile}" ]; then
     echo `basename "${prog}"`": can't find ${mapfile}"
