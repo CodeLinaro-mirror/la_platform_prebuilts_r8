@@ -1,7 +1,7 @@
 # compiler: R8
-# compiler_version: 2.1.7-dev
+# compiler_version: 2.1.7-r1
 # compiler_hash: engineering
-# pg_map_id: c27b21f
+# pg_map_id: 35bfcaa
 # common_typos_disable
 com.android.tools.r8.ApiLevelException -> com.android.tools.r8.a:
     boolean $assertionsDisabled -> c
@@ -29495,27 +29495,27 @@ com.android.tools.r8.ir.desugar.BackportedMethodRewriter -> com.android.tools.r8
 com.android.tools.r8.ir.desugar.BackportedMethodRewriter$InvokeRewriter -> com.android.tools.r8.t.c.b$a:
     com.android.tools.r8.ir.desugar.BackportedMethodRewriter$MethodInvokeRewriter rewriter -> b
     boolean $assertionsDisabled -> c
-    1:1:void <clinit>():1828:1828 -> <clinit>
-    1:2:void <init>(com.android.tools.r8.graph.DexMethod,com.android.tools.r8.ir.desugar.BackportedMethodRewriter$MethodInvokeRewriter):1833:1834 -> <init>
+    1:1:void <clinit>():1832:1832 -> <clinit>
+    1:2:void <init>(com.android.tools.r8.graph.DexMethod,com.android.tools.r8.ir.desugar.BackportedMethodRewriter$MethodInvokeRewriter):1837:1838 -> <init>
     boolean requiresGenerationOfCode() -> a
-    1:2:void rewriteInvoke(com.android.tools.r8.ir.code.InvokeMethod,com.android.tools.r8.ir.code.InstructionListIterator,com.android.tools.r8.ir.code.IRCode,com.android.tools.r8.graph.AppView,java.util.Set):1844:1845 -> a
-    3:3:com.android.tools.r8.graph.DexMethod provideMethod(com.android.tools.r8.graph.AppView):1855:1855 -> a
-    4:4:com.android.tools.r8.graph.Code generateTemplateMethod(com.android.tools.r8.utils.InternalOptions,com.android.tools.r8.graph.DexMethod):1860:1860 -> a
+    1:2:void rewriteInvoke(com.android.tools.r8.ir.code.InvokeMethod,com.android.tools.r8.ir.code.InstructionListIterator,com.android.tools.r8.ir.code.IRCode,com.android.tools.r8.graph.AppView,java.util.Set):1848:1849 -> a
+    3:3:com.android.tools.r8.graph.DexMethod provideMethod(com.android.tools.r8.graph.AppView):1859:1859 -> a
+    4:4:com.android.tools.r8.graph.Code generateTemplateMethod(com.android.tools.r8.utils.InternalOptions,com.android.tools.r8.graph.DexMethod):1864:1864 -> a
 com.android.tools.r8.ir.desugar.BackportedMethodRewriter$MethodGenerator -> com.android.tools.r8.t.c.b$b:
     com.android.tools.r8.ir.desugar.BackportedMethodRewriter$TemplateMethodFactory factory -> b
     com.android.tools.r8.graph.DexMethod generatedMethod -> d
     java.lang.String methodName -> c
-    1:1:void <init>(com.android.tools.r8.graph.DexMethod,com.android.tools.r8.ir.desugar.BackportedMethodRewriter$TemplateMethodFactory):1871:1871 -> <init>
-    2:4:void <init>(com.android.tools.r8.graph.DexMethod,com.android.tools.r8.ir.desugar.BackportedMethodRewriter$TemplateMethodFactory,java.lang.String):1875:1877 -> <init>
+    1:1:void <init>(com.android.tools.r8.graph.DexMethod,com.android.tools.r8.ir.desugar.BackportedMethodRewriter$TemplateMethodFactory):1875:1875 -> <init>
+    2:4:void <init>(com.android.tools.r8.graph.DexMethod,com.android.tools.r8.ir.desugar.BackportedMethodRewriter$TemplateMethodFactory,java.lang.String):1879:1881 -> <init>
     boolean requiresGenerationOfCode() -> a
-    1:3:void rewriteInvoke(com.android.tools.r8.ir.code.InvokeMethod,com.android.tools.r8.ir.code.InstructionListIterator,com.android.tools.r8.ir.code.IRCode,com.android.tools.r8.graph.AppView,java.util.Set):1887:1887 -> a
-    4:27:com.android.tools.r8.graph.DexMethod provideMethod(com.android.tools.r8.graph.AppView):1893:1916 -> a
-    28:28:com.android.tools.r8.graph.Code generateTemplateMethod(com.android.tools.r8.utils.InternalOptions,com.android.tools.r8.graph.DexMethod):1922:1922 -> a
+    1:3:void rewriteInvoke(com.android.tools.r8.ir.code.InvokeMethod,com.android.tools.r8.ir.code.InstructionListIterator,com.android.tools.r8.ir.code.IRCode,com.android.tools.r8.graph.AppView,java.util.Set):1891:1891 -> a
+    4:27:com.android.tools.r8.graph.DexMethod provideMethod(com.android.tools.r8.graph.AppView):1897:1920 -> a
+    28:28:com.android.tools.r8.graph.Code generateTemplateMethod(com.android.tools.r8.utils.InternalOptions,com.android.tools.r8.graph.DexMethod):1926:1926 -> a
 com.android.tools.r8.ir.desugar.BackportedMethodRewriter$MethodInvokeRewriter -> com.android.tools.r8.t.c.b$c:
     void rewrite(com.android.tools.r8.ir.code.InvokeMethod,com.android.tools.r8.ir.code.InstructionListIterator,com.android.tools.r8.graph.DexItemFactory,java.util.Set) -> a
 com.android.tools.r8.ir.desugar.BackportedMethodRewriter$MethodProvider -> com.android.tools.r8.t.c.b$d:
     com.android.tools.r8.graph.DexMethod method -> a
-    1:2:void <init>(com.android.tools.r8.graph.DexMethod):1764:1765 -> <init>
+    1:2:void <init>(com.android.tools.r8.graph.DexMethod):1768:1769 -> <init>
     com.android.tools.r8.graph.Code generateTemplateMethod(com.android.tools.r8.utils.InternalOptions,com.android.tools.r8.graph.DexMethod) -> a
     com.android.tools.r8.graph.DexMethod provideMethod(com.android.tools.r8.graph.AppView) -> a
     boolean requiresGenerationOfCode() -> a
@@ -29524,11 +29524,11 @@ com.android.tools.r8.ir.desugar.BackportedMethodRewriter$RetargetCoreLibraryMeth
     com.android.tools.r8.graph.DexType newHolder -> b
     com.android.tools.r8.graph.DexMethod targetMethod -> c
     boolean isStatic -> d
-    1:3:void <init>(com.android.tools.r8.graph.DexType,com.android.tools.r8.graph.DexMethod,boolean):1789:1791 -> <init>
+    1:3:void <init>(com.android.tools.r8.graph.DexType,com.android.tools.r8.graph.DexMethod,boolean):1793:1795 -> <init>
     boolean requiresGenerationOfCode() -> a
-    1:3:void rewriteInvoke(com.android.tools.r8.ir.code.InvokeMethod,com.android.tools.r8.ir.code.InstructionListIterator,com.android.tools.r8.ir.code.IRCode,com.android.tools.r8.graph.AppView,java.util.Set):1801:1801 -> a
-    4:10:com.android.tools.r8.graph.DexMethod provideMethod(com.android.tools.r8.graph.AppView):1807:1813 -> a
-    11:11:com.android.tools.r8.graph.Code generateTemplateMethod(com.android.tools.r8.utils.InternalOptions,com.android.tools.r8.graph.DexMethod):1819:1819 -> a
+    1:3:void rewriteInvoke(com.android.tools.r8.ir.code.InvokeMethod,com.android.tools.r8.ir.code.InstructionListIterator,com.android.tools.r8.ir.code.IRCode,com.android.tools.r8.graph.AppView,java.util.Set):1805:1805 -> a
+    4:10:com.android.tools.r8.graph.DexMethod provideMethod(com.android.tools.r8.graph.AppView):1811:1817 -> a
+    11:11:com.android.tools.r8.graph.Code generateTemplateMethod(com.android.tools.r8.utils.InternalOptions,com.android.tools.r8.graph.DexMethod):1823:1823 -> a
 com.android.tools.r8.ir.desugar.BackportedMethodRewriter$RewritableMethods -> com.android.tools.r8.t.c.b$f:
     java.util.Map rewritable -> a
     java.util.Map virtualRewrites -> b
@@ -29536,63 +29536,64 @@ com.android.tools.r8.ir.desugar.BackportedMethodRewriter$RewritableMethods -> co
     boolean $assertionsDisabled -> d
     1:1:void <clinit>():543:543 -> <clinit>
     1:1:void <init>(com.android.tools.r8.utils.InternalOptions,com.android.tools.r8.graph.AppView):554:554 -> <init>
-    2:44:void <init>(com.android.tools.r8.utils.InternalOptions,com.android.tools.r8.graph.AppView):546:588 -> <init>
-    1:1:java.util.Set getEmulatedDispatchMethods():606:606 -> a
-    2:2:void visit(java.util.function.Consumer):614:614 -> a
-    3:132:void initializeAndroidKMethodProviders(com.android.tools.r8.graph.DexItemFactory):619:748 -> a
-    133:133:com.android.tools.r8.graph.Code lambda$initializeJava9MethodProviders$0(int,com.android.tools.r8.utils.InternalOptions,com.android.tools.r8.graph.DexMethod):1381:1381 -> a
-    134:139:void warnMissingRetargetCoreLibraryMember(com.android.tools.r8.graph.DexType,com.android.tools.r8.graph.AppView):1683:1688 -> a
+    2:47:void <init>(com.android.tools.r8.utils.InternalOptions,com.android.tools.r8.graph.AppView):546:591 -> <init>
+    1:1:java.util.Set getEmulatedDispatchMethods():609:609 -> a
+    2:2:void visit(java.util.function.Consumer):617:617 -> a
+    3:132:void initializeAndroidKMethodProviders(com.android.tools.r8.graph.DexItemFactory):622:751 -> a
+    133:133:com.android.tools.r8.graph.Code lambda$initializeAndroidRMethodProviders$0(int,com.android.tools.r8.utils.InternalOptions,com.android.tools.r8.graph.DexMethod):1321:1321 -> a
+    134:139:void warnMissingRetargetCoreLibraryMember(com.android.tools.r8.graph.DexType,com.android.tools.r8.graph.AppView):1687:1692 -> a
     134:139:void access$000(com.android.tools.r8.graph.DexType,com.android.tools.r8.graph.AppView):543 -> a
-    140:145:void initializeRetargetCoreLibraryMembers(com.android.tools.r8.graph.AppView):1692:1697 -> a
+    140:145:void initializeRetargetCoreLibraryMembers(com.android.tools.r8.graph.AppView):1696:1701 -> a
     146:146:com.android.tools.r8.graph.DexClass com.android.tools.r8.graph.AppView.definitionFor(com.android.tools.r8.graph.DexType):205:205 -> a
-    146:146:void initializeRetargetCoreLibraryMembers(com.android.tools.r8.graph.AppView):1698 -> a
-    147:147:void initializeRetargetCoreLibraryMembers(com.android.tools.r8.graph.AppView):1700:1700 -> a
-    148:154:java.util.List findDexEncodedMethodsWithName(com.android.tools.r8.graph.DexString,com.android.tools.r8.graph.DexClass):1729:1735 -> a
-    148:154:void initializeRetargetCoreLibraryMembers(com.android.tools.r8.graph.AppView):1701 -> a
-    155:159:void initializeRetargetCoreLibraryMembers(com.android.tools.r8.graph.AppView):1702:1706 -> a
+    146:146:void initializeRetargetCoreLibraryMembers(com.android.tools.r8.graph.AppView):1702 -> a
+    147:147:void initializeRetargetCoreLibraryMembers(com.android.tools.r8.graph.AppView):1704:1704 -> a
+    148:154:java.util.List findDexEncodedMethodsWithName(com.android.tools.r8.graph.DexString,com.android.tools.r8.graph.DexClass):1733:1739 -> a
+    148:154:void initializeRetargetCoreLibraryMembers(com.android.tools.r8.graph.AppView):1705 -> a
+    155:159:void initializeRetargetCoreLibraryMembers(com.android.tools.r8.graph.AppView):1706:1710 -> a
     160:160:boolean com.android.tools.r8.graph.DexEncodedMethod.isFinal():295:295 -> a
-    160:160:void initializeRetargetCoreLibraryMembers(com.android.tools.r8.graph.AppView):1709 -> a
-    161:161:void initializeRetargetCoreLibraryMembers(com.android.tools.r8.graph.AppView):1712:1712 -> a
-    162:163:void handleEmulateDispatch(com.android.tools.r8.graph.AppView,com.android.tools.r8.graph.DexMethod):1740:1741 -> a
-    162:163:void initializeRetargetCoreLibraryMembers(com.android.tools.r8.graph.AppView):1712 -> a
+    160:160:void initializeRetargetCoreLibraryMembers(com.android.tools.r8.graph.AppView):1713 -> a
+    161:161:void initializeRetargetCoreLibraryMembers(com.android.tools.r8.graph.AppView):1716:1716 -> a
+    162:163:void handleEmulateDispatch(com.android.tools.r8.graph.AppView,com.android.tools.r8.graph.DexMethod):1744:1745 -> a
+    162:163:void initializeRetargetCoreLibraryMembers(com.android.tools.r8.graph.AppView):1716 -> a
     164:164:boolean com.android.tools.r8.utils.InternalOptions.isDesugaredLibraryCompilation():334:334 -> a
-    164:164:void handleEmulateDispatch(com.android.tools.r8.graph.AppView,com.android.tools.r8.graph.DexMethod):1741 -> a
-    164:164:void initializeRetargetCoreLibraryMembers(com.android.tools.r8.graph.AppView):1712 -> a
-    165:168:void handleEmulateDispatch(com.android.tools.r8.graph.AppView,com.android.tools.r8.graph.DexMethod):1743:1746 -> a
-    165:168:void initializeRetargetCoreLibraryMembers(com.android.tools.r8.graph.AppView):1712 -> a
-    169:176:void initializeRetargetCoreLibraryMembers(com.android.tools.r8.graph.AppView):1713:1720 -> a
-    177:177:void initializeRetargetCoreLibraryMembers(com.android.tools.r8.graph.AppView):1718:1718 -> a
-    178:179:void addProvider(com.android.tools.r8.ir.desugar.BackportedMethodRewriter$MethodProvider):1751:1752 -> a
-    180:180:com.android.tools.r8.ir.desugar.BackportedMethodRewriter$MethodProvider getProvider(com.android.tools.r8.graph.DexMethod):1756:1756 -> a
-    1:6:boolean matchesVirtualRewrite(com.android.tools.r8.graph.DexMethod):593:598 -> b
-    7:7:boolean isEmpty():610:610 -> b
-    8:346:void initializeAndroidNMethodProviders(com.android.tools.r8.graph.DexItemFactory):754:1092 -> b
-    347:347:com.android.tools.r8.graph.Code lambda$initializeJava9MethodProviders$1(int,com.android.tools.r8.utils.InternalOptions,com.android.tools.r8.graph.DexMethod):1403:1403 -> b
+    164:164:void handleEmulateDispatch(com.android.tools.r8.graph.AppView,com.android.tools.r8.graph.DexMethod):1745 -> a
+    164:164:void initializeRetargetCoreLibraryMembers(com.android.tools.r8.graph.AppView):1716 -> a
+    165:168:void handleEmulateDispatch(com.android.tools.r8.graph.AppView,com.android.tools.r8.graph.DexMethod):1747:1750 -> a
+    165:168:void initializeRetargetCoreLibraryMembers(com.android.tools.r8.graph.AppView):1716 -> a
+    169:176:void initializeRetargetCoreLibraryMembers(com.android.tools.r8.graph.AppView):1717:1724 -> a
+    177:177:void initializeRetargetCoreLibraryMembers(com.android.tools.r8.graph.AppView):1722:1722 -> a
+    178:179:void addProvider(com.android.tools.r8.ir.desugar.BackportedMethodRewriter$MethodProvider):1755:1756 -> a
+    180:180:com.android.tools.r8.ir.desugar.BackportedMethodRewriter$MethodProvider getProvider(com.android.tools.r8.graph.DexMethod):1760:1760 -> a
+    1:6:boolean matchesVirtualRewrite(com.android.tools.r8.graph.DexMethod):596:601 -> b
+    7:7:boolean isEmpty():613:613 -> b
+    8:346:void initializeAndroidNMethodProviders(com.android.tools.r8.graph.DexItemFactory):757:1095 -> b
+    347:347:com.android.tools.r8.graph.Code lambda$initializeAndroidRMethodProviders$1(int,com.android.tools.r8.utils.InternalOptions,com.android.tools.r8.graph.DexMethod):1343:1343 -> b
     1:6:com.android.tools.r8.graph.CfCode com.android.tools.r8.ir.desugar.backports.CollectionMethodGenerators.generateMapOf(com.android.tools.r8.utils.InternalOptions,com.android.tools.r8.graph.DexMethod,int):74:79 -> c
-    1:6:com.android.tools.r8.graph.Code lambda$initializeJava9MethodProviders$2(int,com.android.tools.r8.utils.InternalOptions,com.android.tools.r8.graph.DexMethod):1424 -> c
+    1:6:com.android.tools.r8.graph.Code lambda$initializeAndroidRMethodProviders$2(int,com.android.tools.r8.utils.InternalOptions,com.android.tools.r8.graph.DexMethod):1364 -> c
     7:40:com.android.tools.r8.graph.CfCode com.android.tools.r8.ir.desugar.backports.CollectionMethodGenerators.generateMapOf(com.android.tools.r8.utils.InternalOptions,com.android.tools.r8.graph.DexMethod,int):77:110 -> c
-    7:40:com.android.tools.r8.graph.Code lambda$initializeJava9MethodProviders$2(int,com.android.tools.r8.utils.InternalOptions,com.android.tools.r8.graph.DexMethod):1424 -> c
+    7:40:com.android.tools.r8.graph.Code lambda$initializeAndroidRMethodProviders$2(int,com.android.tools.r8.utils.InternalOptions,com.android.tools.r8.graph.DexMethod):1364 -> c
     41:41:com.android.tools.r8.graph.CfCode com.android.tools.r8.ir.desugar.backports.CollectionMethodGenerators.generateMapOf(com.android.tools.r8.utils.InternalOptions,com.android.tools.r8.graph.DexMethod,int):105:105 -> c
-    41:41:com.android.tools.r8.graph.Code lambda$initializeJava9MethodProviders$2(int,com.android.tools.r8.utils.InternalOptions,com.android.tools.r8.graph.DexMethod):1424 -> c
+    41:41:com.android.tools.r8.graph.Code lambda$initializeAndroidRMethodProviders$2(int,com.android.tools.r8.utils.InternalOptions,com.android.tools.r8.graph.DexMethod):1364 -> c
     42:60:com.android.tools.r8.graph.CfCode com.android.tools.r8.ir.desugar.backports.CollectionMethodGenerators.generateMapOf(com.android.tools.r8.utils.InternalOptions,com.android.tools.r8.graph.DexMethod,int):102:120 -> c
-    42:60:com.android.tools.r8.graph.Code lambda$initializeJava9MethodProviders$2(int,com.android.tools.r8.utils.InternalOptions,com.android.tools.r8.graph.DexMethod):1424 -> c
-    61:218:void initializeAndroidOMethodProviders(com.android.tools.r8.graph.DexItemFactory):1099:1256 -> c
-    1:29:void initializeJava10MethodProviders(com.android.tools.r8.graph.DexItemFactory):1441:1469 -> d
-    1:26:void initializeJava10OptionalMethodProviders(com.android.tools.r8.graph.DexItemFactory):1614:1639 -> e
-    1:61:void initializeJava11MethodProviders(com.android.tools.r8.graph.DexItemFactory):1476:1536 -> f
-    1:20:void initializeJava11OptionalMethodProviders(com.android.tools.r8.graph.DexItemFactory):1645:1664 -> g
-    1:116:void initializeJava9MethodProviders(com.android.tools.r8.graph.DexItemFactory):1263:1378 -> h
-    117:142:void initializeJava9MethodProviders(com.android.tools.r8.graph.DexItemFactory):1375:1400 -> h
-    143:167:void initializeJava9MethodProviders(com.android.tools.r8.graph.DexItemFactory):1397:1421 -> h
-    168:186:void initializeJava9MethodProviders(com.android.tools.r8.graph.DexItemFactory):1418:1436 -> h
-    1:65:void initializeJava9OptionalMethodProviders(com.android.tools.r8.graph.DexItemFactory):1543:1607 -> i
-    1:7:void initializeStreamMethodProviders(com.android.tools.r8.graph.DexItemFactory):1671:1677 -> j
+    42:60:com.android.tools.r8.graph.Code lambda$initializeAndroidRMethodProviders$2(int,com.android.tools.r8.utils.InternalOptions,com.android.tools.r8.graph.DexMethod):1364 -> c
+    61:218:void initializeAndroidOMethodProviders(com.android.tools.r8.graph.DexItemFactory):1102:1259 -> c
+    1:48:void initializeAndroidRMethodProviders(com.android.tools.r8.graph.DexItemFactory):1271:1318 -> d
+    49:74:void initializeAndroidRMethodProviders(com.android.tools.r8.graph.DexItemFactory):1315:1340 -> d
+    75:99:void initializeAndroidRMethodProviders(com.android.tools.r8.graph.DexItemFactory):1337:1361 -> d
+    100:118:void initializeAndroidRMethodProviders(com.android.tools.r8.graph.DexItemFactory):1358:1376 -> d
+    1:29:void initializeJava10MethodProviders(com.android.tools.r8.graph.DexItemFactory):1445:1473 -> e
+    1:26:void initializeJava10OptionalMethodProviders(com.android.tools.r8.graph.DexItemFactory):1618:1643 -> f
+    1:61:void initializeJava11MethodProviders(com.android.tools.r8.graph.DexItemFactory):1480:1540 -> g
+    1:20:void initializeJava11OptionalMethodProviders(com.android.tools.r8.graph.DexItemFactory):1649:1668 -> h
+    1:60:void initializeJava9MethodProviders(com.android.tools.r8.graph.DexItemFactory):1381:1440 -> i
+    1:65:void initializeJava9OptionalMethodProviders(com.android.tools.r8.graph.DexItemFactory):1547:1611 -> j
+    1:7:void initializeStreamMethodProviders(com.android.tools.r8.graph.DexItemFactory):1675:1681 -> k
 com.android.tools.r8.ir.desugar.BackportedMethodRewriter$StatifyingMethodGenerator -> com.android.tools.r8.t.c.b$g:
     boolean $assertionsDisabled -> f
     com.android.tools.r8.graph.DexType receiverType -> e
-    1:1:void <clinit>():1934:1934 -> <clinit>
-    1:2:void <init>(com.android.tools.r8.graph.DexMethod,com.android.tools.r8.ir.desugar.BackportedMethodRewriter$TemplateMethodFactory,java.lang.String,com.android.tools.r8.graph.DexType):1940:1941 -> <init>
-    1:8:com.android.tools.r8.graph.DexMethod provideMethod(com.android.tools.r8.graph.AppView):1946:1953 -> a
+    1:1:void <clinit>():1938:1938 -> <clinit>
+    1:2:void <init>(com.android.tools.r8.graph.DexMethod,com.android.tools.r8.ir.desugar.BackportedMethodRewriter$TemplateMethodFactory,java.lang.String,com.android.tools.r8.graph.DexType):1944:1945 -> <init>
+    1:8:com.android.tools.r8.graph.DexMethod provideMethod(com.android.tools.r8.graph.AppView):1950:1957 -> a
 com.android.tools.r8.ir.desugar.BackportedMethodRewriter$TemplateMethodFactory -> com.android.tools.r8.t.c.b$h:
     com.android.tools.r8.graph.Code create(com.android.tools.r8.utils.InternalOptions,com.android.tools.r8.graph.DexMethod) -> a
 com.android.tools.r8.ir.desugar.ClassProcessor -> com.android.tools.r8.t.c.g:
@@ -61865,20 +61866,20 @@ com.android.tools.r8.utils.DexVersion -> com.android.tools.r8.utils.Q:
     5:5:void <clinit>():12:12 -> <clinit>
     1:3:void <init>(java.lang.String,int,int,byte[]):22:24 -> <init>
     1:1:byte[] getBytes():32:32 -> a
-    2:37:com.android.tools.r8.utils.DexVersion getDexVersion(com.android.tools.r8.utils.AndroidApiLevel):40:75 -> a
-    38:38:com.android.tools.r8.utils.DexVersion getDexVersion(com.android.tools.r8.utils.AndroidApiLevel):73:73 -> a
-    39:39:com.android.tools.r8.utils.DexVersion getDexVersion(com.android.tools.r8.utils.AndroidApiLevel):49:49 -> a
-    40:40:com.android.tools.r8.utils.DexVersion getDexVersion(com.android.tools.r8.utils.AndroidApiLevel):46:46 -> a
-    41:41:com.android.tools.r8.utils.DexVersion getDexVersion(com.android.tools.r8.utils.AndroidApiLevel):43:43 -> a
-    42:42:java.util.Optional getDexVersion(char,char,char):98:98 -> a
-    43:43:java.util.Optional getDexVersion(char,char,char):96:96 -> a
+    2:38:com.android.tools.r8.utils.DexVersion getDexVersion(com.android.tools.r8.utils.AndroidApiLevel):40:76 -> a
+    39:39:com.android.tools.r8.utils.DexVersion getDexVersion(com.android.tools.r8.utils.AndroidApiLevel):74:74 -> a
+    40:40:com.android.tools.r8.utils.DexVersion getDexVersion(com.android.tools.r8.utils.AndroidApiLevel):50:50 -> a
+    41:41:com.android.tools.r8.utils.DexVersion getDexVersion(com.android.tools.r8.utils.AndroidApiLevel):47:47 -> a
+    42:42:com.android.tools.r8.utils.DexVersion getDexVersion(com.android.tools.r8.utils.AndroidApiLevel):44:44 -> a
+    43:43:java.util.Optional getDexVersion(char,char,char):99:99 -> a
+    44:44:java.util.Optional getDexVersion(char,char,char):97:97 -> a
     1:1:int getIntValue():28:28 -> b
     2:2:boolean matchesApiLevel(com.android.tools.r8.utils.AndroidApiLevel):36:36 -> b
-    3:3:java.util.Optional getDexVersion(int):90:90 -> b
-    4:4:java.util.Optional getDexVersion(int):88:88 -> b
-    5:5:java.util.Optional getDexVersion(int):86:86 -> b
-    6:6:java.util.Optional getDexVersion(int):84:84 -> b
-    7:7:java.util.Optional getDexVersion(int):82:82 -> b
+    3:3:java.util.Optional getDexVersion(int):91:91 -> b
+    4:4:java.util.Optional getDexVersion(int):89:89 -> b
+    5:5:java.util.Optional getDexVersion(int):87:87 -> b
+    6:6:java.util.Optional getDexVersion(int):85:85 -> b
+    7:7:java.util.Optional getDexVersion(int):83:83 -> b
 com.android.tools.r8.utils.DiagnosticWithThrowable -> com.android.tools.r8.utils.S:
     java.lang.Throwable throwable -> a
     boolean $assertionsDisabled -> b
