@@ -1,7 +1,7 @@
 # compiler: R8
-# compiler_version: 3.0.41-dev
+# compiler_version: 3.0.41-sc02
 # compiler_hash: engineering
-# pg_map_id: 5d13686
+# pg_map_id: 8114fc5
 # common_typos_disable
 com.android.tools.r8.ApiLevelException -> com.android.tools.r8.internal.m1:
     boolean $assertionsDisabled -> c
@@ -17860,44 +17860,44 @@ com.android.tools.r8.graph.DexClass -> com.android.tools.r8.graph.z:
     1:1:void <init>(com.android.tools.r8.graph.DexString,com.android.tools.r8.graph.DexTypeList,com.android.tools.r8.graph.ClassAccessFlags,com.android.tools.r8.graph.DexType,com.android.tools.r8.graph.DexType,com.android.tools.r8.graph.DexEncodedField[],com.android.tools.r8.graph.DexEncodedField[],com.android.tools.r8.graph.DexEncodedMethod[],com.android.tools.r8.graph.DexEncodedMethod[],com.android.tools.r8.graph.NestHostClassAttribute,java.util.List,com.android.tools.r8.graph.EnclosingMethodAttribute,java.util.List,com.android.tools.r8.graph.GenericSignature$ClassSignature,com.android.tools.r8.graph.DexAnnotationSet,com.android.tools.r8.origin.Origin,boolean):102:102 -> <init>
     2:78:void <init>(com.android.tools.r8.graph.DexString,com.android.tools.r8.graph.DexTypeList,com.android.tools.r8.graph.ClassAccessFlags,com.android.tools.r8.graph.DexType,com.android.tools.r8.graph.DexType,com.android.tools.r8.graph.DexEncodedField[],com.android.tools.r8.graph.DexEncodedField[],com.android.tools.r8.graph.DexEncodedMethod[],com.android.tools.r8.graph.DexEncodedMethod[],com.android.tools.r8.graph.NestHostClassAttribute,java.util.List,com.android.tools.r8.graph.EnclosingMethodAttribute,java.util.List,com.android.tools.r8.graph.GenericSignature$ClassSignature,com.android.tools.r8.graph.DexAnnotationSet,com.android.tools.r8.origin.Origin,boolean):56:132 -> <init>
     79:79:void <init>(com.android.tools.r8.graph.DexString,com.android.tools.r8.graph.DexTypeList,com.android.tools.r8.graph.ClassAccessFlags,com.android.tools.r8.graph.DexType,com.android.tools.r8.graph.DexType,com.android.tools.r8.graph.DexEncodedField[],com.android.tools.r8.graph.DexEncodedField[],com.android.tools.r8.graph.DexEncodedMethod[],com.android.tools.r8.graph.DexEncodedMethod[],com.android.tools.r8.graph.NestHostClassAttribute,java.util.List,com.android.tools.r8.graph.EnclosingMethodAttribute,java.util.List,com.android.tools.r8.graph.GenericSignature$ClassSignature,com.android.tools.r8.graph.DexAnnotationSet,com.android.tools.r8.origin.Origin,boolean):122:122 -> <init>
-    1:4:boolean isAnonymousClass():1018:1021 -> A0
-    boolean isClasspathClass() -> B0
-    1:1:boolean isEnum():618:618 -> C0
-    1:1:boolean isFinal():605:605 -> D0
-    1:1:boolean isInANest():1025:1025 -> E0
-    boolean isLibraryClass() -> F0
-    1:3:boolean isLocalClass():1005:1007 -> G0
+    1:1:boolean isAnnotation():601:601 -> A0
+    1:4:boolean isAnonymousClass():1018:1021 -> B0
+    boolean isClasspathClass() -> C0
+    1:1:boolean isEnum():618:618 -> D0
+    1:1:boolean isFinal():605:605 -> E0
+    1:1:boolean isInANest():1025:1025 -> F0
+    boolean isLibraryClass() -> G0
     com.android.tools.r8.graph.DexClass asDexClass() -> H
-    1:3:boolean isMemberClass():1011:1013 -> H0
-    1:1:boolean isNestHost():1042:1042 -> I0
-    1:1:boolean isNestMember():1046:1046 -> J0
-    boolean isNotProgramClass() -> K0
-    1:1:boolean isPublic():669:669 -> L0
-    1:1:boolean isRecord():622:622 -> M0
-    2:2:boolean com.android.tools.r8.graph.AccessFlags.isSet(int):255:255 -> M0
-    2:2:boolean com.android.tools.r8.graph.ClassAccessFlags.isRecord():187 -> M0
-    2:2:boolean isRecord():622 -> M0
-    boolean isDexClass() -> N
-    1:1:java.lang.Iterable members():191:191 -> N0
-    2:2:java.lang.Iterable com.android.tools.r8.com.google.common.collect.Iterables.concat(java.lang.Iterable,java.lang.Iterable):433:433 -> N0
-    2:2:java.lang.Iterable members():191 -> N0
-    1:1:java.lang.Iterable methods():204:204 -> O0
-    1:5:java.util.List staticFields():323:327 -> P0
-    1:1:boolean validInterfaceSignatures():806:806 -> Q0
-    2:2:java.util.List com.android.tools.r8.graph.GenericSignature$ClassSignature.superInterfaceSignatures():229:229 -> Q0
-    2:2:boolean validInterfaceSignatures():806 -> Q0
-    3:4:boolean validInterfaceSignatures():806:807 -> Q0
-    1:4:boolean verifyNoDuplicateFields():456:459 -> R0
-    boolean isStaticMember() -> S
-    1:1:java.lang.Iterable virtualMethods():245:245 -> S0
-    1:3:java.lang.Iterable allImmediateSupertypes():916:918 -> T
-    4:7:java.lang.Iterable allImmediateSupertypes():917:920 -> T
-    1:1:java.util.List allMethodsSorted():282:282 -> U
-    1:1:void clearClassSignature():968:968 -> V
-    1:1:void clearEnclosingMethodAttribute():954:954 -> W
-    1:1:void clearInnerClasses():964:964 -> X
-    1:1:void clearInstanceFields():435:435 -> Y
-    1:1:void clearNestHost():1029:1029 -> Z
+    1:3:boolean isLocalClass():1005:1007 -> H0
+    1:3:boolean isMemberClass():1011:1013 -> I0
+    1:1:boolean isNestHost():1042:1042 -> J0
+    1:1:boolean isNestMember():1046:1046 -> K0
+    boolean isNotProgramClass() -> L0
+    1:1:boolean isPublic():669:669 -> M0
+    1:1:boolean isRecord():622:622 -> N0
+    2:2:boolean com.android.tools.r8.graph.AccessFlags.isSet(int):255:255 -> N0
+    2:2:boolean com.android.tools.r8.graph.ClassAccessFlags.isRecord():187 -> N0
+    2:2:boolean isRecord():622 -> N0
+    boolean isDexClass() -> O
+    1:1:java.lang.Iterable members():191:191 -> O0
+    2:2:java.lang.Iterable com.android.tools.r8.com.google.common.collect.Iterables.concat(java.lang.Iterable,java.lang.Iterable):433:433 -> O0
+    2:2:java.lang.Iterable members():191 -> O0
+    1:1:java.lang.Iterable methods():204:204 -> P0
+    1:5:java.util.List staticFields():323:327 -> Q0
+    1:1:boolean validInterfaceSignatures():806:806 -> R0
+    2:2:java.util.List com.android.tools.r8.graph.GenericSignature$ClassSignature.superInterfaceSignatures():229:229 -> R0
+    2:2:boolean validInterfaceSignatures():806 -> R0
+    3:4:boolean validInterfaceSignatures():806:807 -> R0
+    1:4:boolean verifyNoDuplicateFields():456:459 -> S0
+    boolean isStaticMember() -> T
+    1:1:java.lang.Iterable virtualMethods():245:245 -> T0
+    1:3:java.lang.Iterable allImmediateSupertypes():916:918 -> U
+    4:7:java.lang.Iterable allImmediateSupertypes():917:920 -> U
+    1:1:java.util.List allMethodsSorted():282:282 -> V
+    1:1:void clearClassSignature():968:968 -> W
+    1:1:void clearEnclosingMethodAttribute():954:954 -> X
+    1:1:void clearInnerClasses():964:964 -> Y
+    1:1:void clearInstanceFields():435:435 -> Z
     void accept(java.util.function.Consumer,java.util.function.Consumer,java.util.function.Consumer) -> a
     boolean internalClassOrInterfaceMayHaveInitializationSideEffects(com.android.tools.r8.graph.AppView,com.android.tools.r8.graph.DexClass,java.util.function.Predicate,java.util.Set) -> a
     java.util.Iterator lambda$allImmediateSupertypes$6(java.util.Iterator) -> a
@@ -17993,7 +17993,7 @@ com.android.tools.r8.graph.DexClass -> com.android.tools.r8.graph.z:
     169:173:boolean verifyNoAbstractMethodsOnNonAbstractClasses(java.lang.Iterable,com.android.tools.r8.utils.InternalOptions):266:270 -> a
     169:173:boolean isValid(com.android.tools.r8.utils.InternalOptions):1109 -> a
     174:177:boolean isValid(com.android.tools.r8.utils.InternalOptions):1110:1113 -> a
-    1:1:void clearNestMembers():1033:1033 -> a0
+    1:1:void clearNestHost():1029:1029 -> a0
     void addDependencies(com.android.tools.r8.dex.MixedSectionCollection) -> b
     1:1:void forEachClassMethodMatching(java.util.function.Predicate,java.util.function.Consumer):159:159 -> b
     2:2:java.lang.Iterable directMethods(java.util.function.Predicate):221:221 -> b
@@ -18013,7 +18013,7 @@ com.android.tools.r8.graph.DexClass -> com.android.tools.r8.graph.z:
     28:30:void forEachImmediateSupertypeWithAppliedTypeArguments(java.util.List,java.util.function.BiConsumer):875:877 -> b
     31:34:void forEachImmediateSupertypeWithAppliedTypeArguments(java.util.List,java.util.function.BiConsumer):876:879 -> b
     35:39:java.util.List getDirectAndIndirectInstanceFields(com.android.tools.r8.graph.AppView):1099:1103 -> b
-    1:2:boolean defaultValuesForStaticFieldsMayTriggerAllocation():928:929 -> b0
+    1:1:void clearNestMembers():1033:1033 -> b0
     1:3:java.lang.Iterable fields(java.util.function.Predicate):185:187 -> c
     4:4:java.lang.Iterable com.android.tools.r8.com.google.common.collect.Iterables.concat(java.lang.Iterable,java.lang.Iterable):433:433 -> c
     4:4:java.lang.Iterable fields(java.util.function.Predicate):185 -> c
@@ -18024,7 +18024,7 @@ com.android.tools.r8.graph.DexClass -> com.android.tools.r8.graph.z:
     17:17:boolean isEffectivelyFinal(com.android.tools.r8.graph.AppView):609 -> c
     18:21:void forEachImmediateSupertype(java.util.function.Consumer):799:802 -> c
     22:22:boolean lambda$defaultValuesForStaticFieldsMayTriggerAllocation$7(com.android.tools.r8.graph.DexEncodedField):930:930 -> c
-    1:1:java.lang.Iterable directMethods():217:217 -> c0
+    1:2:boolean defaultValuesForStaticFieldsMayTriggerAllocation():928:929 -> c0
     1:1:void forEachMethod(java.util.function.Consumer):278:278 -> d
     2:2:void com.android.tools.r8.graph.MethodCollection.forEachMethod(java.util.function.Consumer):88:88 -> d
     2:2:void forEachMethod(java.util.function.Consumer):278 -> d
@@ -18035,55 +18035,55 @@ com.android.tools.r8.graph.DexClass -> com.android.tools.r8.graph.z:
     18:19:boolean com.android.tools.r8.graph.DexType.isResolvable(com.android.tools.r8.graph.AppView):349:350 -> d
     18:19:boolean isResolvable(com.android.tools.r8.graph.AppView):749 -> d
     20:23:boolean isResolvable(com.android.tools.r8.graph.AppView):755:758 -> d
-    1:1:java.lang.Iterable fields():181:181 -> d0
+    1:1:java.lang.Iterable directMethods():217:217 -> d0
     1:1:com.android.tools.r8.graph.DexEncodedMethod removeMethod(com.android.tools.r8.graph.DexMethod):233:233 -> e
     2:2:com.android.tools.r8.graph.DexEncodedMethod lookupVirtualMethod(java.util.function.Predicate):519:519 -> e
     3:3:boolean isSerializable(com.android.tools.r8.graph.AppView):762:762 -> e
     4:4:boolean com.android.tools.r8.graph.AppInfoWithClassHierarchy.isSerializable(com.android.tools.r8.graph.DexType):376:376 -> e
     4:4:boolean isSerializable(com.android.tools.r8.graph.AppView):762 -> e
     5:6:void forEachNestMember(java.util.function.Consumer):1060:1061 -> e
-    1:1:com.android.tools.r8.graph.ClassAccessFlags getAccessFlags():165:165 -> e0
+    1:1:java.lang.Iterable fields():181:181 -> e0
     1:1:java.lang.Iterable members(java.util.function.Predicate):195:195 -> f
     2:2:java.lang.Iterable methods(java.util.function.Predicate):208:208 -> f
     2:2:java.lang.Iterable members(java.util.function.Predicate):195 -> f
     3:3:java.lang.Iterable com.android.tools.r8.com.google.common.collect.Iterables.concat(java.lang.Iterable,java.lang.Iterable):433:433 -> f
     3:3:java.lang.Iterable members(java.util.function.Predicate):195 -> f
-    1:2:com.android.tools.r8.graph.DexEncodedMethod getClassInitializer():683:684 -> f0
+    1:1:com.android.tools.r8.graph.ClassAccessFlags getAccessFlags():165:165 -> f0
     1:1:java.lang.Iterable methods(java.util.function.Predicate):208:208 -> g
-    1:1:com.android.tools.r8.references.ClassReference getClassReference():690:690 -> g0
+    1:2:com.android.tools.r8.graph.DexEncodedMethod getClassInitializer():683:684 -> g0
     1:1:com.android.tools.r8.graph.AccessFlags getAccessFlags():43:43 -> getAccessFlags
     1:1:com.android.tools.r8.origin.Origin getOrigin():695:695 -> getOrigin
     1:1:com.android.tools.r8.graph.DexReference getReference():629:629 -> getReference
     1:1:com.android.tools.r8.graph.DexType getType():700:700 -> getType
     1:2:void removeEnclosingMethodAttribute(java.util.function.Predicate):958:959 -> h
-    1:1:com.android.tools.r8.graph.GenericSignature$ClassSignature getClassSignature():997:997 -> h0
+    1:1:com.android.tools.r8.references.ClassReference getClassReference():690:690 -> h0
     com.android.tools.r8.graph.DexClasspathClass asClasspathClass() -> i
     1:1:void removeInnerClasses(java.util.function.Predicate):972:972 -> i
-    1:1:com.android.tools.r8.graph.EnclosingMethodAttribute getEnclosingMethodAttribute():946:946 -> i0
+    1:1:com.android.tools.r8.graph.GenericSignature$ClassSignature getClassSignature():997:997 -> i0
     1:1:boolean isInterface():614:614 -> isInterface
     1:1:java.lang.Iterable virtualMethods(java.util.function.Predicate):249:249 -> j
-    1:2:com.android.tools.r8.graph.InnerClassAttribute getInnerClassAttributeForThisClass():976:977 -> j0
-    1:1:java.util.List getInnerClasses():934:934 -> k0
-    1:1:com.android.tools.r8.graph.DexTypeList getInterfaces():169:169 -> l0
-    1:5:com.android.tools.r8.graph.DexType getNestHost():1050:1054 -> m0
-    1:1:com.android.tools.r8.graph.NestHostClassAttribute getNestHostClassAttribute():1065:1065 -> n0
-    1:1:java.util.List getNestMembersClassAttributes():1069:1069 -> o0
-    1:1:com.android.tools.r8.graph.DexString getSourceFile():177:177 -> p0
-    1:1:com.android.tools.r8.graph.DexType getSuperType():704:704 -> q0
-    1:1:java.lang.String getTypeName():1076:1076 -> r0
-    1:1:boolean hasClassInitializer():708:708 -> s0
-    1:1:com.android.tools.r8.graph.DexEncodedMethod getDefaultInitializer():726:726 -> t0
-    1:1:boolean hasDefaultInitializer():712 -> t0
-    1:1:boolean hasEnclosingMethodAttribute():942:942 -> u0
-    1:1:boolean hasStaticFields():1080:1080 -> v0
+    1:1:com.android.tools.r8.graph.EnclosingMethodAttribute getEnclosingMethodAttribute():946:946 -> j0
+    1:2:com.android.tools.r8.graph.InnerClassAttribute getInnerClassAttributeForThisClass():976:977 -> k0
+    1:1:java.util.List getInnerClasses():934:934 -> l0
+    1:1:com.android.tools.r8.graph.DexTypeList getInterfaces():169:169 -> m0
+    1:5:com.android.tools.r8.graph.DexType getNestHost():1050:1054 -> n0
+    1:1:com.android.tools.r8.graph.NestHostClassAttribute getNestHostClassAttribute():1065:1065 -> o0
+    1:1:java.util.List getNestMembersClassAttributes():1069:1069 -> p0
+    1:1:com.android.tools.r8.graph.DexString getSourceFile():177:177 -> q0
+    1:1:com.android.tools.r8.graph.DexType getSuperType():704:704 -> r0
+    1:1:java.lang.String getTypeName():1076:1076 -> s0
+    1:1:boolean hasClassInitializer():708:708 -> t0
+    1:1:com.android.tools.r8.graph.DexEncodedMethod getDefaultInitializer():726:726 -> u0
+    1:1:boolean hasDefaultInitializer():712 -> u0
+    1:1:boolean hasEnclosingMethodAttribute():942:942 -> v0
     1:1:com.android.tools.r8.graph.MethodCollection getMethodCollection():200:200 -> w
-    1:2:boolean hasStaticSynchronizedMethods():1118:1119 -> w0
-    3:3:boolean com.android.tools.r8.graph.DexEncodedMethod.isSynchronized():492:492 -> w0
-    3:3:boolean hasStaticSynchronizedMethods():1119 -> w0
-    1:5:java.util.List instanceFields():385:389 -> x0
-    1:1:boolean isAbstract():597:597 -> y0
+    1:1:boolean hasStaticFields():1080:1080 -> w0
+    1:2:boolean hasStaticSynchronizedMethods():1118:1119 -> x0
+    3:3:boolean com.android.tools.r8.graph.DexEncodedMethod.isSynchronized():492:492 -> x0
+    3:3:boolean hasStaticSynchronizedMethods():1119 -> x0
+    1:5:java.util.List instanceFields():385:389 -> y0
     com.android.tools.r8.graph.DexLibraryClass asLibraryClass() -> z
-    1:1:boolean isAnnotation():601:601 -> z0
+    1:1:boolean isAbstract():597:597 -> z0
 com.android.tools.r8.graph.DexClass$FieldSetter -> com.android.tools.r8.graph.z$a:
     void setField(int,com.android.tools.r8.graph.DexEncodedField) -> a
 com.android.tools.r8.graph.DexClassAndField -> com.android.tools.r8.graph.A:
@@ -18159,7 +18159,7 @@ com.android.tools.r8.graph.DexClasspathClass -> com.android.tools.r8.graph.D:
     boolean $assertionsDisabled -> s
     1:1:void <clinit>():24:24 -> <clinit>
     1:19:void <init>(com.android.tools.r8.graph.DexType,com.android.tools.r8.ProgramResource$Kind,com.android.tools.r8.origin.Origin,com.android.tools.r8.graph.ClassAccessFlags,com.android.tools.r8.graph.DexType,com.android.tools.r8.graph.DexTypeList,com.android.tools.r8.graph.DexString,com.android.tools.r8.graph.NestHostClassAttribute,java.util.List,com.android.tools.r8.graph.EnclosingMethodAttribute,java.util.List,com.android.tools.r8.graph.GenericSignature$ClassSignature,com.android.tools.r8.graph.DexAnnotationSet,com.android.tools.r8.graph.DexEncodedField[],com.android.tools.r8.graph.DexEncodedField[],com.android.tools.r8.graph.DexEncodedMethod[],com.android.tools.r8.graph.DexEncodedMethod[],boolean):46:64 -> <init>
-    boolean isNotProgramClass() -> K0
+    boolean isNotProgramClass() -> L0
     1:1:void accept(java.util.function.Consumer,java.util.function.Consumer,java.util.function.Consumer):72:72 -> a
     2:5:boolean internalClassOrInterfaceMayHaveInitializationSideEffects(com.android.tools.r8.graph.AppView,com.android.tools.r8.graph.DexClass,java.util.function.Predicate,java.util.Set):136:139 -> a
     6:18:void specify(com.android.tools.r8.utils.structural.StructuralSpecification):153:165 -> a
@@ -18657,33 +18657,34 @@ com.android.tools.r8.graph.DexDefinition -> com.android.tools.r8.graph.L:
     boolean $assertionsDisabled -> b
     1:1:void <clinit>():15:15 -> <clinit>
     1:3:void <init>(com.android.tools.r8.graph.DexAnnotationSet):19:21 -> <init>
-    1:1:com.android.tools.r8.graph.DexAnnotationSet annotations():29:29 -> G
+    1:1:com.android.tools.r8.graph.DexAnnotationSet annotations():34:34 -> G
     com.android.tools.r8.graph.DexClass asDexClass() -> H
     com.android.tools.r8.graph.DexEncodedField asDexEncodedField() -> I
     com.android.tools.r8.graph.DexEncodedMember asDexEncodedMember() -> J
     com.android.tools.r8.graph.DexEncodedMethod asDexEncodedMethod() -> K
-    1:1:void clearAnnotations():40:40 -> L
-    2:2:void setAnnotations(com.android.tools.r8.graph.DexAnnotationSet):44:44 -> L
-    2:2:void clearAnnotations():40 -> L
+    1:1:void clearAnnotations():45:45 -> L
+    2:2:void setAnnotations(com.android.tools.r8.graph.DexAnnotationSet):49:49 -> L
+    2:2:void clearAnnotations():45 -> L
     1:1:boolean hasAnnotations():25:25 -> M
-    boolean isDexClass() -> N
-    boolean isDexEncodedField() -> O
-    boolean isDexEncodedMember() -> P
-    boolean isDexEncodedMethod() -> Q
-    boolean isStatic() -> R
-    boolean isStaticMember() -> S
-    1:1:void setAnnotations(com.android.tools.r8.graph.DexAnnotationSet):44:44 -> a
-    2:2:void removeAnnotations(java.util.function.Predicate):48:48 -> a
-    3:3:void setAnnotations(com.android.tools.r8.graph.DexAnnotationSet):44:44 -> a
-    3:3:void removeAnnotations(java.util.function.Predicate):48 -> a
-    4:4:java.util.stream.Stream filterDexEncodedField(java.util.stream.Stream):101:101 -> a
-    5:5:java.util.stream.Stream filter(java.util.stream.Stream,java.util.function.Predicate,java.util.function.Function):97:97 -> a
-    5:5:java.util.stream.Stream filterDexEncodedField(java.util.stream.Stream):101 -> a
-    1:1:java.util.stream.Stream filterDexEncodedMethod(java.util.stream.Stream):105:105 -> b
-    2:2:java.util.stream.Stream filter(java.util.stream.Stream,java.util.function.Predicate,java.util.function.Function):97:97 -> b
-    2:2:java.util.stream.Stream filterDexEncodedMethod(java.util.stream.Stream):105 -> b
+    1:1:boolean hasAnyAnnotations():30:30 -> N
+    boolean isDexClass() -> O
+    boolean isDexEncodedField() -> P
+    boolean isDexEncodedMember() -> Q
+    boolean isDexEncodedMethod() -> R
+    boolean isStatic() -> S
+    boolean isStaticMember() -> T
+    1:1:void setAnnotations(com.android.tools.r8.graph.DexAnnotationSet):49:49 -> a
+    2:2:void removeAnnotations(java.util.function.Predicate):53:53 -> a
+    3:3:void setAnnotations(com.android.tools.r8.graph.DexAnnotationSet):49:49 -> a
+    3:3:void removeAnnotations(java.util.function.Predicate):53 -> a
+    4:4:java.util.stream.Stream filterDexEncodedField(java.util.stream.Stream):106:106 -> a
+    5:5:java.util.stream.Stream filter(java.util.stream.Stream,java.util.function.Predicate,java.util.function.Function):102:102 -> a
+    5:5:java.util.stream.Stream filterDexEncodedField(java.util.stream.Stream):106 -> a
+    1:1:java.util.stream.Stream filterDexEncodedMethod(java.util.stream.Stream):110:110 -> b
+    2:2:java.util.stream.Stream filter(java.util.stream.Stream,java.util.function.Predicate,java.util.function.Function):102:102 -> b
+    2:2:java.util.stream.Stream filterDexEncodedMethod(java.util.stream.Stream):110 -> b
     boolean isProgramClass() -> f
-    1:1:com.android.tools.r8.graph.DexType getContextType():121:121 -> n
+    1:1:com.android.tools.r8.graph.DexType getContextType():126:126 -> n
     com.android.tools.r8.graph.DexProgramClass asProgramClass() -> y
 com.android.tools.r8.graph.DexDefinitionSupplier -> com.android.tools.r8.internal.qa:
     com.android.tools.r8.graph.DexItemFactory dexItemFactory() -> a
@@ -18754,12 +18755,11 @@ com.android.tools.r8.graph.DexEncodedField -> com.android.tools.r8.graph.O:
     4:54:void <init>(com.android.tools.r8.graph.DexField,com.android.tools.r8.graph.FieldAccessFlags,com.android.tools.r8.graph.GenericSignature$FieldTypeSignature,com.android.tools.r8.graph.DexAnnotationSet,com.android.tools.r8.graph.DexValue,boolean,boolean):40:90 -> <init>
     1:1:java.lang.String toSourceString():174:174 -> F
     com.android.tools.r8.graph.DexEncodedField asDexEncodedField() -> I
-    1:1:boolean isStatic():219:219 -> R
     1:1:boolean isStatic():219:219 -> S
-    1:1:boolean isStaticMember():236 -> S
-    1:1:void clearGenericSignature():350:350 -> X
-    1:2:void clearStaticValue():259:260 -> Y
-    1:1:com.android.tools.r8.graph.FieldAccessFlags getAccessFlags():149:149 -> Z
+    1:1:boolean isStatic():219:219 -> T
+    1:1:boolean isStaticMember():236 -> T
+    1:1:void clearGenericSignature():350:350 -> Y
+    1:2:void clearStaticValue():259:260 -> Z
     1:1:com.android.tools.r8.graph.DexValue access$000(com.android.tools.r8.graph.DexEncodedField):30:30 -> a
     2:7:void specify(com.android.tools.r8.utils.structural.StructuralSpecification):44:49 -> a
     8:8:void setOptimizationInfo(com.android.tools.r8.ir.optimize.info.MutableFieldOptimizationInfo):134:134 -> a
@@ -18802,38 +18802,39 @@ com.android.tools.r8.graph.DexEncodedField -> com.android.tools.r8.graph.O:
     66:66:boolean validateDexValue(com.android.tools.r8.graph.DexItemFactory):332 -> a
     67:68:boolean validateDexValue(com.android.tools.r8.graph.DexItemFactory):333:334 -> a
     69:70:void setGenericSignature(com.android.tools.r8.graph.GenericSignature$FieldTypeSignature):345:346 -> a
-    1:1:com.android.tools.r8.graph.GenericSignature$FieldTypeSignature getGenericSignature():341:341 -> a0
+    1:1:com.android.tools.r8.graph.FieldAccessFlags getAccessFlags():149:149 -> a0
     1:1:com.android.tools.r8.ir.optimize.info.FieldOptimizationInfo access$100(com.android.tools.r8.graph.DexEncodedField):30:30 -> b
-    1:1:com.android.tools.r8.kotlin.KotlinFieldLevelInfo getKotlinInfo():139:139 -> b0
+    1:1:com.android.tools.r8.graph.GenericSignature$FieldTypeSignature getGenericSignature():341:341 -> b0
     1:1:com.android.tools.r8.graph.DexValue lambda$specify$0(com.android.tools.r8.graph.DexEncodedField):46:46 -> c
-    1:1:com.android.tools.r8.ir.optimize.info.MutableFieldOptimizationInfo getMutableOptimizationInfo():124:124 -> c0
-    2:2:boolean com.android.tools.r8.ir.optimize.info.FieldOptimizationInfo.isDefaultFieldOptimizationInfo():0:0 -> c0
-    2:2:com.android.tools.r8.ir.optimize.info.MutableFieldOptimizationInfo getMutableOptimizationInfo():124 -> c0
-    3:7:com.android.tools.r8.ir.optimize.info.MutableFieldOptimizationInfo getMutableOptimizationInfo():125:129 -> c0
-    8:8:boolean com.android.tools.r8.ir.optimize.info.FieldOptimizationInfo.isMutableFieldOptimizationInfo():0:0 -> c0
-    8:8:com.android.tools.r8.ir.optimize.info.MutableFieldOptimizationInfo getMutableOptimizationInfo():129 -> c0
-    9:10:com.android.tools.r8.ir.optimize.info.MutableFieldOptimizationInfo getMutableOptimizationInfo():129:130 -> c0
+    1:1:com.android.tools.r8.kotlin.KotlinFieldLevelInfo getKotlinInfo():139:139 -> c0
     1:1:boolean lambda$specify$1(com.android.tools.r8.graph.DexEncodedField):49:49 -> d
-    1:1:com.android.tools.r8.ir.optimize.info.FieldOptimizationInfo getOptimizationInfo():120:120 -> d0
-    1:2:com.android.tools.r8.graph.DexValue getStaticValue():264:265 -> e0
-    1:2:boolean hasExplicitStaticValue():248:249 -> f0
-    1:1:boolean isDeprecated():108:108 -> g0
+    1:1:com.android.tools.r8.ir.optimize.info.MutableFieldOptimizationInfo getMutableOptimizationInfo():124:124 -> d0
+    2:2:boolean com.android.tools.r8.ir.optimize.info.FieldOptimizationInfo.isDefaultFieldOptimizationInfo():0:0 -> d0
+    2:2:com.android.tools.r8.ir.optimize.info.MutableFieldOptimizationInfo getMutableOptimizationInfo():124 -> d0
+    3:7:com.android.tools.r8.ir.optimize.info.MutableFieldOptimizationInfo getMutableOptimizationInfo():125:129 -> d0
+    8:8:boolean com.android.tools.r8.ir.optimize.info.FieldOptimizationInfo.isMutableFieldOptimizationInfo():0:0 -> d0
+    8:8:com.android.tools.r8.ir.optimize.info.MutableFieldOptimizationInfo getMutableOptimizationInfo():129 -> d0
+    9:10:com.android.tools.r8.ir.optimize.info.MutableFieldOptimizationInfo getMutableOptimizationInfo():129:130 -> d0
+    1:1:com.android.tools.r8.ir.optimize.info.FieldOptimizationInfo getOptimizationInfo():120:120 -> e0
+    1:2:com.android.tools.r8.graph.DexValue getStaticValue():264:265 -> f0
+    1:2:boolean hasExplicitStaticValue():248:249 -> g0
     1:1:com.android.tools.r8.graph.AccessFlags getAccessFlags():30:30 -> getAccessFlags
     1:1:com.android.tools.r8.graph.DexType getType():178:178 -> getType
     2:2:com.android.tools.r8.graph.DexType com.android.tools.r8.graph.DexField.getType():62:62 -> getType
     2:2:com.android.tools.r8.graph.DexType getType():178 -> getType
-    1:1:boolean isEnum():210:210 -> h0
-    2:2:boolean com.android.tools.r8.graph.AccessFlags.isSet(int):255:255 -> h0
-    2:2:boolean com.android.tools.r8.graph.FieldAccessFlags.isEnum():111 -> h0
-    2:2:boolean isEnum():210 -> h0
-    1:1:boolean isPublic():231:231 -> i0
-    1:1:boolean isVolatile():244:244 -> j0
-    2:2:boolean com.android.tools.r8.graph.AccessFlags.isSet(int):255:255 -> j0
-    2:2:boolean com.android.tools.r8.graph.FieldAccessFlags.isVolatile():95 -> j0
-    2:2:boolean isVolatile():244 -> j0
+    1:1:boolean isDeprecated():108:108 -> h0
+    1:1:boolean isEnum():210:210 -> i0
+    2:2:boolean com.android.tools.r8.graph.AccessFlags.isSet(int):255:255 -> i0
+    2:2:boolean com.android.tools.r8.graph.FieldAccessFlags.isEnum():111 -> i0
+    2:2:boolean isEnum():210 -> i0
+    1:1:boolean isPublic():231:231 -> j0
     1:1:com.android.tools.r8.utils.structural.StructuralMapping getStructuralMapping():95:95 -> k
-    1:1:com.android.tools.r8.graph.DexType type():104:104 -> k0
+    1:1:boolean isVolatile():244:244 -> k0
+    2:2:boolean com.android.tools.r8.graph.AccessFlags.isSet(int):255:255 -> k0
+    2:2:boolean com.android.tools.r8.graph.FieldAccessFlags.isVolatile():95 -> k0
+    2:2:boolean isVolatile():244 -> k0
     1:1:void clearKotlinInfo():144:144 -> l
+    1:1:com.android.tools.r8.graph.DexType type():104:104 -> l0
     com.android.tools.r8.utils.structural.StructuralItem self() -> o
     1:1:java.lang.String toString():164:164 -> toString
     1:1:com.android.tools.r8.kotlin.KotlinFieldLevelInfo getKotlinInfo():139:139 -> x
@@ -18864,11 +18865,11 @@ com.android.tools.r8.graph.DexEncodedMember -> com.android.tools.r8.internal.ra:
     boolean d8R8Synthesized -> c
     1:3:void <init>(com.android.tools.r8.graph.DexMember,com.android.tools.r8.graph.DexAnnotationSet,boolean):22:24 -> <init>
     com.android.tools.r8.graph.DexEncodedMember asDexEncodedMember() -> J
-    boolean isDexEncodedMember() -> P
-    1:1:com.android.tools.r8.graph.DexString getName():36:36 -> T
-    1:1:com.android.tools.r8.graph.DexMember getReference():41:41 -> U
-    1:1:boolean isD8R8Synthesized():45:45 -> V
-    1:1:boolean isPrivate():59:59 -> W
+    boolean isDexEncodedMember() -> Q
+    1:1:com.android.tools.r8.graph.DexString getName():36:36 -> U
+    1:1:com.android.tools.r8.graph.DexMember getReference():41:41 -> V
+    1:1:boolean isD8R8Synthesized():45:45 -> W
+    1:1:boolean isPrivate():59:59 -> X
     1:2:boolean equals(java.lang.Object):69:70 -> equals
     1:1:com.android.tools.r8.graph.DexReference getReference():8:8 -> getReference
     1:1:int hashCode():75:75 -> hashCode
@@ -18903,38 +18904,43 @@ com.android.tools.r8.graph.DexEncodedMethod -> com.android.tools.r8.graph.P:
     1:1:boolean isFinal():480:480 -> C0
     1:2:boolean isInitializer():496:497 -> D0
     1:2:boolean isInstanceInitializer():501:502 -> E0
-    1:2:java.lang.String toSourceString():923:924 -> F
+    1:2:java.lang.String toSourceString():932:933 -> F
     1:1:com.android.tools.r8.utils.OptionalBool isLibraryMethodOverride():406:406 -> F0
     1:1:boolean isNative():484:484 -> G0
     1:2:boolean isNonAbstractNonNativeMethod():564:565 -> H0
     1:2:boolean isNonAbstractVirtualMethod():559:560 -> I0
     1:2:boolean isNonPrivateVirtualMethod():550:551 -> J0
-    1:1:com.android.tools.r8.graph.DexEncodedMethod asDexEncodedMethod():1457:1457 -> K
+    1:1:com.android.tools.r8.graph.DexEncodedMethod asDexEncodedMethod():1466:1466 -> K
     1:1:boolean isObsolete():186:186 -> K0
     1:1:boolean isOnlyInlinedIntoNestMembers():665:665 -> L0
     1:2:boolean isPrivateMethod():584:585 -> M0
+    1:1:boolean hasAnyAnnotations():895:895 -> N
+    2:2:com.android.tools.r8.graph.ParameterAnnotationsList getParameterAnnotations():899:899 -> N
+    2:2:boolean hasParameterAnnotations():907 -> N
+    2:2:boolean hasAnyAnnotations():895 -> N
+    3:3:boolean hasParameterAnnotations():907:907 -> N
+    3:3:boolean hasAnyAnnotations():895 -> N
     1:2:boolean isProcessed():467:468 -> N0
     1:2:boolean isPublicMethod():574:575 -> O0
     1:2:boolean isPublicized():569:570 -> P0
-    1:1:boolean isDexEncodedMethod():1451:1451 -> Q
     1:1:boolean isSynchronized():492:492 -> Q0
-    1:2:boolean isStatic():602:603 -> R
+    1:1:boolean isDexEncodedMethod():1460:1460 -> R
     1:2:boolean isSyntheticMethod():616:617 -> R0
-    1:2:boolean isStaticMember():608:609 -> S
+    1:2:boolean isStatic():602:603 -> S
     1:2:boolean isVirtualMethod():545:546 -> S0
+    1:2:boolean isStaticMember():608:609 -> T
     1:2:void markNotProcessed():769:770 -> T0
     1:2:java.lang.String qualifiedName():872:873 -> U0
     1:2:void removeCode():844:845 -> V0
     1:1:com.android.tools.r8.graph.DexType returnType():397:397 -> W0
-    1:2:void abandonCallSiteOptimizationInfo():1489:1490 -> X
     1:1:void setObsolete():192:192 -> X0
-    1:1:boolean belongsToDirectPool():621:621 -> Y
+    1:2:void abandonCallSiteOptimizationInfo():1493:1494 -> Y
     1:1:boolean shouldNotHaveCode():831:831 -> Y0
-    1:1:boolean belongsToVirtualPool():625:625 -> Z
-    1:7:com.android.tools.r8.graph.DexEncodedMethod toAbstractMethod():928:934 -> Z0
+    1:1:boolean belongsToDirectPool():621:621 -> Z
+    1:7:com.android.tools.r8.graph.DexEncodedMethod toAbstractMethod():937:943 -> Z0
     8:8:void com.android.tools.r8.graph.MethodAccessFlags.setAbstract():175:175 -> Z0
-    8:8:com.android.tools.r8.graph.DexEncodedMethod toAbstractMethod():934 -> Z0
-    9:9:com.android.tools.r8.graph.DexEncodedMethod toAbstractMethod():935:935 -> Z0
+    8:8:com.android.tools.r8.graph.DexEncodedMethod toAbstractMethod():943 -> Z0
+    9:9:com.android.tools.r8.graph.DexEncodedMethod toAbstractMethod():944:944 -> Z0
     1:1:com.android.tools.r8.graph.Code access$200(com.android.tools.r8.graph.DexEncodedMethod):100:100 -> a
     2:2:com.android.tools.r8.ir.optimize.info.MethodOptimizationInfo access$302(com.android.tools.r8.graph.DexEncodedMethod,com.android.tools.r8.ir.optimize.info.MethodOptimizationInfo):100:100 -> a
     3:3:com.android.tools.r8.graph.DexEncodedMethod$CompilationState access$602(com.android.tools.r8.graph.DexEncodedMethod,com.android.tools.r8.graph.DexEncodedMethod$CompilationState):100:100 -> a
@@ -18987,222 +18993,222 @@ com.android.tools.r8.graph.DexEncodedMethod -> com.android.tools.r8.graph.P:
     189:189:void setCode(com.android.tools.r8.graph.Code,com.android.tools.r8.graph.AppView):780:780 -> a
     190:192:void setCode(com.android.tools.r8.ir.code.IRCode,com.android.tools.r8.ir.regalloc.RegisterAllocator,com.android.tools.r8.graph.AppView):784:786 -> a
     193:196:boolean keepLocals(com.android.tools.r8.utils.InternalOptions):790:793 -> a
-    197:198:com.android.tools.r8.ir.optimize.info.MethodOptimizationInfo getOptimizationInfo():1471:1472 -> a
+    197:198:com.android.tools.r8.ir.optimize.info.MethodOptimizationInfo getOptimizationInfo():1475:1476 -> a
     197:198:boolean keepLocals(com.android.tools.r8.utils.InternalOptions):793 -> a
     199:199:boolean keepLocals(com.android.tools.r8.utils.InternalOptions):793:793 -> a
     200:200:void collectMixedSectionItems(com.android.tools.r8.dex.MixedSectionCollection):817:817 -> a
     201:206:void collectMixedSectionItemsWithCodeMapping(com.android.tools.r8.dex.MixedSectionCollection,com.android.tools.r8.dex.MethodToCodeObjectMapping):822:827 -> a
     207:209:void downgradeClassFileVersion(com.android.tools.r8.cf.CfVersion):866:868 -> a
     210:218:java.lang.String descriptor(com.android.tools.r8.naming.NamingLens):882:890 -> a
-    219:224:java.lang.String toSmaliString(com.android.tools.r8.naming.ClassNameMapper):902:907 -> a
+    219:224:java.lang.String toSmaliString(com.android.tools.r8.naming.ClassNameMapper):911:916 -> a
     225:225:java.lang.String com.android.tools.r8.graph.DexItem.toSmaliString():44:44 -> a
-    225:225:java.lang.String toSmaliString(com.android.tools.r8.naming.ClassNameMapper):907 -> a
-    226:227:java.lang.String toSmaliString(com.android.tools.r8.naming.ClassNameMapper):907:908 -> a
+    225:225:java.lang.String toSmaliString(com.android.tools.r8.naming.ClassNameMapper):916 -> a
+    226:227:java.lang.String toSmaliString(com.android.tools.r8.naming.ClassNameMapper):916:917 -> a
     228:228:java.lang.String com.android.tools.r8.graph.DexProto.toDescriptorString():118:118 -> a
     228:228:java.lang.String com.android.tools.r8.graph.DexProto.toSmaliString():114 -> a
-    228:228:java.lang.String toSmaliString(com.android.tools.r8.naming.ClassNameMapper):908 -> a
-    229:235:java.lang.String toSmaliString(com.android.tools.r8.naming.ClassNameMapper):908:914 -> a
+    228:228:java.lang.String toSmaliString(com.android.tools.r8.naming.ClassNameMapper):917 -> a
+    229:235:java.lang.String toSmaliString(com.android.tools.r8.naming.ClassNameMapper):917:923 -> a
     236:291:java.lang.String com.android.tools.r8.graph.DexCode.toSmaliString(com.android.tools.r8.naming.ClassNameMapper):342:397 -> a
-    236:291:java.lang.String toSmaliString(com.android.tools.r8.naming.ClassNameMapper):915 -> a
-    292:295:java.lang.String toSmaliString(com.android.tools.r8.naming.ClassNameMapper):915:918 -> a
-    296:305:com.android.tools.r8.graph.DexCode generateCodeFromTemplate(int,int,com.android.tools.r8.code.Instruction[]):945:954 -> a
-    306:313:com.android.tools.r8.graph.CfCode buildEmptyThrowingCfCode(com.android.tools.r8.graph.DexMethod):1006:1013 -> a
-    314:314:com.android.tools.r8.graph.Code buildInstanceOfCode(com.android.tools.r8.graph.DexType,boolean,com.android.tools.r8.utils.InternalOptions):1022:1022 -> a
-    315:330:com.android.tools.r8.graph.CfCode buildInstanceOfCfCode(com.android.tools.r8.graph.DexType,boolean):1028:1043 -> a
-    315:330:com.android.tools.r8.graph.Code buildInstanceOfCode(com.android.tools.r8.graph.DexType,boolean,com.android.tools.r8.utils.InternalOptions):1023 -> a
-    331:338:com.android.tools.r8.graph.DexCode buildInstanceOfDexCode(com.android.tools.r8.graph.DexType,boolean):1047:1054 -> a
-    331:338:com.android.tools.r8.graph.Code buildInstanceOfCode(com.android.tools.r8.graph.DexType,boolean,com.android.tools.r8.utils.InternalOptions):1024 -> a
-    339:340:com.android.tools.r8.graph.DexEncodedMethod toMethodThatLogsError(com.android.tools.r8.graph.AppView):1058:1059 -> a
-    341:346:com.android.tools.r8.graph.DexEncodedMethod toMethodThatLogsErrorDexCode(com.android.tools.r8.graph.DexItemFactory):1079:1084 -> a
-    341:346:com.android.tools.r8.graph.DexEncodedMethod toMethodThatLogsError(com.android.tools.r8.graph.AppView):1059 -> a
-    347:357:com.android.tools.r8.graph.DexEncodedMethod toMethodThatLogsErrorDexCode(com.android.tools.r8.graph.DexItemFactory):1082:1092 -> a
-    347:357:com.android.tools.r8.graph.DexEncodedMethod toMethodThatLogsError(com.android.tools.r8.graph.AppView):1059 -> a
-    358:364:com.android.tools.r8.graph.DexEncodedMethod toMethodThatLogsErrorDexCode(com.android.tools.r8.graph.DexItemFactory):1091:1097 -> a
-    358:364:com.android.tools.r8.graph.DexEncodedMethod toMethodThatLogsError(com.android.tools.r8.graph.AppView):1059 -> a
-    365:380:com.android.tools.r8.graph.DexEncodedMethod toMethodThatLogsErrorDexCode(com.android.tools.r8.graph.DexItemFactory):1095:1110 -> a
-    365:380:com.android.tools.r8.graph.DexEncodedMethod toMethodThatLogsError(com.android.tools.r8.graph.AppView):1059 -> a
+    236:291:java.lang.String toSmaliString(com.android.tools.r8.naming.ClassNameMapper):924 -> a
+    292:295:java.lang.String toSmaliString(com.android.tools.r8.naming.ClassNameMapper):924:927 -> a
+    296:305:com.android.tools.r8.graph.DexCode generateCodeFromTemplate(int,int,com.android.tools.r8.code.Instruction[]):954:963 -> a
+    306:313:com.android.tools.r8.graph.CfCode buildEmptyThrowingCfCode(com.android.tools.r8.graph.DexMethod):1015:1022 -> a
+    314:314:com.android.tools.r8.graph.Code buildInstanceOfCode(com.android.tools.r8.graph.DexType,boolean,com.android.tools.r8.utils.InternalOptions):1031:1031 -> a
+    315:330:com.android.tools.r8.graph.CfCode buildInstanceOfCfCode(com.android.tools.r8.graph.DexType,boolean):1037:1052 -> a
+    315:330:com.android.tools.r8.graph.Code buildInstanceOfCode(com.android.tools.r8.graph.DexType,boolean,com.android.tools.r8.utils.InternalOptions):1032 -> a
+    331:338:com.android.tools.r8.graph.DexCode buildInstanceOfDexCode(com.android.tools.r8.graph.DexType,boolean):1056:1063 -> a
+    331:338:com.android.tools.r8.graph.Code buildInstanceOfCode(com.android.tools.r8.graph.DexType,boolean,com.android.tools.r8.utils.InternalOptions):1033 -> a
+    339:340:com.android.tools.r8.graph.DexEncodedMethod toMethodThatLogsError(com.android.tools.r8.graph.AppView):1067:1068 -> a
+    341:346:com.android.tools.r8.graph.DexEncodedMethod toMethodThatLogsErrorDexCode(com.android.tools.r8.graph.DexItemFactory):1088:1093 -> a
+    341:346:com.android.tools.r8.graph.DexEncodedMethod toMethodThatLogsError(com.android.tools.r8.graph.AppView):1068 -> a
+    347:357:com.android.tools.r8.graph.DexEncodedMethod toMethodThatLogsErrorDexCode(com.android.tools.r8.graph.DexItemFactory):1091:1101 -> a
+    347:357:com.android.tools.r8.graph.DexEncodedMethod toMethodThatLogsError(com.android.tools.r8.graph.AppView):1068 -> a
+    358:364:com.android.tools.r8.graph.DexEncodedMethod toMethodThatLogsErrorDexCode(com.android.tools.r8.graph.DexItemFactory):1100:1106 -> a
+    358:364:com.android.tools.r8.graph.DexEncodedMethod toMethodThatLogsError(com.android.tools.r8.graph.AppView):1068 -> a
+    365:380:com.android.tools.r8.graph.DexEncodedMethod toMethodThatLogsErrorDexCode(com.android.tools.r8.graph.DexItemFactory):1104:1119 -> a
+    365:380:com.android.tools.r8.graph.DexEncodedMethod toMethodThatLogsError(com.android.tools.r8.graph.AppView):1068 -> a
     381:381:void setObsolete():192:192 -> a
-    381:381:com.android.tools.r8.graph.DexEncodedMethod toMethodThatLogsErrorDexCode(com.android.tools.r8.graph.DexItemFactory):1111 -> a
-    381:381:com.android.tools.r8.graph.DexEncodedMethod toMethodThatLogsError(com.android.tools.r8.graph.AppView):1059 -> a
-    382:382:com.android.tools.r8.graph.DexEncodedMethod toMethodThatLogsErrorDexCode(com.android.tools.r8.graph.DexItemFactory):1112:1112 -> a
-    382:382:com.android.tools.r8.graph.DexEncodedMethod toMethodThatLogsError(com.android.tools.r8.graph.AppView):1059 -> a
-    383:383:com.android.tools.r8.graph.DexEncodedMethod toMethodThatLogsError(com.android.tools.r8.graph.AppView):1061:1061 -> a
-    384:389:com.android.tools.r8.graph.DexEncodedMethod toMethodThatLogsErrorCfCode(com.android.tools.r8.graph.DexItemFactory):1116:1121 -> a
-    384:389:com.android.tools.r8.graph.DexEncodedMethod toMethodThatLogsError(com.android.tools.r8.graph.AppView):1061 -> a
-    390:401:com.android.tools.r8.graph.DexEncodedMethod toMethodThatLogsErrorCfCode(com.android.tools.r8.graph.DexItemFactory):1119:1130 -> a
-    390:401:com.android.tools.r8.graph.DexEncodedMethod toMethodThatLogsError(com.android.tools.r8.graph.AppView):1061 -> a
-    402:410:com.android.tools.r8.graph.DexEncodedMethod toMethodThatLogsErrorCfCode(com.android.tools.r8.graph.DexItemFactory):1127:1135 -> a
-    402:410:com.android.tools.r8.graph.DexEncodedMethod toMethodThatLogsError(com.android.tools.r8.graph.AppView):1061 -> a
-    411:419:com.android.tools.r8.graph.DexEncodedMethod toMethodThatLogsErrorCfCode(com.android.tools.r8.graph.DexItemFactory):1132:1140 -> a
-    411:419:com.android.tools.r8.graph.DexEncodedMethod toMethodThatLogsError(com.android.tools.r8.graph.AppView):1061 -> a
-    420:424:com.android.tools.r8.graph.DexEncodedMethod toMethodThatLogsErrorCfCode(com.android.tools.r8.graph.DexItemFactory):1138:1142 -> a
-    420:424:com.android.tools.r8.graph.DexEncodedMethod toMethodThatLogsError(com.android.tools.r8.graph.AppView):1061 -> a
+    381:381:com.android.tools.r8.graph.DexEncodedMethod toMethodThatLogsErrorDexCode(com.android.tools.r8.graph.DexItemFactory):1120 -> a
+    381:381:com.android.tools.r8.graph.DexEncodedMethod toMethodThatLogsError(com.android.tools.r8.graph.AppView):1068 -> a
+    382:382:com.android.tools.r8.graph.DexEncodedMethod toMethodThatLogsErrorDexCode(com.android.tools.r8.graph.DexItemFactory):1121:1121 -> a
+    382:382:com.android.tools.r8.graph.DexEncodedMethod toMethodThatLogsError(com.android.tools.r8.graph.AppView):1068 -> a
+    383:383:com.android.tools.r8.graph.DexEncodedMethod toMethodThatLogsError(com.android.tools.r8.graph.AppView):1070:1070 -> a
+    384:389:com.android.tools.r8.graph.DexEncodedMethod toMethodThatLogsErrorCfCode(com.android.tools.r8.graph.DexItemFactory):1125:1130 -> a
+    384:389:com.android.tools.r8.graph.DexEncodedMethod toMethodThatLogsError(com.android.tools.r8.graph.AppView):1070 -> a
+    390:401:com.android.tools.r8.graph.DexEncodedMethod toMethodThatLogsErrorCfCode(com.android.tools.r8.graph.DexItemFactory):1128:1139 -> a
+    390:401:com.android.tools.r8.graph.DexEncodedMethod toMethodThatLogsError(com.android.tools.r8.graph.AppView):1070 -> a
+    402:410:com.android.tools.r8.graph.DexEncodedMethod toMethodThatLogsErrorCfCode(com.android.tools.r8.graph.DexItemFactory):1136:1144 -> a
+    402:410:com.android.tools.r8.graph.DexEncodedMethod toMethodThatLogsError(com.android.tools.r8.graph.AppView):1070 -> a
+    411:419:com.android.tools.r8.graph.DexEncodedMethod toMethodThatLogsErrorCfCode(com.android.tools.r8.graph.DexItemFactory):1141:1149 -> a
+    411:419:com.android.tools.r8.graph.DexEncodedMethod toMethodThatLogsError(com.android.tools.r8.graph.AppView):1070 -> a
+    420:424:com.android.tools.r8.graph.DexEncodedMethod toMethodThatLogsErrorCfCode(com.android.tools.r8.graph.DexItemFactory):1147:1151 -> a
+    420:424:com.android.tools.r8.graph.DexEncodedMethod toMethodThatLogsError(com.android.tools.r8.graph.AppView):1070 -> a
     425:426:boolean isStaticMember():608:609 -> a
-    425:426:com.android.tools.r8.graph.DexEncodedMethod toMethodThatLogsErrorCfCode(com.android.tools.r8.graph.DexItemFactory):1143 -> a
-    425:426:com.android.tools.r8.graph.DexEncodedMethod toMethodThatLogsError(com.android.tools.r8.graph.AppView):1061 -> a
-    427:449:com.android.tools.r8.graph.DexEncodedMethod toMethodThatLogsErrorCfCode(com.android.tools.r8.graph.DexItemFactory):1147:1169 -> a
-    427:449:com.android.tools.r8.graph.DexEncodedMethod toMethodThatLogsError(com.android.tools.r8.graph.AppView):1061 -> a
+    425:426:com.android.tools.r8.graph.DexEncodedMethod toMethodThatLogsErrorCfCode(com.android.tools.r8.graph.DexItemFactory):1152 -> a
+    425:426:com.android.tools.r8.graph.DexEncodedMethod toMethodThatLogsError(com.android.tools.r8.graph.AppView):1070 -> a
+    427:449:com.android.tools.r8.graph.DexEncodedMethod toMethodThatLogsErrorCfCode(com.android.tools.r8.graph.DexItemFactory):1156:1178 -> a
+    427:449:com.android.tools.r8.graph.DexEncodedMethod toMethodThatLogsError(com.android.tools.r8.graph.AppView):1070 -> a
     450:450:void setObsolete():192:192 -> a
-    450:450:com.android.tools.r8.graph.DexEncodedMethod toMethodThatLogsErrorCfCode(com.android.tools.r8.graph.DexItemFactory):1170 -> a
-    450:450:com.android.tools.r8.graph.DexEncodedMethod toMethodThatLogsError(com.android.tools.r8.graph.AppView):1061 -> a
-    451:451:com.android.tools.r8.graph.DexEncodedMethod toMethodThatLogsErrorCfCode(com.android.tools.r8.graph.DexItemFactory):1171:1171 -> a
-    451:451:com.android.tools.r8.graph.DexEncodedMethod toMethodThatLogsError(com.android.tools.r8.graph.AppView):1061 -> a
-    452:456:void setDebugInfoWithFakeThisParameter(com.android.tools.r8.graph.Code,int,com.android.tools.r8.graph.AppView):1066:1070 -> a
-    457:462:void setDebugInfoWithFakeThisParameter(com.android.tools.r8.graph.Code,int,com.android.tools.r8.graph.AppView):1069:1074 -> a
-    463:480:com.android.tools.r8.graph.DexEncodedMethod toTypeSubstitutedMethod(com.android.tools.r8.graph.DexMethod,java.util.function.Consumer):1180:1197 -> a
-    481:493:com.android.tools.r8.graph.ProgramMethod toInitializerForwardingBridge(com.android.tools.r8.graph.DexProgramClass,com.android.tools.r8.graph.DexMethod,com.android.tools.r8.graph.DexItemFactory):1202:1214 -> a
-    494:506:com.android.tools.r8.graph.ProgramMethod toInitializerForwardingBridge(com.android.tools.r8.graph.DexProgramClass,com.android.tools.r8.graph.DexMethod,com.android.tools.r8.graph.DexItemFactory):1210:1222 -> a
-    507:509:void lambda$toInitializerForwardingBridge$4(com.android.tools.r8.graph.MethodAccessFlags):1217:1219 -> a
+    450:450:com.android.tools.r8.graph.DexEncodedMethod toMethodThatLogsErrorCfCode(com.android.tools.r8.graph.DexItemFactory):1179 -> a
+    450:450:com.android.tools.r8.graph.DexEncodedMethod toMethodThatLogsError(com.android.tools.r8.graph.AppView):1070 -> a
+    451:451:com.android.tools.r8.graph.DexEncodedMethod toMethodThatLogsErrorCfCode(com.android.tools.r8.graph.DexItemFactory):1180:1180 -> a
+    451:451:com.android.tools.r8.graph.DexEncodedMethod toMethodThatLogsError(com.android.tools.r8.graph.AppView):1070 -> a
+    452:456:void setDebugInfoWithFakeThisParameter(com.android.tools.r8.graph.Code,int,com.android.tools.r8.graph.AppView):1075:1079 -> a
+    457:462:void setDebugInfoWithFakeThisParameter(com.android.tools.r8.graph.Code,int,com.android.tools.r8.graph.AppView):1078:1083 -> a
+    463:480:com.android.tools.r8.graph.DexEncodedMethod toTypeSubstitutedMethod(com.android.tools.r8.graph.DexMethod,java.util.function.Consumer):1189:1206 -> a
+    481:493:com.android.tools.r8.graph.ProgramMethod toInitializerForwardingBridge(com.android.tools.r8.graph.DexProgramClass,com.android.tools.r8.graph.DexMethod,com.android.tools.r8.graph.DexItemFactory):1211:1223 -> a
+    494:506:com.android.tools.r8.graph.ProgramMethod toInitializerForwardingBridge(com.android.tools.r8.graph.DexProgramClass,com.android.tools.r8.graph.DexMethod,com.android.tools.r8.graph.DexItemFactory):1219:1231 -> a
+    507:509:void lambda$toInitializerForwardingBridge$4(com.android.tools.r8.graph.MethodAccessFlags):1226:1228 -> a
     510:510:void com.android.tools.r8.graph.MethodAccessFlags.setConstructor():199:199 -> a
-    510:510:void lambda$toInitializerForwardingBridge$4(com.android.tools.r8.graph.MethodAccessFlags):1220 -> a
-    511:511:com.android.tools.r8.graph.ProgramMethod createFieldAccessorBridge(com.android.tools.r8.graph.ProgramField,boolean,com.android.tools.r8.graph.DexMethod):1231:1231 -> a
-    512:519:com.android.tools.r8.graph.ProgramMethod createFieldAccessorBridge(com.android.tools.r8.graph.ProgramField,boolean,com.android.tools.r8.graph.DexMethod):1228:1235 -> a
+    510:510:void lambda$toInitializerForwardingBridge$4(com.android.tools.r8.graph.MethodAccessFlags):1229 -> a
+    511:511:com.android.tools.r8.graph.ProgramMethod createFieldAccessorBridge(com.android.tools.r8.graph.ProgramField,boolean,com.android.tools.r8.graph.DexMethod):1240:1240 -> a
+    512:519:com.android.tools.r8.graph.ProgramMethod createFieldAccessorBridge(com.android.tools.r8.graph.ProgramField,boolean,com.android.tools.r8.graph.DexMethod):1237:1244 -> a
     520:520:com.android.tools.r8.ir.synthetic.FieldAccessorBuilder com.android.tools.r8.ir.synthetic.FieldAccessorBuilder.apply(java.util.function.Consumer):39:39 -> a
-    520:520:com.android.tools.r8.graph.ProgramMethod createFieldAccessorBridge(com.android.tools.r8.graph.ProgramField,boolean,com.android.tools.r8.graph.DexMethod):1235 -> a
-    521:531:com.android.tools.r8.graph.ProgramMethod createFieldAccessorBridge(com.android.tools.r8.graph.ProgramField,boolean,com.android.tools.r8.graph.DexMethod):1236:1246 -> a
+    520:520:com.android.tools.r8.graph.ProgramMethod createFieldAccessorBridge(com.android.tools.r8.graph.ProgramField,boolean,com.android.tools.r8.graph.DexMethod):1244 -> a
+    521:531:com.android.tools.r8.graph.ProgramMethod createFieldAccessorBridge(com.android.tools.r8.graph.ProgramField,boolean,com.android.tools.r8.graph.DexMethod):1245:1255 -> a
     532:532:void <init>(com.android.tools.r8.graph.DexMethod,com.android.tools.r8.graph.MethodAccessFlags,com.android.tools.r8.graph.GenericSignature$MethodTypeSignature,com.android.tools.r8.graph.DexAnnotationSet,com.android.tools.r8.graph.ParameterAnnotationsList,com.android.tools.r8.graph.Code,boolean,com.android.tools.r8.cf.CfVersion):291:291 -> a
     532:532:void <init>(com.android.tools.r8.graph.DexMethod,com.android.tools.r8.graph.MethodAccessFlags,com.android.tools.r8.graph.GenericSignature$MethodTypeSignature,com.android.tools.r8.graph.DexAnnotationSet,com.android.tools.r8.graph.ParameterAnnotationsList,com.android.tools.r8.graph.Code,boolean):271 -> a
-    532:532:com.android.tools.r8.graph.ProgramMethod createFieldAccessorBridge(com.android.tools.r8.graph.ProgramField,boolean,com.android.tools.r8.graph.DexMethod):1246 -> a
-    533:533:com.android.tools.r8.graph.ProgramMethod createFieldAccessorBridge(com.android.tools.r8.graph.ProgramField,boolean,com.android.tools.r8.graph.DexMethod):1246:1246 -> a
-    534:535:com.android.tools.r8.graph.DexEncodedMethod toRenamedHolderMethod(com.android.tools.r8.graph.DexType,com.android.tools.r8.graph.DexItemFactory):1252:1253 -> a
+    532:532:com.android.tools.r8.graph.ProgramMethod createFieldAccessorBridge(com.android.tools.r8.graph.ProgramField,boolean,com.android.tools.r8.graph.DexMethod):1255 -> a
+    533:533:com.android.tools.r8.graph.ProgramMethod createFieldAccessorBridge(com.android.tools.r8.graph.ProgramField,boolean,com.android.tools.r8.graph.DexMethod):1255:1255 -> a
+    534:535:com.android.tools.r8.graph.DexEncodedMethod toRenamedHolderMethod(com.android.tools.r8.graph.DexType,com.android.tools.r8.graph.DexItemFactory):1261:1262 -> a
     536:536:com.android.tools.r8.graph.DexMethod com.android.tools.r8.graph.DexMethod.withHolder(com.android.tools.r8.graph.DexReference,com.android.tools.r8.graph.DexItemFactory):292:292 -> a
-    536:536:com.android.tools.r8.graph.DexEncodedMethod toRenamedHolderMethod(com.android.tools.r8.graph.DexType,com.android.tools.r8.graph.DexItemFactory):1253 -> a
-    537:538:com.android.tools.r8.graph.DexEncodedMethod toRenamedHolderMethod(com.android.tools.r8.graph.DexType,com.android.tools.r8.graph.DexItemFactory):1253:1254 -> a
-    539:548:com.android.tools.r8.graph.DexEncodedMethod toEmulateDispatchLibraryMethod(com.android.tools.r8.graph.DexType,com.android.tools.r8.graph.DexMethod,com.android.tools.r8.graph.DexMethod,com.android.tools.r8.graph.DexMethod,java.util.List,com.android.tools.r8.graph.AppView):1264:1273 -> a
+    536:536:com.android.tools.r8.graph.DexEncodedMethod toRenamedHolderMethod(com.android.tools.r8.graph.DexType,com.android.tools.r8.graph.DexItemFactory):1262 -> a
+    537:538:com.android.tools.r8.graph.DexEncodedMethod toRenamedHolderMethod(com.android.tools.r8.graph.DexType,com.android.tools.r8.graph.DexItemFactory):1262:1263 -> a
+    539:548:com.android.tools.r8.graph.DexEncodedMethod toEmulateDispatchLibraryMethod(com.android.tools.r8.graph.DexType,com.android.tools.r8.graph.DexMethod,com.android.tools.r8.graph.DexMethod,com.android.tools.r8.graph.DexMethod,java.util.List,com.android.tools.r8.graph.AppView):1273:1282 -> a
     549:549:void <init>(com.android.tools.r8.graph.DexMethod,com.android.tools.r8.graph.MethodAccessFlags,com.android.tools.r8.graph.GenericSignature$MethodTypeSignature,com.android.tools.r8.graph.DexAnnotationSet,com.android.tools.r8.graph.ParameterAnnotationsList,com.android.tools.r8.graph.Code,boolean):271:271 -> a
-    549:549:com.android.tools.r8.graph.DexEncodedMethod toEmulateDispatchLibraryMethod(com.android.tools.r8.graph.DexType,com.android.tools.r8.graph.DexMethod,com.android.tools.r8.graph.DexMethod,com.android.tools.r8.graph.DexMethod,java.util.List,com.android.tools.r8.graph.AppView):1273 -> a
-    550:550:void lambda$toStaticForwardingBridge$5(com.android.tools.r8.graph.DexProgramClass,com.android.tools.r8.ir.synthetic.ForwardMethodBuilder):1291:1291 -> a
-    551:566:com.android.tools.r8.graph.ProgramMethod toPrivateSyntheticMethod(com.android.tools.r8.graph.DexProgramClass,com.android.tools.r8.graph.DexMethod):1305:1320 -> a
-    567:567:com.android.tools.r8.graph.DexEncodedMethod toForwardingMethod(com.android.tools.r8.graph.DexClass,com.android.tools.r8.graph.DexDefinitionSupplier):1325:1325 -> a
+    549:549:com.android.tools.r8.graph.DexEncodedMethod toEmulateDispatchLibraryMethod(com.android.tools.r8.graph.DexType,com.android.tools.r8.graph.DexMethod,com.android.tools.r8.graph.DexMethod,com.android.tools.r8.graph.DexMethod,java.util.List,com.android.tools.r8.graph.AppView):1282 -> a
+    550:550:void lambda$toStaticForwardingBridge$5(com.android.tools.r8.graph.DexProgramClass,com.android.tools.r8.ir.synthetic.ForwardMethodBuilder):1300:1300 -> a
+    551:566:com.android.tools.r8.graph.ProgramMethod toPrivateSyntheticMethod(com.android.tools.r8.graph.DexProgramClass,com.android.tools.r8.graph.DexMethod):1314:1329 -> a
+    567:567:com.android.tools.r8.graph.DexEncodedMethod toForwardingMethod(com.android.tools.r8.graph.DexClass,com.android.tools.r8.graph.DexDefinitionSupplier):1334:1334 -> a
     568:568:com.android.tools.r8.graph.DexReference com.android.tools.r8.graph.DexClass.getReference():629:629 -> a
     568:568:com.android.tools.r8.graph.DexMethod com.android.tools.r8.graph.DexMethod.withHolder(com.android.tools.r8.graph.DexDefinition,com.android.tools.r8.graph.DexItemFactory):288 -> a
-    568:568:com.android.tools.r8.graph.DexEncodedMethod toForwardingMethod(com.android.tools.r8.graph.DexClass,com.android.tools.r8.graph.DexDefinitionSupplier):1325 -> a
+    568:568:com.android.tools.r8.graph.DexEncodedMethod toForwardingMethod(com.android.tools.r8.graph.DexClass,com.android.tools.r8.graph.DexDefinitionSupplier):1334 -> a
     569:569:com.android.tools.r8.graph.DexMethod com.android.tools.r8.graph.DexMethod.withHolder(com.android.tools.r8.graph.DexReference,com.android.tools.r8.graph.DexItemFactory):292:292 -> a
     569:569:com.android.tools.r8.graph.DexMethod com.android.tools.r8.graph.DexMethod.withHolder(com.android.tools.r8.graph.DexDefinition,com.android.tools.r8.graph.DexItemFactory):288 -> a
-    569:569:com.android.tools.r8.graph.DexEncodedMethod toForwardingMethod(com.android.tools.r8.graph.DexClass,com.android.tools.r8.graph.DexDefinitionSupplier):1325 -> a
-    570:576:com.android.tools.r8.graph.DexEncodedMethod toForwardingMethod(com.android.tools.r8.graph.DexClass,com.android.tools.r8.graph.DexDefinitionSupplier):1326:1332 -> a
+    569:569:com.android.tools.r8.graph.DexEncodedMethod toForwardingMethod(com.android.tools.r8.graph.DexClass,com.android.tools.r8.graph.DexDefinitionSupplier):1334 -> a
+    570:576:com.android.tools.r8.graph.DexEncodedMethod toForwardingMethod(com.android.tools.r8.graph.DexClass,com.android.tools.r8.graph.DexDefinitionSupplier):1335:1341 -> a
     577:577:void com.android.tools.r8.graph.AccessFlags.demoteFromFinal():234:234 -> a
-    577:577:com.android.tools.r8.graph.DexEncodedMethod toForwardingMethod(com.android.tools.r8.graph.DexClass,com.android.tools.r8.graph.DexDefinitionSupplier):1332 -> a
-    578:585:com.android.tools.r8.graph.DexEncodedMethod toForwardingMethod(com.android.tools.r8.graph.DexClass,com.android.tools.r8.graph.DexDefinitionSupplier):1334:1341 -> a
-    586:586:com.android.tools.r8.graph.DexEncodedMethod$Builder com.android.tools.r8.graph.DexEncodedMethod$Builder.applyIf(boolean,java.util.function.Consumer):1579:1579 -> a
-    586:586:com.android.tools.r8.graph.DexEncodedMethod toForwardingMethod(com.android.tools.r8.graph.DexClass,com.android.tools.r8.graph.DexDefinitionSupplier):1340 -> a
-    587:589:com.android.tools.r8.graph.DexEncodedMethod$Builder com.android.tools.r8.graph.DexEncodedMethod$Builder.applyIf(boolean,java.util.function.Consumer,java.util.function.Consumer):1585:1587 -> a
-    587:589:com.android.tools.r8.graph.DexEncodedMethod$Builder com.android.tools.r8.graph.DexEncodedMethod$Builder.applyIf(boolean,java.util.function.Consumer):1579 -> a
-    587:589:com.android.tools.r8.graph.DexEncodedMethod toForwardingMethod(com.android.tools.r8.graph.DexClass,com.android.tools.r8.graph.DexDefinitionSupplier):1340 -> a
-    590:590:com.android.tools.r8.graph.DexEncodedMethod toForwardingMethod(com.android.tools.r8.graph.DexClass,com.android.tools.r8.graph.DexDefinitionSupplier):1367:1367 -> a
-    591:594:void lambda$toForwardingMethod$10(com.android.tools.r8.graph.DexDefinitionSupplier,com.android.tools.r8.graph.DexMethod,com.android.tools.r8.graph.DexEncodedMethod$Builder):1345:1348 -> a
+    577:577:com.android.tools.r8.graph.DexEncodedMethod toForwardingMethod(com.android.tools.r8.graph.DexClass,com.android.tools.r8.graph.DexDefinitionSupplier):1341 -> a
+    578:585:com.android.tools.r8.graph.DexEncodedMethod toForwardingMethod(com.android.tools.r8.graph.DexClass,com.android.tools.r8.graph.DexDefinitionSupplier):1343:1350 -> a
+    586:586:com.android.tools.r8.graph.DexEncodedMethod$Builder com.android.tools.r8.graph.DexEncodedMethod$Builder.applyIf(boolean,java.util.function.Consumer):1583:1583 -> a
+    586:586:com.android.tools.r8.graph.DexEncodedMethod toForwardingMethod(com.android.tools.r8.graph.DexClass,com.android.tools.r8.graph.DexDefinitionSupplier):1349 -> a
+    587:589:com.android.tools.r8.graph.DexEncodedMethod$Builder com.android.tools.r8.graph.DexEncodedMethod$Builder.applyIf(boolean,java.util.function.Consumer,java.util.function.Consumer):1589:1591 -> a
+    587:589:com.android.tools.r8.graph.DexEncodedMethod$Builder com.android.tools.r8.graph.DexEncodedMethod$Builder.applyIf(boolean,java.util.function.Consumer):1583 -> a
+    587:589:com.android.tools.r8.graph.DexEncodedMethod toForwardingMethod(com.android.tools.r8.graph.DexClass,com.android.tools.r8.graph.DexDefinitionSupplier):1349 -> a
+    590:590:com.android.tools.r8.graph.DexEncodedMethod toForwardingMethod(com.android.tools.r8.graph.DexClass,com.android.tools.r8.graph.DexDefinitionSupplier):1376:1376 -> a
+    591:594:void lambda$toForwardingMethod$10(com.android.tools.r8.graph.DexDefinitionSupplier,com.android.tools.r8.graph.DexMethod,com.android.tools.r8.graph.DexEncodedMethod$Builder):1354:1357 -> a
     595:597:com.android.tools.r8.ir.synthetic.ForwardMethodBuilder com.android.tools.r8.ir.synthetic.ForwardMethodBuilder.applyIf(boolean,java.util.function.Consumer,java.util.function.Consumer):76:78 -> a
-    595:597:void lambda$toForwardingMethod$10(com.android.tools.r8.graph.DexDefinitionSupplier,com.android.tools.r8.graph.DexMethod,com.android.tools.r8.graph.DexEncodedMethod$Builder):1347 -> a
-    598:598:void lambda$toForwardingMethod$10(com.android.tools.r8.graph.DexDefinitionSupplier,com.android.tools.r8.graph.DexMethod,com.android.tools.r8.graph.DexEncodedMethod$Builder):1365:1365 -> a
-    599:621:void lambda$toForwardingMethod$10(com.android.tools.r8.graph.DexDefinitionSupplier,com.android.tools.r8.graph.DexMethod,com.android.tools.r8.graph.DexEncodedMethod$Builder):1344:1366 -> a
-    622:627:void lambda$toForwardingMethod$8(com.android.tools.r8.graph.DexMethod,com.android.tools.r8.graph.DexDefinitionSupplier,com.android.tools.r8.ir.synthetic.ForwardMethodBuilder):1351:1356 -> a
+    595:597:void lambda$toForwardingMethod$10(com.android.tools.r8.graph.DexDefinitionSupplier,com.android.tools.r8.graph.DexMethod,com.android.tools.r8.graph.DexEncodedMethod$Builder):1356 -> a
+    598:598:void lambda$toForwardingMethod$10(com.android.tools.r8.graph.DexDefinitionSupplier,com.android.tools.r8.graph.DexMethod,com.android.tools.r8.graph.DexEncodedMethod$Builder):1374:1374 -> a
+    599:621:void lambda$toForwardingMethod$10(com.android.tools.r8.graph.DexDefinitionSupplier,com.android.tools.r8.graph.DexMethod,com.android.tools.r8.graph.DexEncodedMethod$Builder):1353:1375 -> a
+    622:627:void lambda$toForwardingMethod$8(com.android.tools.r8.graph.DexMethod,com.android.tools.r8.graph.DexDefinitionSupplier,com.android.tools.r8.ir.synthetic.ForwardMethodBuilder):1360:1365 -> a
     628:628:boolean com.android.tools.r8.graph.DexType.isInterface(com.android.tools.r8.graph.DexDefinitionSupplier):340:340 -> a
-    628:628:void lambda$toForwardingMethod$8(com.android.tools.r8.graph.DexMethod,com.android.tools.r8.graph.DexDefinitionSupplier,com.android.tools.r8.ir.synthetic.ForwardMethodBuilder):1356 -> a
-    629:629:void lambda$toForwardingMethod$8(com.android.tools.r8.graph.DexMethod,com.android.tools.r8.graph.DexDefinitionSupplier,com.android.tools.r8.ir.synthetic.ForwardMethodBuilder):1352:1352 -> a
-    630:637:com.android.tools.r8.graph.DexEncodedMethod createDesugaringForwardingMethod(com.android.tools.r8.graph.DexClassAndMethod,com.android.tools.r8.graph.DexClass,com.android.tools.r8.graph.DexMethod,com.android.tools.r8.graph.DexItemFactory):1372:1379 -> a
+    628:628:void lambda$toForwardingMethod$8(com.android.tools.r8.graph.DexMethod,com.android.tools.r8.graph.DexDefinitionSupplier,com.android.tools.r8.ir.synthetic.ForwardMethodBuilder):1365 -> a
+    629:629:void lambda$toForwardingMethod$8(com.android.tools.r8.graph.DexMethod,com.android.tools.r8.graph.DexDefinitionSupplier,com.android.tools.r8.ir.synthetic.ForwardMethodBuilder):1361:1361 -> a
+    630:637:com.android.tools.r8.graph.DexEncodedMethod createDesugaringForwardingMethod(com.android.tools.r8.graph.DexClassAndMethod,com.android.tools.r8.graph.DexClass,com.android.tools.r8.graph.DexMethod,com.android.tools.r8.graph.DexItemFactory):1381:1388 -> a
     638:638:void com.android.tools.r8.graph.MethodAccessFlags.unsetAbstract():179:179 -> a
-    638:638:com.android.tools.r8.graph.DexEncodedMethod createDesugaringForwardingMethod(com.android.tools.r8.graph.DexClassAndMethod,com.android.tools.r8.graph.DexClass,com.android.tools.r8.graph.DexMethod,com.android.tools.r8.graph.DexItemFactory):1380 -> a
-    639:639:com.android.tools.r8.graph.DexEncodedMethod createDesugaringForwardingMethod(com.android.tools.r8.graph.DexClassAndMethod,com.android.tools.r8.graph.DexClass,com.android.tools.r8.graph.DexMethod,com.android.tools.r8.graph.DexItemFactory):1382:1382 -> a
+    638:638:com.android.tools.r8.graph.DexEncodedMethod createDesugaringForwardingMethod(com.android.tools.r8.graph.DexClassAndMethod,com.android.tools.r8.graph.DexClass,com.android.tools.r8.graph.DexMethod,com.android.tools.r8.graph.DexItemFactory):1389 -> a
+    639:639:com.android.tools.r8.graph.DexEncodedMethod createDesugaringForwardingMethod(com.android.tools.r8.graph.DexClassAndMethod,com.android.tools.r8.graph.DexClass,com.android.tools.r8.graph.DexMethod,com.android.tools.r8.graph.DexItemFactory):1391:1391 -> a
     640:640:com.android.tools.r8.ir.synthetic.ForwardMethodSourceCode$Builder com.android.tools.r8.ir.synthetic.ForwardMethodSourceCode.builder(com.android.tools.r8.graph.DexMethod):24:24 -> a
-    640:640:com.android.tools.r8.graph.DexEncodedMethod createDesugaringForwardingMethod(com.android.tools.r8.graph.DexClassAndMethod,com.android.tools.r8.graph.DexClass,com.android.tools.r8.graph.DexMethod,com.android.tools.r8.graph.DexItemFactory):1382 -> a
-    641:651:com.android.tools.r8.graph.DexEncodedMethod createDesugaringForwardingMethod(com.android.tools.r8.graph.DexClassAndMethod,com.android.tools.r8.graph.DexClass,com.android.tools.r8.graph.DexMethod,com.android.tools.r8.graph.DexItemFactory):1383:1393 -> a
+    640:640:com.android.tools.r8.graph.DexEncodedMethod createDesugaringForwardingMethod(com.android.tools.r8.graph.DexClassAndMethod,com.android.tools.r8.graph.DexClass,com.android.tools.r8.graph.DexMethod,com.android.tools.r8.graph.DexItemFactory):1391 -> a
+    641:651:com.android.tools.r8.graph.DexEncodedMethod createDesugaringForwardingMethod(com.android.tools.r8.graph.DexClassAndMethod,com.android.tools.r8.graph.DexClass,com.android.tools.r8.graph.DexMethod,com.android.tools.r8.graph.DexItemFactory):1392:1402 -> a
     652:652:void <init>(com.android.tools.r8.graph.DexMethod,com.android.tools.r8.graph.MethodAccessFlags,com.android.tools.r8.graph.GenericSignature$MethodTypeSignature,com.android.tools.r8.graph.DexAnnotationSet,com.android.tools.r8.graph.ParameterAnnotationsList,com.android.tools.r8.graph.Code,boolean):271:271 -> a
-    652:652:com.android.tools.r8.graph.DexEncodedMethod createDesugaringForwardingMethod(com.android.tools.r8.graph.DexClassAndMethod,com.android.tools.r8.graph.DexClass,com.android.tools.r8.graph.DexMethod,com.android.tools.r8.graph.DexItemFactory):1393 -> a
-    653:664:com.android.tools.r8.graph.DexCode rewriteCodeWithJumboStrings(com.android.tools.r8.graph.ObjectToOffsetMapping,com.android.tools.r8.graph.DexItemFactory,boolean):1415:1426 -> a
-    665:675:com.android.tools.r8.graph.DexCode rewriteCodeWithJumboStrings(com.android.tools.r8.graph.ObjectToOffsetMapping,com.android.tools.r8.graph.DexItemFactory,boolean):1425:1435 -> a
-    676:677:void setOptimizationInfo(com.android.tools.r8.ir.optimize.info.UpdatableMethodOptimizationInfo):1484:1485 -> a
-    678:679:void joinCallSiteOptimizationInfo(com.android.tools.r8.ir.optimize.info.CallSiteOptimizationInfo,com.android.tools.r8.graph.AppView):1500:1501 -> a
-    680:681:void setGenericSignature(com.android.tools.r8.graph.GenericSignature$MethodTypeSignature):1516:1517 -> a
-    1:2:com.android.tools.r8.graph.DexCode buildEmptyThrowingDexCode():1017:1018 -> a0
-    1:8:com.android.tools.r8.graph.DexEncodedMethod toStaticMethodWithoutThis():1399:1406 -> a1
-    9:11:void copyMetadata(com.android.tools.r8.graph.DexEncodedMethod):1505:1507 -> a1
-    9:11:com.android.tools.r8.graph.DexEncodedMethod toStaticMethodWithoutThis():1407 -> a1
+    652:652:com.android.tools.r8.graph.DexEncodedMethod createDesugaringForwardingMethod(com.android.tools.r8.graph.DexClassAndMethod,com.android.tools.r8.graph.DexClass,com.android.tools.r8.graph.DexMethod,com.android.tools.r8.graph.DexItemFactory):1402 -> a
+    653:664:com.android.tools.r8.graph.DexCode rewriteCodeWithJumboStrings(com.android.tools.r8.graph.ObjectToOffsetMapping,com.android.tools.r8.graph.DexItemFactory,boolean):1424:1435 -> a
+    665:675:com.android.tools.r8.graph.DexCode rewriteCodeWithJumboStrings(com.android.tools.r8.graph.ObjectToOffsetMapping,com.android.tools.r8.graph.DexItemFactory,boolean):1434:1444 -> a
+    676:677:void setOptimizationInfo(com.android.tools.r8.ir.optimize.info.UpdatableMethodOptimizationInfo):1488:1489 -> a
+    678:679:void joinCallSiteOptimizationInfo(com.android.tools.r8.ir.optimize.info.CallSiteOptimizationInfo,com.android.tools.r8.graph.AppView):1504:1505 -> a
+    680:681:void setGenericSignature(com.android.tools.r8.graph.GenericSignature$MethodTypeSignature):1520:1521 -> a
+    1:1:boolean belongsToVirtualPool():625:625 -> a0
+    1:8:com.android.tools.r8.graph.DexEncodedMethod toStaticMethodWithoutThis():1408:1415 -> a1
+    9:11:void copyMetadata(com.android.tools.r8.graph.DexEncodedMethod):1509:1511 -> a1
+    9:11:com.android.tools.r8.graph.DexEncodedMethod toStaticMethodWithoutThis():1416 -> a1
     12:12:void setObsolete():192:192 -> a1
-    12:12:com.android.tools.r8.graph.DexEncodedMethod toStaticMethodWithoutThis():1408 -> a1
+    12:12:com.android.tools.r8.graph.DexEncodedMethod toStaticMethodWithoutThis():1417 -> a1
     1:1:com.android.tools.r8.ir.optimize.info.MethodOptimizationInfo access$300(com.android.tools.r8.graph.DexEncodedMethod):100:100 -> b
     2:4:boolean isProgramMethod(com.android.tools.r8.graph.DexDefinitionSupplier):426:428 -> b
     5:7:void upgradeClassFileVersion(com.android.tools.r8.cf.CfVersion):860:862 -> b
-    8:8:com.android.tools.r8.graph.DexEncodedMethod toEmptyThrowingMethod(com.android.tools.r8.utils.InternalOptions):964:964 -> b
-    9:11:com.android.tools.r8.graph.DexEncodedMethod toEmptyThrowingMethodCf():983:985 -> b
-    9:11:com.android.tools.r8.graph.DexEncodedMethod toEmptyThrowingMethod(com.android.tools.r8.utils.InternalOptions):965 -> b
-    12:12:com.android.tools.r8.graph.CfCode buildEmptyThrowingCfCode():1002:1002 -> b
-    12:12:com.android.tools.r8.graph.DexEncodedMethod toEmptyThrowingMethodCf():986 -> b
-    12:12:com.android.tools.r8.graph.DexEncodedMethod toEmptyThrowingMethod(com.android.tools.r8.utils.InternalOptions):965 -> b
-    13:17:com.android.tools.r8.graph.DexEncodedMethod toEmptyThrowingMethodCf():986:990 -> b
-    13:17:com.android.tools.r8.graph.DexEncodedMethod toEmptyThrowingMethod(com.android.tools.r8.utils.InternalOptions):965 -> b
+    8:8:com.android.tools.r8.graph.DexEncodedMethod toEmptyThrowingMethod(com.android.tools.r8.utils.InternalOptions):973:973 -> b
+    9:11:com.android.tools.r8.graph.DexEncodedMethod toEmptyThrowingMethodCf():992:994 -> b
+    9:11:com.android.tools.r8.graph.DexEncodedMethod toEmptyThrowingMethod(com.android.tools.r8.utils.InternalOptions):974 -> b
+    12:12:com.android.tools.r8.graph.CfCode buildEmptyThrowingCfCode():1011:1011 -> b
+    12:12:com.android.tools.r8.graph.DexEncodedMethod toEmptyThrowingMethodCf():995 -> b
+    12:12:com.android.tools.r8.graph.DexEncodedMethod toEmptyThrowingMethod(com.android.tools.r8.utils.InternalOptions):974 -> b
+    13:17:com.android.tools.r8.graph.DexEncodedMethod toEmptyThrowingMethodCf():995:999 -> b
+    13:17:com.android.tools.r8.graph.DexEncodedMethod toEmptyThrowingMethod(com.android.tools.r8.utils.InternalOptions):974 -> b
     18:18:void setObsolete():192:192 -> b
-    18:18:com.android.tools.r8.graph.DexEncodedMethod toEmptyThrowingMethodCf():991 -> b
-    18:18:com.android.tools.r8.graph.DexEncodedMethod toEmptyThrowingMethod(com.android.tools.r8.utils.InternalOptions):965 -> b
-    19:26:com.android.tools.r8.graph.DexEncodedMethod toEmptyThrowingMethodDex(boolean):970:977 -> b
-    19:26:com.android.tools.r8.graph.DexEncodedMethod toEmptyThrowingMethod(com.android.tools.r8.utils.InternalOptions):966 -> b
+    18:18:com.android.tools.r8.graph.DexEncodedMethod toEmptyThrowingMethodCf():1000 -> b
+    18:18:com.android.tools.r8.graph.DexEncodedMethod toEmptyThrowingMethod(com.android.tools.r8.utils.InternalOptions):974 -> b
+    19:26:com.android.tools.r8.graph.DexEncodedMethod toEmptyThrowingMethodDex(boolean):979:986 -> b
+    19:26:com.android.tools.r8.graph.DexEncodedMethod toEmptyThrowingMethod(com.android.tools.r8.utils.InternalOptions):975 -> b
     27:27:void setObsolete():192:192 -> b
-    27:27:com.android.tools.r8.graph.DexEncodedMethod toEmptyThrowingMethodDex(boolean):978 -> b
-    27:27:com.android.tools.r8.graph.DexEncodedMethod toEmptyThrowingMethod(com.android.tools.r8.utils.InternalOptions):966 -> b
-    28:29:com.android.tools.r8.graph.DexEncodedMethod toTypeSubstitutedMethod(com.android.tools.r8.graph.DexMethod):1175:1176 -> b
-    30:40:com.android.tools.r8.graph.ProgramMethod toStaticForwardingBridge(com.android.tools.r8.graph.DexProgramClass,com.android.tools.r8.graph.DexMethod,com.android.tools.r8.graph.DexItemFactory):1280:1290 -> b
+    27:27:com.android.tools.r8.graph.DexEncodedMethod toEmptyThrowingMethodDex(boolean):987 -> b
+    27:27:com.android.tools.r8.graph.DexEncodedMethod toEmptyThrowingMethod(com.android.tools.r8.utils.InternalOptions):975 -> b
+    28:29:com.android.tools.r8.graph.DexEncodedMethod toTypeSubstitutedMethod(com.android.tools.r8.graph.DexMethod):1184:1185 -> b
+    30:40:com.android.tools.r8.graph.ProgramMethod toStaticForwardingBridge(com.android.tools.r8.graph.DexProgramClass,com.android.tools.r8.graph.DexMethod,com.android.tools.r8.graph.DexItemFactory):1289:1299 -> b
     41:43:com.android.tools.r8.ir.synthetic.ForwardMethodBuilder com.android.tools.r8.ir.synthetic.ForwardMethodBuilder.applyIf(boolean,java.util.function.Consumer,java.util.function.Consumer):76:78 -> b
-    41:43:com.android.tools.r8.graph.ProgramMethod toStaticForwardingBridge(com.android.tools.r8.graph.DexProgramClass,com.android.tools.r8.graph.DexMethod,com.android.tools.r8.graph.DexItemFactory):1289 -> b
-    44:44:com.android.tools.r8.graph.ProgramMethod toStaticForwardingBridge(com.android.tools.r8.graph.DexProgramClass,com.android.tools.r8.graph.DexMethod,com.android.tools.r8.graph.DexItemFactory):1293:1293 -> b
-    45:45:com.android.tools.r8.graph.ProgramMethod toStaticForwardingBridge(com.android.tools.r8.graph.DexProgramClass,com.android.tools.r8.graph.DexMethod,com.android.tools.r8.graph.DexItemFactory):1286:1286 -> b
+    41:43:com.android.tools.r8.graph.ProgramMethod toStaticForwardingBridge(com.android.tools.r8.graph.DexProgramClass,com.android.tools.r8.graph.DexMethod,com.android.tools.r8.graph.DexItemFactory):1298 -> b
+    44:44:com.android.tools.r8.graph.ProgramMethod toStaticForwardingBridge(com.android.tools.r8.graph.DexProgramClass,com.android.tools.r8.graph.DexMethod,com.android.tools.r8.graph.DexItemFactory):1302:1302 -> b
+    45:45:com.android.tools.r8.graph.ProgramMethod toStaticForwardingBridge(com.android.tools.r8.graph.DexProgramClass,com.android.tools.r8.graph.DexMethod,com.android.tools.r8.graph.DexItemFactory):1295:1295 -> b
     46:46:com.android.tools.r8.graph.MethodAccessFlags$Builder com.android.tools.r8.graph.MethodAccessFlags.builder():65:65 -> b
-    46:46:com.android.tools.r8.graph.ProgramMethod toStaticForwardingBridge(com.android.tools.r8.graph.DexProgramClass,com.android.tools.r8.graph.DexMethod,com.android.tools.r8.graph.DexItemFactory):1295 -> b
+    46:46:com.android.tools.r8.graph.ProgramMethod toStaticForwardingBridge(com.android.tools.r8.graph.DexProgramClass,com.android.tools.r8.graph.DexMethod,com.android.tools.r8.graph.DexItemFactory):1304 -> b
     47:47:com.android.tools.r8.graph.MethodAccessFlags$Builder com.android.tools.r8.graph.MethodAccessFlags$Builder.setBridge():233:233 -> b
-    47:47:com.android.tools.r8.graph.ProgramMethod toStaticForwardingBridge(com.android.tools.r8.graph.DexProgramClass,com.android.tools.r8.graph.DexMethod,com.android.tools.r8.graph.DexItemFactory):1296 -> b
-    48:48:com.android.tools.r8.graph.ProgramMethod toStaticForwardingBridge(com.android.tools.r8.graph.DexProgramClass,com.android.tools.r8.graph.DexMethod,com.android.tools.r8.graph.DexItemFactory):1297:1297 -> b
+    47:47:com.android.tools.r8.graph.ProgramMethod toStaticForwardingBridge(com.android.tools.r8.graph.DexProgramClass,com.android.tools.r8.graph.DexMethod,com.android.tools.r8.graph.DexItemFactory):1305 -> b
+    48:48:com.android.tools.r8.graph.ProgramMethod toStaticForwardingBridge(com.android.tools.r8.graph.DexProgramClass,com.android.tools.r8.graph.DexMethod,com.android.tools.r8.graph.DexItemFactory):1306:1306 -> b
     49:51:com.android.tools.r8.graph.AccessFlags$BuilderBase com.android.tools.r8.graph.AccessFlags$BuilderBase.setPublic(boolean):347:349 -> b
-    49:51:com.android.tools.r8.graph.ProgramMethod toStaticForwardingBridge(com.android.tools.r8.graph.DexProgramClass,com.android.tools.r8.graph.DexMethod,com.android.tools.r8.graph.DexItemFactory):1297 -> b
+    49:51:com.android.tools.r8.graph.ProgramMethod toStaticForwardingBridge(com.android.tools.r8.graph.DexProgramClass,com.android.tools.r8.graph.DexMethod,com.android.tools.r8.graph.DexItemFactory):1306 -> b
     52:52:com.android.tools.r8.graph.AccessFlags$BuilderBase com.android.tools.r8.graph.AccessFlags$BuilderBase.setStatic():355:355 -> b
-    52:52:com.android.tools.r8.graph.ProgramMethod toStaticForwardingBridge(com.android.tools.r8.graph.DexProgramClass,com.android.tools.r8.graph.DexMethod,com.android.tools.r8.graph.DexItemFactory):1298 -> b
+    52:52:com.android.tools.r8.graph.ProgramMethod toStaticForwardingBridge(com.android.tools.r8.graph.DexProgramClass,com.android.tools.r8.graph.DexMethod,com.android.tools.r8.graph.DexItemFactory):1307 -> b
     53:53:com.android.tools.r8.graph.AccessFlags$BuilderBase com.android.tools.r8.graph.AccessFlags$BuilderBase.setSynthetic():360:360 -> b
-    53:53:com.android.tools.r8.graph.ProgramMethod toStaticForwardingBridge(com.android.tools.r8.graph.DexProgramClass,com.android.tools.r8.graph.DexMethod,com.android.tools.r8.graph.DexItemFactory):1299 -> b
+    53:53:com.android.tools.r8.graph.ProgramMethod toStaticForwardingBridge(com.android.tools.r8.graph.DexProgramClass,com.android.tools.r8.graph.DexMethod,com.android.tools.r8.graph.DexItemFactory):1308 -> b
     54:54:com.android.tools.r8.graph.AccessFlags com.android.tools.r8.graph.AccessFlags$BuilderBase.build():365:365 -> b
-    54:54:com.android.tools.r8.graph.ProgramMethod toStaticForwardingBridge(com.android.tools.r8.graph.DexProgramClass,com.android.tools.r8.graph.DexMethod,com.android.tools.r8.graph.DexItemFactory):1300 -> b
-    55:55:com.android.tools.r8.graph.ProgramMethod toStaticForwardingBridge(com.android.tools.r8.graph.DexProgramClass,com.android.tools.r8.graph.DexMethod,com.android.tools.r8.graph.DexItemFactory):1300:1300 -> b
-    56:63:com.android.tools.r8.graph.ProgramMethod toStaticForwardingBridge(com.android.tools.r8.graph.DexProgramClass,com.android.tools.r8.graph.DexMethod,com.android.tools.r8.graph.DexItemFactory):1294:1301 -> b
-    64:64:void lambda$toStaticForwardingBridge$6(com.android.tools.r8.graph.DexProgramClass,com.android.tools.r8.ir.synthetic.ForwardMethodBuilder):1292:1292 -> b
-    65:68:void lambda$toPrivateSyntheticMethod$7(com.android.tools.r8.graph.MethodAccessFlags):1315:1318 -> b
-    69:74:void lambda$toForwardingMethod$9(com.android.tools.r8.graph.DexMethod,com.android.tools.r8.graph.DexDefinitionSupplier,com.android.tools.r8.ir.synthetic.ForwardMethodBuilder):1359:1364 -> b
+    54:54:com.android.tools.r8.graph.ProgramMethod toStaticForwardingBridge(com.android.tools.r8.graph.DexProgramClass,com.android.tools.r8.graph.DexMethod,com.android.tools.r8.graph.DexItemFactory):1309 -> b
+    55:55:com.android.tools.r8.graph.ProgramMethod toStaticForwardingBridge(com.android.tools.r8.graph.DexProgramClass,com.android.tools.r8.graph.DexMethod,com.android.tools.r8.graph.DexItemFactory):1309:1309 -> b
+    56:63:com.android.tools.r8.graph.ProgramMethod toStaticForwardingBridge(com.android.tools.r8.graph.DexProgramClass,com.android.tools.r8.graph.DexMethod,com.android.tools.r8.graph.DexItemFactory):1303:1310 -> b
+    64:64:void lambda$toStaticForwardingBridge$6(com.android.tools.r8.graph.DexProgramClass,com.android.tools.r8.ir.synthetic.ForwardMethodBuilder):1301:1301 -> b
+    65:68:void lambda$toPrivateSyntheticMethod$7(com.android.tools.r8.graph.MethodAccessFlags):1324:1327 -> b
+    69:74:void lambda$toForwardingMethod$9(com.android.tools.r8.graph.DexMethod,com.android.tools.r8.graph.DexDefinitionSupplier,com.android.tools.r8.ir.synthetic.ForwardMethodBuilder):1368:1373 -> b
     75:75:boolean com.android.tools.r8.graph.DexType.isInterface(com.android.tools.r8.graph.DexDefinitionSupplier):340:340 -> b
-    75:75:void lambda$toForwardingMethod$9(com.android.tools.r8.graph.DexMethod,com.android.tools.r8.graph.DexDefinitionSupplier,com.android.tools.r8.ir.synthetic.ForwardMethodBuilder):1364 -> b
-    76:76:void lambda$toForwardingMethod$9(com.android.tools.r8.graph.DexMethod,com.android.tools.r8.graph.DexDefinitionSupplier,com.android.tools.r8.ir.synthetic.ForwardMethodBuilder):1360:1360 -> b
-    1:1:void checkIfObsolete():180:180 -> b0
+    75:75:void lambda$toForwardingMethod$9(com.android.tools.r8.graph.DexMethod,com.android.tools.r8.graph.DexDefinitionSupplier,com.android.tools.r8.ir.synthetic.ForwardMethodBuilder):1373 -> b
+    76:76:void lambda$toForwardingMethod$9(com.android.tools.r8.graph.DexMethod,com.android.tools.r8.graph.DexDefinitionSupplier,com.android.tools.r8.ir.synthetic.ForwardMethodBuilder):1369:1369 -> b
+    1:2:com.android.tools.r8.graph.DexCode buildEmptyThrowingDexCode():1026:1027 -> b0
     1:1:void unsetObsolete():242:242 -> b1
     1:1:com.android.tools.r8.kotlin.KotlinMethodLevelInfo access$400(com.android.tools.r8.graph.DexEncodedMethod):100:100 -> c
-    1:1:void clearGenericSignature():1521:1521 -> c0
+    1:1:void checkIfObsolete():180:180 -> c0
     1:1:com.android.tools.r8.cf.CfVersion access$500(com.android.tools.r8.graph.DexEncodedMethod):100:100 -> d
-    1:1:void clearKotlinMemberInfo():653:653 -> d0
-    1:1:com.android.tools.r8.graph.DexEncodedMethod$Builder builder(com.android.tools.r8.graph.DexEncodedMethod):1529:1529 -> e
-    1:2:java.lang.String codeToString():1441:1442 -> e0
-    1:3:void copyMetadata(com.android.tools.r8.graph.DexEncodedMethod):1505:1507 -> f
-    1:2:java.lang.String descriptor():877:878 -> f0
+    1:1:void clearGenericSignature():1525:1525 -> d0
+    1:1:com.android.tools.r8.graph.DexEncodedMethod$Builder builder(com.android.tools.r8.graph.DexEncodedMethod):1533:1533 -> e
+    1:1:void clearKotlinMemberInfo():653:653 -> e0
+    1:3:void copyMetadata(com.android.tools.r8.graph.DexEncodedMethod):1509:1511 -> f
+    1:2:java.lang.String codeToString():1450:1451 -> f0
     1:7:com.android.tools.r8.graph.DexType getArgumentType(int):201:207 -> g
     8:8:com.android.tools.r8.graph.ParameterAnnotationsList lambda$syntheticSpecify$0(com.android.tools.r8.graph.DexEncodedMethod):349:349 -> g
-    1:1:com.android.tools.r8.graph.MethodAccessFlags getAccessFlags():197:197 -> g0
+    1:2:java.lang.String descriptor():877:878 -> g0
     1:1:com.android.tools.r8.graph.AccessFlags getAccessFlags():100:100 -> getAccessFlags
     1:1:com.android.tools.r8.cf.CfVersion lambda$syntheticSpecify$1(com.android.tools.r8.graph.DexEncodedMethod):350:350 -> h
-    1:2:com.android.tools.r8.ir.optimize.info.CallSiteOptimizationInfo getCallSiteOptimizationInfo():1494:1495 -> h0
+    1:1:com.android.tools.r8.graph.MethodAccessFlags getAccessFlags():197:197 -> h0
     1:1:boolean lambda$syntheticSpecify$2(com.android.tools.r8.graph.DexEncodedMethod):353:353 -> i
-    1:3:com.android.tools.r8.cf.CfVersion getClassFileVersion():849:851 -> i0
+    1:2:com.android.tools.r8.ir.optimize.info.CallSiteOptimizationInfo getCallSiteOptimizationInfo():1498:1499 -> i0
     1:5:void setDefaultInterfaceMethodImplementation(com.android.tools.r8.graph.DexEncodedMethod):223:227 -> j
     6:6:void com.android.tools.r8.graph.MethodAccessFlags.setAbstract():175:175 -> j
     6:6:void setDefaultInterfaceMethodImplementation(com.android.tools.r8.graph.DexEncodedMethod):227 -> j
     7:8:void setDefaultInterfaceMethodImplementation(com.android.tools.r8.graph.DexEncodedMethod):228:229 -> j
-    1:2:com.android.tools.r8.graph.Code getCode():839:840 -> j0
+    1:3:com.android.tools.r8.cf.CfVersion getClassFileVersion():849:851 -> j0
     1:1:com.android.tools.r8.utils.structural.StructuralMapping getStructuralMapping():340:340 -> k
-    2:2:com.android.tools.r8.graph.DexEncodedMethod$Builder syntheticBuilder(com.android.tools.r8.graph.DexEncodedMethod):1525:1525 -> k
-    1:1:com.android.tools.r8.graph.DexEncodedMethod$CompilationState getCompilationState():215:215 -> k0
-    1:1:com.android.tools.r8.graph.DexEncodedMethod getDefaultInterfaceMethodImplementation():219:219 -> l0
-    1:1:com.android.tools.r8.graph.GenericSignature$MethodTypeSignature getGenericSignature():1512:1512 -> m0
-    1:1:com.android.tools.r8.kotlin.KotlinMethodLevelInfo getKotlinInfo():630:630 -> n0
+    2:2:com.android.tools.r8.graph.DexEncodedMethod$Builder syntheticBuilder(com.android.tools.r8.graph.DexEncodedMethod):1529:1529 -> k
+    1:2:com.android.tools.r8.graph.Code getCode():839:840 -> k0
+    1:1:com.android.tools.r8.graph.DexEncodedMethod$CompilationState getCompilationState():215:215 -> l0
+    1:1:com.android.tools.r8.graph.DexEncodedMethod getDefaultInterfaceMethodImplementation():219:219 -> m0
+    1:1:com.android.tools.r8.graph.GenericSignature$MethodTypeSignature getGenericSignature():1516:1516 -> n0
     com.android.tools.r8.utils.structural.StructuralItem self() -> o
-    1:5:com.android.tools.r8.ir.optimize.info.UpdatableMethodOptimizationInfo getMutableOptimizationInfo():1476:1480 -> o0
-    1:2:com.android.tools.r8.ir.optimize.info.MethodOptimizationInfo getOptimizationInfo():1471:1472 -> p0
-    1:1:java.util.Map getParameterInfo():806:806 -> q0
-    1:1:com.android.tools.r8.graph.DexTypeList getParameters():389:389 -> r0
-    2:2:com.android.tools.r8.graph.DexTypeList com.android.tools.r8.graph.DexMethod.getParameters():67:67 -> r0
-    2:2:com.android.tools.r8.graph.DexTypeList getParameters():389 -> r0
-    1:1:com.android.tools.r8.graph.DexProto getProto():381:381 -> s0
-    1:2:boolean hasAnnotation():1462:1463 -> t0
+    1:1:com.android.tools.r8.kotlin.KotlinMethodLevelInfo getKotlinInfo():630:630 -> o0
+    1:5:com.android.tools.r8.ir.optimize.info.UpdatableMethodOptimizationInfo getMutableOptimizationInfo():1480:1484 -> p0
+    1:2:com.android.tools.r8.ir.optimize.info.MethodOptimizationInfo getOptimizationInfo():1475:1476 -> q0
+    1:1:java.util.Map getParameterInfo():806:806 -> r0
+    1:1:com.android.tools.r8.graph.DexTypeList getParameters():389:389 -> s0
+    2:2:com.android.tools.r8.graph.DexTypeList com.android.tools.r8.graph.DexMethod.getParameters():67:67 -> s0
+    2:2:com.android.tools.r8.graph.DexTypeList getParameters():389 -> s0
+    1:1:com.android.tools.r8.graph.DexProto getProto():381:381 -> t0
     1:2:java.lang.String toString():811:812 -> toString
     1:2:boolean hasClassFileVersion():855:856 -> u0
     1:1:boolean hasCode():835:835 -> v0
@@ -19232,39 +19238,39 @@ com.android.tools.r8.graph.DexEncodedMethod$Builder -> com.android.tools.r8.grap
     com.android.tools.r8.graph.DexEncodedMethod$CompilationState compilationState -> h
     com.android.tools.r8.graph.MethodAccessFlags accessFlags -> b
     com.android.tools.r8.graph.GenericSignature$MethodTypeSignature genericSignature -> c
-    1:1:void <clinit>():1532:1532 -> <clinit>
-    1:1:void <init>(com.android.tools.r8.graph.DexEncodedMethod,com.android.tools.r8.graph.DexEncodedMethod$1):1532:1532 -> <init>
-    2:2:void <init>(com.android.tools.r8.graph.DexEncodedMethod,boolean,com.android.tools.r8.graph.DexEncodedMethod$1):1532:1532 -> <init>
-    3:3:void <init>(com.android.tools.r8.graph.DexEncodedMethod):1549:1549 -> <init>
-    4:4:void <init>(com.android.tools.r8.graph.DexEncodedMethod,boolean):1552:1552 -> <init>
-    5:41:void <init>(com.android.tools.r8.graph.DexEncodedMethod,boolean):1538:1574 -> <init>
-    42:42:void <init>(com.android.tools.r8.graph.DexEncodedMethod,boolean):1570:1570 -> <init>
-    1:1:com.android.tools.r8.graph.DexEncodedMethod$Builder setSimpleInliningConstraint(com.android.tools.r8.graph.DexProgramClass,com.android.tools.r8.ir.analysis.inlining.SimpleInliningConstraint):1594:1594 -> a
-    2:2:com.android.tools.r8.graph.DexEncodedMethod$Builder addBuildConsumer(java.util.function.Consumer):1604:1604 -> a
-    2:2:com.android.tools.r8.graph.DexEncodedMethod$Builder setSimpleInliningConstraint(com.android.tools.r8.graph.DexProgramClass,com.android.tools.r8.ir.analysis.inlining.SimpleInliningConstraint):1594 -> a
-    3:4:void lambda$setSimpleInliningConstraint$0(com.android.tools.r8.graph.DexProgramClass,com.android.tools.r8.ir.analysis.inlining.SimpleInliningConstraint,com.android.tools.r8.graph.DexEncodedMethod):1596:1597 -> a
-    5:5:com.android.tools.r8.graph.DexEncodedMethod$Builder modifyAccessFlags(java.util.function.Consumer):1609:1609 -> a
-    6:6:com.android.tools.r8.graph.DexEncodedMethod$Builder setAccessFlags(com.android.tools.r8.graph.MethodAccessFlags):1614:1614 -> a
-    7:7:com.android.tools.r8.graph.DexEncodedMethod$Builder setMethod(com.android.tools.r8.graph.DexMethod):1619:1619 -> a
-    8:9:com.android.tools.r8.graph.DexEncodedMethod$Builder setCompilationState(com.android.tools.r8.graph.DexEncodedMethod$CompilationState):1624:1625 -> a
-    10:11:com.android.tools.r8.graph.DexEncodedMethod$Builder setIsLibraryMethodOverride(com.android.tools.r8.utils.OptionalBool):1630:1631 -> a
-    12:31:com.android.tools.r8.graph.DexEncodedMethod$Builder removeParameterAnnotations(java.util.function.IntPredicate):1654:1673 -> a
-    32:32:com.android.tools.r8.graph.DexEncodedMethod$Builder setParameterAnnotations(com.android.tools.r8.graph.ParameterAnnotationsList):1649:1649 -> a
-    32:32:com.android.tools.r8.graph.DexEncodedMethod$Builder removeParameterAnnotations(java.util.function.IntPredicate):1673 -> a
-    33:35:com.android.tools.r8.graph.DexEncodedMethod$Builder removeParameterAnnotations(java.util.function.IntPredicate):1676:1678 -> a
-    36:36:com.android.tools.r8.graph.DexEncodedMethod$Builder setParameterAnnotations(com.android.tools.r8.graph.ParameterAnnotationsList):1649:1649 -> a
-    36:36:com.android.tools.r8.graph.DexEncodedMethod$Builder removeParameterAnnotations(java.util.function.IntPredicate):1676 -> a
-    37:39:com.android.tools.r8.graph.DexEncodedMethod$Builder adjustOptimizationInfoAfterRemovingThisParameter():1698:1700 -> a
-    40:40:com.android.tools.r8.graph.DexEncodedMethod$Builder setCode(com.android.tools.r8.graph.Code):1706:1706 -> a
-    1:6:com.android.tools.r8.graph.DexEncodedMethod build():1711:1716 -> b
-    7:9:com.android.tools.r8.graph.DexEncodedMethod build():1715:1717 -> b
+    1:1:void <clinit>():1536:1536 -> <clinit>
+    1:1:void <init>(com.android.tools.r8.graph.DexEncodedMethod,com.android.tools.r8.graph.DexEncodedMethod$1):1536:1536 -> <init>
+    2:2:void <init>(com.android.tools.r8.graph.DexEncodedMethod,boolean,com.android.tools.r8.graph.DexEncodedMethod$1):1536:1536 -> <init>
+    3:3:void <init>(com.android.tools.r8.graph.DexEncodedMethod):1553:1553 -> <init>
+    4:4:void <init>(com.android.tools.r8.graph.DexEncodedMethod,boolean):1556:1556 -> <init>
+    5:41:void <init>(com.android.tools.r8.graph.DexEncodedMethod,boolean):1542:1578 -> <init>
+    42:42:void <init>(com.android.tools.r8.graph.DexEncodedMethod,boolean):1574:1574 -> <init>
+    1:1:com.android.tools.r8.graph.DexEncodedMethod$Builder setSimpleInliningConstraint(com.android.tools.r8.graph.DexProgramClass,com.android.tools.r8.ir.analysis.inlining.SimpleInliningConstraint):1598:1598 -> a
+    2:2:com.android.tools.r8.graph.DexEncodedMethod$Builder addBuildConsumer(java.util.function.Consumer):1608:1608 -> a
+    2:2:com.android.tools.r8.graph.DexEncodedMethod$Builder setSimpleInliningConstraint(com.android.tools.r8.graph.DexProgramClass,com.android.tools.r8.ir.analysis.inlining.SimpleInliningConstraint):1598 -> a
+    3:4:void lambda$setSimpleInliningConstraint$0(com.android.tools.r8.graph.DexProgramClass,com.android.tools.r8.ir.analysis.inlining.SimpleInliningConstraint,com.android.tools.r8.graph.DexEncodedMethod):1600:1601 -> a
+    5:5:com.android.tools.r8.graph.DexEncodedMethod$Builder modifyAccessFlags(java.util.function.Consumer):1613:1613 -> a
+    6:6:com.android.tools.r8.graph.DexEncodedMethod$Builder setAccessFlags(com.android.tools.r8.graph.MethodAccessFlags):1618:1618 -> a
+    7:7:com.android.tools.r8.graph.DexEncodedMethod$Builder setMethod(com.android.tools.r8.graph.DexMethod):1623:1623 -> a
+    8:9:com.android.tools.r8.graph.DexEncodedMethod$Builder setCompilationState(com.android.tools.r8.graph.DexEncodedMethod$CompilationState):1628:1629 -> a
+    10:11:com.android.tools.r8.graph.DexEncodedMethod$Builder setIsLibraryMethodOverride(com.android.tools.r8.utils.OptionalBool):1634:1635 -> a
+    12:31:com.android.tools.r8.graph.DexEncodedMethod$Builder removeParameterAnnotations(java.util.function.IntPredicate):1658:1677 -> a
+    32:32:com.android.tools.r8.graph.DexEncodedMethod$Builder setParameterAnnotations(com.android.tools.r8.graph.ParameterAnnotationsList):1653:1653 -> a
+    32:32:com.android.tools.r8.graph.DexEncodedMethod$Builder removeParameterAnnotations(java.util.function.IntPredicate):1677 -> a
+    33:35:com.android.tools.r8.graph.DexEncodedMethod$Builder removeParameterAnnotations(java.util.function.IntPredicate):1680:1682 -> a
+    36:36:com.android.tools.r8.graph.DexEncodedMethod$Builder setParameterAnnotations(com.android.tools.r8.graph.ParameterAnnotationsList):1653:1653 -> a
+    36:36:com.android.tools.r8.graph.DexEncodedMethod$Builder removeParameterAnnotations(java.util.function.IntPredicate):1680 -> a
+    37:39:com.android.tools.r8.graph.DexEncodedMethod$Builder adjustOptimizationInfoAfterRemovingThisParameter():1702:1704 -> a
+    40:40:com.android.tools.r8.graph.DexEncodedMethod$Builder setCode(com.android.tools.r8.graph.Code):1710:1710 -> a
+    1:6:com.android.tools.r8.graph.DexEncodedMethod build():1715:1720 -> b
+    7:9:com.android.tools.r8.graph.DexEncodedMethod build():1719:1721 -> b
     10:10:void com.android.tools.r8.graph.DexEncodedMethod.<init>(com.android.tools.r8.graph.DexMethod,com.android.tools.r8.graph.MethodAccessFlags,com.android.tools.r8.graph.GenericSignature$MethodTypeSignature,com.android.tools.r8.graph.DexAnnotationSet,com.android.tools.r8.graph.ParameterAnnotationsList,com.android.tools.r8.graph.Code,boolean,com.android.tools.r8.cf.CfVersion):291:291 -> b
-    10:10:com.android.tools.r8.graph.DexEncodedMethod build():1717 -> b
-    11:17:com.android.tools.r8.graph.DexEncodedMethod build():1727:1733 -> b
-    1:1:com.android.tools.r8.graph.DexEncodedMethod$Builder promoteToStatic():1683:1683 -> c
+    10:10:com.android.tools.r8.graph.DexEncodedMethod build():1721 -> b
+    11:17:com.android.tools.r8.graph.DexEncodedMethod build():1731:1737 -> b
+    1:1:com.android.tools.r8.graph.DexEncodedMethod$Builder promoteToStatic():1687:1687 -> c
     2:2:void com.android.tools.r8.graph.AccessFlags.promoteToStatic():247:247 -> c
-    2:2:com.android.tools.r8.graph.DexEncodedMethod$Builder promoteToStatic():1683 -> c
-    1:5:com.android.tools.r8.graph.DexEncodedMethod$Builder withoutThisParameter():1688:1692 -> d
+    2:2:com.android.tools.r8.graph.DexEncodedMethod$Builder promoteToStatic():1687 -> c
+    1:5:com.android.tools.r8.graph.DexEncodedMethod$Builder withoutThisParameter():1692:1696 -> d
 com.android.tools.r8.graph.DexEncodedMethod$CompilationState -> com.android.tools.r8.graph.P$c:
     com.android.tools.r8.graph.DexEncodedMethod$CompilationState PROCESSED_INLINING_CANDIDATE_SAME_NEST -> f
     com.android.tools.r8.graph.DexEncodedMethod$CompilationState PROCESSED_INLINING_CANDIDATE_SAME_CLASS -> g
@@ -20198,7 +20204,7 @@ com.android.tools.r8.graph.DexLibraryClass -> com.android.tools.r8.graph.U:
     1:1:void <clinit>():22:22 -> <clinit>
     1:28:void <init>(com.android.tools.r8.graph.DexType,com.android.tools.r8.ProgramResource$Kind,com.android.tools.r8.origin.Origin,com.android.tools.r8.graph.ClassAccessFlags,com.android.tools.r8.graph.DexType,com.android.tools.r8.graph.DexTypeList,com.android.tools.r8.graph.DexString,com.android.tools.r8.graph.NestHostClassAttribute,java.util.List,com.android.tools.r8.graph.EnclosingMethodAttribute,java.util.List,com.android.tools.r8.graph.GenericSignature$ClassSignature,com.android.tools.r8.graph.DexAnnotationSet,com.android.tools.r8.graph.DexEncodedField[],com.android.tools.r8.graph.DexEncodedField[],com.android.tools.r8.graph.DexEncodedMethod[],com.android.tools.r8.graph.DexEncodedMethod[],boolean):43:70 -> <init>
     1:1:java.lang.String toSourceString():109:109 -> F
-    boolean isNotProgramClass() -> K0
+    boolean isNotProgramClass() -> L0
     1:1:void accept(java.util.function.Consumer,java.util.function.Consumer,java.util.function.Consumer):99:99 -> a
     2:7:boolean internalClassOrInterfaceMayHaveInitializationSideEffects(com.android.tools.r8.graph.AppView,com.android.tools.r8.graph.DexClass,java.util.function.Predicate,java.util.Set):154:159 -> a
     1:1:com.android.tools.r8.graph.DexLibraryClass$Builder builder(com.android.tools.r8.graph.DexItemFactory):74:74 -> b
@@ -20512,14 +20518,13 @@ com.android.tools.r8.graph.DexProgramClass -> com.android.tools.r8.graph.Z:
     1:1:void <init>(com.android.tools.r8.graph.DexType,com.android.tools.r8.ProgramResource$Kind,com.android.tools.r8.origin.Origin,com.android.tools.r8.graph.ClassAccessFlags,com.android.tools.r8.graph.DexType,com.android.tools.r8.graph.DexTypeList,com.android.tools.r8.graph.DexString,com.android.tools.r8.graph.NestHostClassAttribute,java.util.List,com.android.tools.r8.graph.EnclosingMethodAttribute,java.util.List,com.android.tools.r8.graph.GenericSignature$ClassSignature,com.android.tools.r8.graph.DexAnnotationSet,com.android.tools.r8.graph.DexEncodedField[],com.android.tools.r8.graph.DexEncodedField[],com.android.tools.r8.graph.DexEncodedMethod[],com.android.tools.r8.graph.DexEncodedMethod[],boolean,com.android.tools.r8.graph.DexProgramClass$ChecksumSupplier):76:76 -> <init>
     2:49:void <init>(com.android.tools.r8.graph.DexType,com.android.tools.r8.ProgramResource$Kind,com.android.tools.r8.origin.Origin,com.android.tools.r8.graph.ClassAccessFlags,com.android.tools.r8.graph.DexType,com.android.tools.r8.graph.DexTypeList,com.android.tools.r8.graph.DexString,com.android.tools.r8.graph.NestHostClassAttribute,java.util.List,com.android.tools.r8.graph.EnclosingMethodAttribute,java.util.List,com.android.tools.r8.graph.GenericSignature$ClassSignature,com.android.tools.r8.graph.DexAnnotationSet,com.android.tools.r8.graph.DexEncodedField[],com.android.tools.r8.graph.DexEncodedField[],com.android.tools.r8.graph.DexEncodedMethod[],com.android.tools.r8.graph.DexEncodedMethod[],boolean,com.android.tools.r8.graph.DexProgramClass$ChecksumSupplier):50:97 -> <init>
     1:1:java.lang.String toSourceString():369:369 -> F
-    boolean isNotProgramClass() -> K0
-    1:1:java.lang.Iterable directProgramMethods():165:165 -> T0
-    1:1:long getChecksum():766:766 -> U0
-    1:1:com.android.tools.r8.graph.DexProgramClass$ChecksumSupplier getChecksumSupplier():770:770 -> V0
-    1:1:com.android.tools.r8.cf.CfVersion getInitialClassFileVersion():692:692 -> W0
-    1:1:com.android.tools.r8.kotlin.KotlinClassLevelInfo getKotlinInfo():413:413 -> X0
-    1:1:com.android.tools.r8.ProgramResource$Kind getOriginKind():295:295 -> Y0
-    1:1:com.android.tools.r8.graph.ProgramMethod getProgramClassInitializer():216:216 -> Z0
+    boolean isNotProgramClass() -> L0
+    1:1:java.lang.Iterable directProgramMethods():165:165 -> U0
+    1:1:long getChecksum():766:766 -> V0
+    1:1:com.android.tools.r8.graph.DexProgramClass$ChecksumSupplier getChecksumSupplier():770:770 -> W0
+    1:1:com.android.tools.r8.cf.CfVersion getInitialClassFileVersion():692:692 -> X0
+    1:1:com.android.tools.r8.kotlin.KotlinClassLevelInfo getKotlinInfo():413:413 -> Y0
+    1:1:com.android.tools.r8.ProgramResource$Kind getOriginKind():295:295 -> Z0
     1:3:void com.android.tools.r8.graph.ProgramField.collectIndexedItems(com.android.tools.r8.dex.IndexedItemCollection):18:20 -> a
     1:3:void lambda$collectIndexedItems$22(com.android.tools.r8.dex.IndexedItemCollection,com.android.tools.r8.graph.ProgramField):329 -> a
     4:4:boolean com.android.tools.r8.graph.DexEncodedField.isStatic():219:219 -> a
@@ -20562,9 +20567,7 @@ com.android.tools.r8.graph.DexProgramClass -> com.android.tools.r8.graph.Z:
     115:116:void downgradeInitialClassFileVersion(com.android.tools.r8.cf.CfVersion):683:684 -> a
     117:117:java.lang.Iterable asProgramClasses(java.lang.Iterable,com.android.tools.r8.graph.DexDefinitionSupplier):724:724 -> a
     118:118:long checksumFromType(com.android.tools.r8.graph.DexProgramClass):762:762 -> a
-    1:1:com.android.tools.r8.graph.ProgramMethod getProgramDefaultInitializer():220:220 -> a1
-    2:2:com.android.tools.r8.graph.ProgramMethod getProgramInitializer(com.android.tools.r8.graph.DexType[]):224:224 -> a1
-    2:2:com.android.tools.r8.graph.ProgramMethod getProgramDefaultInitializer():220 -> a1
+    1:1:com.android.tools.r8.graph.ProgramMethod getProgramClassInitializer():216:216 -> a1
     1:1:void lambda$forEachProgramField$10(java.util.function.Consumer,com.android.tools.r8.graph.DexEncodedField):142:142 -> b
     2:2:void lambda$forEachProgramDirectMethodMatching$16(java.util.function.Consumer,com.android.tools.r8.graph.DexEncodedMethod):192:192 -> b
     3:3:com.android.tools.r8.graph.ProgramMethod getProgramInitializer(com.android.tools.r8.graph.DexType[]):224:224 -> b
@@ -20589,7 +20592,9 @@ com.android.tools.r8.graph.DexProgramClass -> com.android.tools.r8.graph.Z:
     38:38:void com.android.tools.r8.errors.CompilationError.<init>(java.lang.String,com.android.tools.r8.origin.Origin):30:30 -> b
     38:38:long invalidChecksumRequest(com.android.tools.r8.graph.DexProgramClass):757 -> b
     39:39:long invalidChecksumRequest(com.android.tools.r8.graph.DexProgramClass):757:757 -> b
-    1:1:boolean hasClassFileVersion():688:688 -> b1
+    1:1:com.android.tools.r8.graph.ProgramMethod getProgramDefaultInitializer():220:220 -> b1
+    2:2:com.android.tools.r8.graph.ProgramMethod getProgramInitializer(com.android.tools.r8.graph.DexType[]):224:224 -> b1
+    2:2:com.android.tools.r8.graph.ProgramMethod getProgramDefaultInitializer():220 -> b1
     com.android.tools.r8.graph.DexProgramClass getContextClass() -> c
     1:1:com.android.tools.r8.graph.DexType lambda$specify$0(com.android.tools.r8.graph.DexProgramClass):124:124 -> c
     2:2:void lambda$forEachProgramMethodMatching$11(java.util.function.Consumer,com.android.tools.r8.graph.DexEncodedMethod):157:157 -> c
@@ -20611,12 +20616,7 @@ com.android.tools.r8.graph.DexProgramClass -> com.android.tools.r8.graph.Z:
     46:48:void addExtraInterfaces(java.util.List):626 -> c
     49:61:void addExtraInterfacesToSignatureIfPresent(java.util.List):641:653 -> c
     49:61:void addExtraInterfaces(java.util.List):627 -> c
-    1:1:boolean hasClassOrMemberAnnotations():532:532 -> c1
-    2:3:boolean hasAnnotations(com.android.tools.r8.graph.MethodCollection):551:552 -> c1
-    2:3:boolean hasClassOrMemberAnnotations():533 -> c1
-    4:6:boolean hasClassOrMemberAnnotations():533:535 -> c1
-    7:7:boolean hasAnnotations(com.android.tools.r8.graph.MethodCollection):553:553 -> c1
-    7:7:boolean hasClassOrMemberAnnotations():533 -> c1
+    1:1:boolean hasClassFileVersion():688:688 -> c1
     1:1:com.android.tools.r8.graph.DexType lambda$specify$1(com.android.tools.r8.graph.DexProgramClass):125:125 -> d
     2:2:com.android.tools.r8.graph.ProgramMethod lambda$directProgramMethods$12(com.android.tools.r8.graph.DexEncodedMethod):165:165 -> d
     3:3:void forEachProgramInstanceInitializerMatching(java.util.function.Predicate,java.util.function.Consumer):201:201 -> d
@@ -20628,45 +20628,51 @@ com.android.tools.r8.graph.DexProgramClass -> com.android.tools.r8.graph.Z:
     8:14:void clearInterfaces():612:618 -> d
     8:14:void replaceInterfaces(java.util.List):607 -> d
     15:15:void replaceInterfaces(java.util.List):608:608 -> d
-    1:1:boolean hasFields():519:519 -> d1
+    1:1:boolean hasClassOrMemberAnnotations():532:532 -> d1
+    2:3:boolean hasAnnotations(com.android.tools.r8.graph.MethodCollection):551:552 -> d1
+    2:3:boolean hasClassOrMemberAnnotations():533 -> d1
+    4:6:boolean hasClassOrMemberAnnotations():533:535 -> d1
+    7:7:boolean hasAnnotations(com.android.tools.r8.graph.MethodCollection):553:553 -> d1
+    7:7:boolean hasClassOrMemberAnnotations():533 -> d1
     1:1:com.android.tools.r8.graph.DexTypeList lambda$specify$2(com.android.tools.r8.graph.DexProgramClass):126:126 -> e
     2:2:void forEachProgramMethodMatching(java.util.function.Predicate,java.util.function.Consumer):156:156 -> e
     3:3:com.android.tools.r8.graph.ProgramMethod lambda$directProgramMethods$13(com.android.tools.r8.graph.DexEncodedMethod):169:169 -> e
-    1:1:boolean hasMethods():523:523 -> e1
-    1:1:boolean hasMethodsOrFields():527 -> e1
-    2:2:boolean hasFields():519:519 -> e1
-    2:2:boolean hasMethodsOrFields():527 -> e1
+    1:1:boolean hasFields():519:519 -> e1
     boolean isProgramClass() -> f
     1:1:com.android.tools.r8.graph.ClassAccessFlags lambda$specify$3(com.android.tools.r8.graph.DexProgramClass):127:127 -> f
     2:2:com.android.tools.r8.graph.ProgramMethod lambda$virtualProgramMethods$14(com.android.tools.r8.graph.DexEncodedMethod):173:173 -> f
     3:3:void forEachProgramDirectMethod(java.util.function.Consumer):186:186 -> f
     4:4:void forEachProgramVirtualMethodMatching(java.util.function.Predicate,java.util.function.Consumer):211:211 -> f
     5:5:com.android.tools.r8.graph.ProgramMethod lookupProgramMethod(com.android.tools.r8.graph.DexMethod):243:243 -> f
-    1:1:boolean hasOnlyInternalizableAnnotations():539:539 -> f1
-    2:3:boolean hasAnnotations(com.android.tools.r8.graph.MethodCollection):551:552 -> f1
-    2:3:boolean hasOnlyInternalizableAnnotations():539 -> f1
-    4:6:boolean hasOnlyInternalizableAnnotations():539:541 -> f1
-    7:7:boolean hasAnnotations(com.android.tools.r8.graph.MethodCollection):553:553 -> f1
-    7:7:boolean hasOnlyInternalizableAnnotations():539 -> f1
+    1:1:boolean hasMethods():523:523 -> f1
+    1:1:boolean hasMethodsOrFields():527 -> f1
+    2:2:boolean hasFields():519:519 -> f1
+    2:2:boolean hasMethodsOrFields():527 -> f1
     com.android.tools.r8.graph.DexDefinition getDefinition() -> g
     1:1:com.android.tools.r8.graph.DexString lambda$specify$4(com.android.tools.r8.graph.DexProgramClass):128:128 -> g
     2:2:void forEachProgramField(java.util.function.Consumer):142:142 -> g
     3:3:com.android.tools.r8.graph.ProgramMethod toProgramMethodOrNull(com.android.tools.r8.graph.DexEncodedMethod):255:255 -> g
-    1:1:boolean isDeprecated():700:700 -> g1
+    1:1:boolean hasOnlyInternalizableAnnotations():539:539 -> g1
+    2:3:boolean hasAnnotations(com.android.tools.r8.graph.MethodCollection):551:552 -> g1
+    2:3:boolean hasOnlyInternalizableAnnotations():539 -> g1
+    4:6:boolean hasOnlyInternalizableAnnotations():539:541 -> g1
+    7:7:boolean hasAnnotations(com.android.tools.r8.graph.MethodCollection):553:553 -> g1
+    7:7:boolean hasOnlyInternalizableAnnotations():539 -> g1
     1:1:com.android.tools.r8.cf.CfVersion lambda$specify$5(com.android.tools.r8.graph.DexProgramClass):129:129 -> h
     2:2:void forEachProgramMethod(java.util.function.Consumer):151:151 -> h
-    1:1:boolean originatesFromClassResource():303:303 -> h1
+    1:1:boolean isDeprecated():700:700 -> h1
     1:1:boolean lambda$specify$6(com.android.tools.r8.graph.DexProgramClass):130:130 -> i
     2:2:void forEachProgramVirtualMethod(java.util.function.Consumer):206:206 -> i
-    1:1:boolean originatesFromDexResource():299:299 -> i1
+    1:1:boolean originatesFromClassResource():303:303 -> i1
     1:1:boolean lambda$specify$7(com.android.tools.r8.graph.DexProgramClass):135:135 -> j
-    1:1:java.lang.Iterable programInstanceInitializers():182:182 -> j1
+    1:1:boolean originatesFromDexResource():299:299 -> j1
     1:1:com.android.tools.r8.utils.structural.StructuralMapping getStructuralMapping():120:120 -> k
     2:2:com.android.tools.r8.graph.DexEncodedField[] lambda$specify$8(com.android.tools.r8.graph.DexProgramClass):136:136 -> k
     3:3:java.lang.Iterable directProgramMethods(java.util.function.Predicate):169:169 -> k
-    1:1:void setDeprecated():696:696 -> k1
+    1:1:java.lang.Iterable programInstanceInitializers():182:182 -> k1
     1:1:com.android.tools.r8.graph.DexEncodedField[] lambda$specify$9(com.android.tools.r8.graph.DexProgramClass):137:137 -> l
-    1:1:java.lang.Iterable virtualProgramMethods():173:173 -> l1
+    1:1:void setDeprecated():696:696 -> l1
+    1:1:java.lang.Iterable virtualProgramMethods():173:173 -> m1
     1:1:com.android.tools.r8.graph.DexType getContextType():668:668 -> n
     com.android.tools.r8.utils.structural.StructuralItem self() -> o
     com.android.tools.r8.graph.Definition getContext() -> s
@@ -24048,7 +24054,16 @@ com.android.tools.r8.graph.MethodCollection -> com.android.tools.r8.internal.ir:
     10:10:void com.android.tools.r8.graph.MethodCollection.resetDirectMethodCaches():44 -> d
     10:10:com.android.tools.r8.graph.DexEncodedMethod removeMethod(com.android.tools.r8.graph.DexMethod):274 -> d
     11:11:com.android.tools.r8.graph.DexEncodedMethod removeMethod(com.android.tools.r8.graph.DexMethod):276:276 -> d
-    12:14:com.android.tools.r8.utils.TraversalContinuation lambda$hasAnnotations$4(com.android.tools.r8.graph.DexEncodedMethod):324:326 -> d
+    12:12:boolean com.android.tools.r8.graph.DexEncodedMethod.hasAnyAnnotations():895:895 -> d
+    12:12:com.android.tools.r8.utils.TraversalContinuation lambda$hasAnnotations$4(com.android.tools.r8.graph.DexEncodedMethod):324 -> d
+    13:13:com.android.tools.r8.graph.ParameterAnnotationsList com.android.tools.r8.graph.DexEncodedMethod.getParameterAnnotations():899:899 -> d
+    13:13:boolean com.android.tools.r8.graph.DexEncodedMethod.hasParameterAnnotations():907 -> d
+    13:13:boolean com.android.tools.r8.graph.DexEncodedMethod.hasAnyAnnotations():895 -> d
+    13:13:com.android.tools.r8.utils.TraversalContinuation lambda$hasAnnotations$4(com.android.tools.r8.graph.DexEncodedMethod):324 -> d
+    14:14:boolean com.android.tools.r8.graph.DexEncodedMethod.hasParameterAnnotations():907:907 -> d
+    14:14:boolean com.android.tools.r8.graph.DexEncodedMethod.hasAnyAnnotations():895 -> d
+    14:14:com.android.tools.r8.utils.TraversalContinuation lambda$hasAnnotations$4(com.android.tools.r8.graph.DexEncodedMethod):324 -> d
+    15:16:com.android.tools.r8.utils.TraversalContinuation lambda$hasAnnotations$4(com.android.tools.r8.graph.DexEncodedMethod):325:326 -> d
     1:1:boolean hasVirtualMethods(java.util.function.Predicate):68:68 -> e
     2:3:com.android.tools.r8.graph.DexEncodedMethod getClassInitializer():182:183 -> e
     4:4:java.lang.Iterable com.android.tools.r8.graph.MethodCollection.directMethods():145:145 -> e
@@ -26099,10 +26114,10 @@ com.android.tools.r8.horizontalclassmerging.VirtualMethodMerger -> com.android.t
     48:48:boolean lambda$isNop$6(com.android.tools.r8.graph.ProgramMethod):160:160 -> a
     49:83:void mergeTrivial(com.android.tools.r8.horizontalclassmerging.ClassMethodsBuilder,com.android.tools.r8.horizontalclassmerging.HorizontalClassMergerGraphLens$Builder):190:224 -> a
     84:84:void lambda$mergeTrivial$9(com.android.tools.r8.utils.OptionalBool,com.android.tools.r8.graph.DexEncodedMethod$Builder):219:219 -> a
-    85:85:com.android.tools.r8.graph.DexEncodedMethod$Builder com.android.tools.r8.graph.DexEncodedMethod$Builder.setIsLibraryMethodOverrideIfKnown(com.android.tools.r8.utils.OptionalBool):1645:1645 -> a
+    85:85:com.android.tools.r8.graph.DexEncodedMethod$Builder com.android.tools.r8.graph.DexEncodedMethod$Builder.setIsLibraryMethodOverrideIfKnown(com.android.tools.r8.utils.OptionalBool):1649:1649 -> a
     85:85:void lambda$mergeTrivial$9(com.android.tools.r8.utils.OptionalBool,com.android.tools.r8.graph.DexEncodedMethod$Builder):219 -> a
-    86:86:com.android.tools.r8.graph.DexEncodedMethod$Builder com.android.tools.r8.graph.DexEncodedMethod$Builder.setIsLibraryMethodOverrideIf(boolean,com.android.tools.r8.utils.OptionalBool):1638:1638 -> a
-    86:86:com.android.tools.r8.graph.DexEncodedMethod$Builder com.android.tools.r8.graph.DexEncodedMethod$Builder.setIsLibraryMethodOverrideIfKnown(com.android.tools.r8.utils.OptionalBool):1644 -> a
+    86:86:com.android.tools.r8.graph.DexEncodedMethod$Builder com.android.tools.r8.graph.DexEncodedMethod$Builder.setIsLibraryMethodOverrideIf(boolean,com.android.tools.r8.utils.OptionalBool):1642:1642 -> a
+    86:86:com.android.tools.r8.graph.DexEncodedMethod$Builder com.android.tools.r8.graph.DexEncodedMethod$Builder.setIsLibraryMethodOverrideIfKnown(com.android.tools.r8.utils.OptionalBool):1648 -> a
     86:86:void lambda$mergeTrivial$9(com.android.tools.r8.utils.OptionalBool,com.android.tools.r8.graph.DexEncodedMethod$Builder):219 -> a
     87:87:void merge(com.android.tools.r8.horizontalclassmerging.ClassMethodsBuilder,com.android.tools.r8.horizontalclassmerging.HorizontalClassMergerGraphLens$Builder,com.android.tools.r8.it.unimi.dsi.fastutil.objects.Reference2IntMap):231:231 -> a
     88:88:boolean com.android.tools.r8.horizontalclassmerging.VirtualMethodMerger.isNopOrTrivial():181:181 -> a
@@ -26465,16 +26480,19 @@ com.android.tools.r8.horizontalclassmerging.policies.PreventMethodImplementation
     2:3:com.android.tools.r8.utils.collections.DexMethodSignatureSet lambda$getOrComputeSignatures$0(com.android.tools.r8.graph.DexClass,com.android.tools.r8.graph.DexClass):75:76 -> a
 com.android.tools.r8.horizontalclassmerging.policies.RespectPackageBoundaries -> com.android.tools.r8.internal.cB:
     com.android.tools.r8.graph.AppView appView -> c
-    1:2:void <init>(com.android.tools.r8.graph.AppView):24:25 -> <init>
-    1:6:com.android.tools.r8.utils.TraversalContinuation lambda$shouldRestrictMergingAcrossPackageBoundary$0(com.android.tools.r8.shaking.VerticalClassMerger$IllegalAccessDetector,com.android.tools.r8.graph.ProgramMethod):48:53 -> a
-    7:7:void tryFindRestrictedPackage(com.android.tools.r8.horizontalclassmerging.MergeGroup,java.util.Map):61:61 -> a
-    8:10:boolean lambda$tryFindRestrictedPackage$1(java.util.Map,com.android.tools.r8.graph.DexProgramClass):63:65 -> a
-    11:34:java.util.Collection apply(com.android.tools.r8.horizontalclassmerging.MergeGroup):74:97 -> a
-    35:35:com.android.tools.r8.horizontalclassmerging.MergeGroup lambda$apply$2(java.lang.String):81:81 -> a
+    1:2:void <init>(com.android.tools.r8.graph.AppView):28:29 -> <init>
+    1:6:com.android.tools.r8.utils.TraversalContinuation lambda$shouldRestrictMergingAcrossPackageBoundary$0(com.android.tools.r8.shaking.VerticalClassMerger$IllegalAccessDetector,com.android.tools.r8.graph.ProgramMethod):72:77 -> a
+    7:7:void tryFindRestrictedPackage(com.android.tools.r8.horizontalclassmerging.MergeGroup,java.util.Map):85:85 -> a
+    8:10:boolean lambda$tryFindRestrictedPackage$1(java.util.Map,com.android.tools.r8.graph.DexProgramClass):87:89 -> a
+    11:34:java.util.Collection apply(com.android.tools.r8.horizontalclassmerging.MergeGroup):98:121 -> a
+    35:35:com.android.tools.r8.horizontalclassmerging.MergeGroup lambda$apply$2(java.lang.String):105:105 -> a
     36:36:boolean com.android.tools.r8.graph.DexClass.isPublic():669:669 -> a
-    36:36:boolean shouldRestrictMergingAcrossPackageBoundary(com.android.tools.r8.graph.DexProgramClass):30 -> a
-    37:57:boolean shouldRestrictMergingAcrossPackageBoundary(com.android.tools.r8.graph.DexProgramClass):35:55 -> a
-    1:1:java.lang.String getName():103:103 -> b
+    36:36:boolean shouldRestrictMergingAcrossPackageBoundary(com.android.tools.r8.graph.DexProgramClass):34 -> a
+    37:45:boolean shouldRestrictMergingAcrossPackageBoundary(com.android.tools.r8.graph.DexProgramClass):43:51 -> a
+    46:46:boolean com.android.tools.r8.graph.DexClass.isPublic():669:669 -> a
+    46:46:boolean shouldRestrictMergingAcrossPackageBoundary(com.android.tools.r8.graph.DexProgramClass):52 -> a
+    47:67:boolean shouldRestrictMergingAcrossPackageBoundary(com.android.tools.r8.graph.DexProgramClass):59:79 -> a
+    1:1:java.lang.String getName():127:127 -> b
 com.android.tools.r8.horizontalclassmerging.policies.SameFeatureSplit -> com.android.tools.r8.internal.NB:
     com.android.tools.r8.graph.AppView appView -> c
     1:2:void <init>(com.android.tools.r8.graph.AppView):16:17 -> <init>
@@ -37594,12 +37612,12 @@ com.android.tools.r8.ir.conversion.IRConverter -> com.android.tools.r8.ir.conver
     912:918:void finalizeToDex(com.android.tools.r8.ir.code.IRCode,com.android.tools.r8.ir.optimize.info.OptimizationFeedback,com.android.tools.r8.utils.Timing):1705:1711 -> a
     912:918:void finalizeIR(com.android.tools.r8.ir.code.IRCode,com.android.tools.r8.ir.optimize.info.OptimizationFeedback,com.android.tools.r8.utils.Timing):1672 -> a
     919:920:void finalizeEmptyThrowingCode(com.android.tools.r8.graph.DexEncodedMethod,com.android.tools.r8.ir.optimize.info.OptimizationFeedback):1677:1678 -> a
-    921:921:com.android.tools.r8.graph.Code com.android.tools.r8.graph.DexEncodedMethod.buildEmptyThrowingCode(com.android.tools.r8.utils.InternalOptions):996:996 -> a
+    921:921:com.android.tools.r8.graph.Code com.android.tools.r8.graph.DexEncodedMethod.buildEmptyThrowingCode(com.android.tools.r8.utils.InternalOptions):1005:1005 -> a
     921:921:void finalizeEmptyThrowingCode(com.android.tools.r8.graph.DexEncodedMethod,com.android.tools.r8.ir.optimize.info.OptimizationFeedback):1678 -> a
-    922:922:com.android.tools.r8.graph.CfCode com.android.tools.r8.graph.DexEncodedMethod.buildEmptyThrowingCfCode():1002:1002 -> a
-    922:922:com.android.tools.r8.graph.Code com.android.tools.r8.graph.DexEncodedMethod.buildEmptyThrowingCode(com.android.tools.r8.utils.InternalOptions):997 -> a
+    922:922:com.android.tools.r8.graph.CfCode com.android.tools.r8.graph.DexEncodedMethod.buildEmptyThrowingCfCode():1011:1011 -> a
+    922:922:com.android.tools.r8.graph.Code com.android.tools.r8.graph.DexEncodedMethod.buildEmptyThrowingCode(com.android.tools.r8.utils.InternalOptions):1006 -> a
     922:922:void finalizeEmptyThrowingCode(com.android.tools.r8.graph.DexEncodedMethod,com.android.tools.r8.ir.optimize.info.OptimizationFeedback):1678 -> a
-    923:923:com.android.tools.r8.graph.Code com.android.tools.r8.graph.DexEncodedMethod.buildEmptyThrowingCode(com.android.tools.r8.utils.InternalOptions):998:998 -> a
+    923:923:com.android.tools.r8.graph.Code com.android.tools.r8.graph.DexEncodedMethod.buildEmptyThrowingCode(com.android.tools.r8.utils.InternalOptions):1007:1007 -> a
     923:923:void finalizeEmptyThrowingCode(com.android.tools.r8.graph.DexEncodedMethod,com.android.tools.r8.ir.optimize.info.OptimizationFeedback):1678 -> a
     924:925:void finalizeEmptyThrowingCode(com.android.tools.r8.graph.DexEncodedMethod,com.android.tools.r8.ir.optimize.info.OptimizationFeedback):1679:1680 -> a
     926:926:void markProcessed(com.android.tools.r8.ir.code.IRCode,com.android.tools.r8.ir.optimize.info.OptimizationFeedback):1716:1716 -> a
@@ -38465,30 +38483,30 @@ com.android.tools.r8.ir.desugar.BackportedMethodRewriter -> com.android.tools.r8
     93:93:com.android.tools.r8.ir.desugar.BackportedMethodRewriter$MethodProvider getMethodProviderOrNull(com.android.tools.r8.graph.DexMethod):133 -> a
     94:108:com.android.tools.r8.ir.desugar.BackportedMethodRewriter$MethodProvider getMethodProviderOrNull(com.android.tools.r8.graph.DexMethod):133:147 -> a
 com.android.tools.r8.ir.desugar.BackportedMethodRewriter$FullMethodInvokeRewriter -> com.android.tools.r8.internal.a2$a:
-    1:1:void <init>():1497:1497 -> <init>
-    1:1:com.android.tools.r8.cf.code.CfInstruction rewriteSingle(com.android.tools.r8.cf.code.CfInvoke,com.android.tools.r8.graph.DexItemFactory):1501:1501 -> a
+    1:1:void <init>():1499:1499 -> <init>
+    1:1:com.android.tools.r8.cf.code.CfInstruction rewriteSingle(com.android.tools.r8.cf.code.CfInvoke,com.android.tools.r8.graph.DexItemFactory):1503:1503 -> a
 com.android.tools.r8.ir.desugar.BackportedMethodRewriter$InvokeRewriter -> com.android.tools.r8.internal.a2$b:
     com.android.tools.r8.ir.desugar.BackportedMethodRewriter$MethodInvokeRewriter rewriter -> b
-    1:2:void <init>(com.android.tools.r8.graph.DexMethod,com.android.tools.r8.ir.desugar.BackportedMethodRewriter$MethodInvokeRewriter):1396:1397 -> <init>
-    1:1:java.util.Collection rewriteInvoke(com.android.tools.r8.cf.code.CfInvoke,com.android.tools.r8.graph.AppView,com.android.tools.r8.ir.desugar.backports.BackportedMethodDesugaringEventConsumer,com.android.tools.r8.contexts.CompilationContext$MethodProcessingContext,com.android.tools.r8.ir.desugar.LocalStackAllocator):1407:1407 -> a
+    1:2:void <init>(com.android.tools.r8.graph.DexMethod,com.android.tools.r8.ir.desugar.BackportedMethodRewriter$MethodInvokeRewriter):1398:1399 -> <init>
+    1:1:java.util.Collection rewriteInvoke(com.android.tools.r8.cf.code.CfInvoke,com.android.tools.r8.graph.AppView,com.android.tools.r8.ir.desugar.backports.BackportedMethodDesugaringEventConsumer,com.android.tools.r8.contexts.CompilationContext$MethodProcessingContext,com.android.tools.r8.ir.desugar.LocalStackAllocator):1409:1409 -> a
 com.android.tools.r8.ir.desugar.BackportedMethodRewriter$MethodGenerator -> com.android.tools.r8.internal.a2$c:
     com.android.tools.r8.ir.desugar.BackportedMethodRewriter$TemplateMethodFactory factory -> b
-    1:1:void <init>(com.android.tools.r8.graph.DexMethod,com.android.tools.r8.ir.desugar.BackportedMethodRewriter$TemplateMethodFactory):1417:1417 -> <init>
-    2:3:void <init>(com.android.tools.r8.graph.DexMethod,com.android.tools.r8.ir.desugar.BackportedMethodRewriter$TemplateMethodFactory,java.lang.String):1421:1422 -> <init>
-    1:3:java.util.Collection rewriteInvoke(com.android.tools.r8.cf.code.CfInvoke,com.android.tools.r8.graph.AppView,com.android.tools.r8.ir.desugar.backports.BackportedMethodDesugaringEventConsumer,com.android.tools.r8.contexts.CompilationContext$MethodProcessingContext,com.android.tools.r8.ir.desugar.LocalStackAllocator):1433:1435 -> a
-    4:7:com.android.tools.r8.graph.ProgramMethod getSyntheticMethod(com.android.tools.r8.graph.AppView,com.android.tools.r8.contexts.CompilationContext$MethodProcessingContext):1441:1444 -> a
-    8:8:com.android.tools.r8.graph.ProgramMethod getSyntheticMethod(com.android.tools.r8.graph.AppView,com.android.tools.r8.contexts.CompilationContext$MethodProcessingContext):1442:1442 -> a
-    9:11:void lambda$getSyntheticMethod$1(com.android.tools.r8.graph.AppView,com.android.tools.r8.synthesis.SyntheticMethodBuilder):1448:1450 -> a
-    12:12:com.android.tools.r8.graph.Code lambda$getSyntheticMethod$0(com.android.tools.r8.graph.AppView,com.android.tools.r8.graph.DexMethod):1450:1450 -> a
-    13:13:com.android.tools.r8.graph.Code com.android.tools.r8.ir.desugar.BackportedMethodRewriter$MethodGenerator.generateTemplateMethod(com.android.tools.r8.utils.InternalOptions,com.android.tools.r8.graph.DexMethod):1458:1458 -> a
-    13:13:com.android.tools.r8.graph.Code lambda$getSyntheticMethod$0(com.android.tools.r8.graph.AppView,com.android.tools.r8.graph.DexMethod):1450 -> a
-    14:14:com.android.tools.r8.graph.DexProto getProto(com.android.tools.r8.graph.DexItemFactory):1454:1454 -> a
+    1:1:void <init>(com.android.tools.r8.graph.DexMethod,com.android.tools.r8.ir.desugar.BackportedMethodRewriter$TemplateMethodFactory):1419:1419 -> <init>
+    2:3:void <init>(com.android.tools.r8.graph.DexMethod,com.android.tools.r8.ir.desugar.BackportedMethodRewriter$TemplateMethodFactory,java.lang.String):1423:1424 -> <init>
+    1:3:java.util.Collection rewriteInvoke(com.android.tools.r8.cf.code.CfInvoke,com.android.tools.r8.graph.AppView,com.android.tools.r8.ir.desugar.backports.BackportedMethodDesugaringEventConsumer,com.android.tools.r8.contexts.CompilationContext$MethodProcessingContext,com.android.tools.r8.ir.desugar.LocalStackAllocator):1435:1437 -> a
+    4:7:com.android.tools.r8.graph.ProgramMethod getSyntheticMethod(com.android.tools.r8.graph.AppView,com.android.tools.r8.contexts.CompilationContext$MethodProcessingContext):1443:1446 -> a
+    8:8:com.android.tools.r8.graph.ProgramMethod getSyntheticMethod(com.android.tools.r8.graph.AppView,com.android.tools.r8.contexts.CompilationContext$MethodProcessingContext):1444:1444 -> a
+    9:11:void lambda$getSyntheticMethod$1(com.android.tools.r8.graph.AppView,com.android.tools.r8.synthesis.SyntheticMethodBuilder):1450:1452 -> a
+    12:12:com.android.tools.r8.graph.Code lambda$getSyntheticMethod$0(com.android.tools.r8.graph.AppView,com.android.tools.r8.graph.DexMethod):1452:1452 -> a
+    13:13:com.android.tools.r8.graph.Code com.android.tools.r8.ir.desugar.BackportedMethodRewriter$MethodGenerator.generateTemplateMethod(com.android.tools.r8.utils.InternalOptions,com.android.tools.r8.graph.DexMethod):1460:1460 -> a
+    13:13:com.android.tools.r8.graph.Code lambda$getSyntheticMethod$0(com.android.tools.r8.graph.AppView,com.android.tools.r8.graph.DexMethod):1452 -> a
+    14:14:com.android.tools.r8.graph.DexProto getProto(com.android.tools.r8.graph.DexItemFactory):1456:1456 -> a
 com.android.tools.r8.ir.desugar.BackportedMethodRewriter$MethodInvokeRewriter -> com.android.tools.r8.internal.a2$d:
     com.android.tools.r8.cf.code.CfInstruction rewriteSingle(com.android.tools.r8.cf.code.CfInvoke,com.android.tools.r8.graph.DexItemFactory) -> a
-    1:1:java.util.Collection rewrite(com.android.tools.r8.cf.code.CfInvoke,com.android.tools.r8.graph.DexItemFactory,com.android.tools.r8.ir.desugar.LocalStackAllocator):1493:1493 -> a
+    1:1:java.util.Collection rewrite(com.android.tools.r8.cf.code.CfInvoke,com.android.tools.r8.graph.DexItemFactory,com.android.tools.r8.ir.desugar.LocalStackAllocator):1495:1495 -> a
 com.android.tools.r8.ir.desugar.BackportedMethodRewriter$MethodProvider -> com.android.tools.r8.internal.a2$e:
     com.android.tools.r8.graph.DexMethod method -> a
-    1:2:void <init>(com.android.tools.r8.graph.DexMethod):1379:1380 -> <init>
+    1:2:void <init>(com.android.tools.r8.graph.DexMethod):1381:1382 -> <init>
     java.util.Collection rewriteInvoke(com.android.tools.r8.cf.code.CfInvoke,com.android.tools.r8.graph.AppView,com.android.tools.r8.ir.desugar.backports.BackportedMethodDesugaringEventConsumer,com.android.tools.r8.contexts.CompilationContext$MethodProcessingContext,com.android.tools.r8.ir.desugar.LocalStackAllocator) -> a
 com.android.tools.r8.ir.desugar.BackportedMethodRewriter$RewritableMethods -> com.android.tools.r8.internal.a2$f:
     java.util.Map rewritable -> b
@@ -38501,8 +38519,8 @@ com.android.tools.r8.ir.desugar.BackportedMethodRewriter$RewritableMethods -> co
     2:2:void visit(java.util.function.Consumer):210:210 -> a
     3:133:void initializeAndroidKMethodProviders(com.android.tools.r8.graph.DexItemFactory):215:345 -> a
     134:134:com.android.tools.r8.graph.CfCode lambda$initializeAndroidRMethodProviders$0(int,com.android.tools.r8.utils.InternalOptions,com.android.tools.r8.graph.DexMethod):915:915 -> a
-    135:156:void addProvider(com.android.tools.r8.ir.desugar.BackportedMethodRewriter$MethodProvider):1346:1367 -> a
-    157:157:com.android.tools.r8.ir.desugar.BackportedMethodRewriter$MethodProvider getProvider(com.android.tools.r8.graph.DexMethod):1371:1371 -> a
+    135:156:void addProvider(com.android.tools.r8.ir.desugar.BackportedMethodRewriter$MethodProvider):1348:1369 -> a
+    157:157:com.android.tools.r8.ir.desugar.BackportedMethodRewriter$MethodProvider getProvider(com.android.tools.r8.graph.DexMethod):1373:1373 -> a
     1:338:void initializeAndroidNMethodProviders(com.android.tools.r8.graph.DexItemFactory):351:688 -> b
     339:339:com.android.tools.r8.graph.CfCode lambda$initializeAndroidRMethodProviders$1(int,com.android.tools.r8.utils.InternalOptions,com.android.tools.r8.graph.DexMethod):936:936 -> b
     1:6:com.android.tools.r8.graph.CfCode com.android.tools.r8.ir.desugar.backports.CollectionMethodGenerators.generateMapOf(com.android.tools.r8.utils.InternalOptions,com.android.tools.r8.graph.DexMethod,int):74:79 -> c
@@ -38518,30 +38536,29 @@ com.android.tools.r8.ir.desugar.BackportedMethodRewriter$RewritableMethods -> co
     49:73:void initializeAndroidRMethodProviders(com.android.tools.r8.graph.DexItemFactory):909:933 -> d
     74:97:void initializeAndroidRMethodProviders(com.android.tools.r8.graph.DexItemFactory):930:953 -> d
     98:116:void initializeAndroidRMethodProviders(com.android.tools.r8.graph.DexItemFactory):950:968 -> d
-    1:88:void initializeAndroidSMethodProviders(com.android.tools.r8.graph.DexItemFactory):978:1065 -> e
-    89:89:void initializeAndroidSMethodProviders(com.android.tools.r8.graph.DexItemFactory):1063:1063 -> e
-    1:7:void initializeJava10MethodProviders(com.android.tools.r8.graph.DexItemFactory):1134:1140 -> f
-    1:23:void initializeJava10OptionalMethodProviders(com.android.tools.r8.graph.DexItemFactory):1281:1303 -> g
-    1:61:void initializeJava11MethodProviders(com.android.tools.r8.graph.DexItemFactory):1147:1207 -> h
-    1:20:void initializeJava11OptionalMethodProviders(com.android.tools.r8.graph.DexItemFactory):1309:1328 -> i
-    1:13:void initializeJava9MethodProviders(com.android.tools.r8.graph.DexItemFactory):1070:1082 -> j
-    14:14:boolean com.android.tools.r8.utils.InternalOptions.canParseNumbersWithPlusPrefix():1963:1963 -> j
-    14:14:void initializeJava9MethodProviders(com.android.tools.r8.graph.DexItemFactory):1082 -> j
-    15:19:void initializeJava9MethodProviders(com.android.tools.r8.graph.DexItemFactory):1083:1087 -> j
-    20:44:void initializeJava9MethodProviders(com.android.tools.r8.graph.DexItemFactory):1081:1105 -> j
-    45:45:boolean com.android.tools.r8.utils.InternalOptions.canParseNumbersWithPlusPrefix():1963:1963 -> j
-    45:45:void initializeJava9MethodProviders(com.android.tools.r8.graph.DexItemFactory):1105 -> j
-    46:50:void initializeJava9MethodProviders(com.android.tools.r8.graph.DexItemFactory):1106:1110 -> j
-    51:72:void initializeJava9MethodProviders(com.android.tools.r8.graph.DexItemFactory):1104:1125 -> j
-    1:61:void initializeJava9OptionalMethodProviders(com.android.tools.r8.graph.DexItemFactory):1214:1274 -> k
-    1:7:void initializeStreamMethodProviders(com.android.tools.r8.graph.DexItemFactory):1335:1341 -> l
+    1:99:void initializeAndroidSMethodProviders(com.android.tools.r8.graph.DexItemFactory):978:1076 -> e
+    100:100:void initializeAndroidSMethodProviders(com.android.tools.r8.graph.DexItemFactory):1074:1074 -> e
+    1:23:void initializeJava10OptionalMethodProviders(com.android.tools.r8.graph.DexItemFactory):1283:1305 -> f
+    1:61:void initializeJava11MethodProviders(com.android.tools.r8.graph.DexItemFactory):1149:1209 -> g
+    1:20:void initializeJava11OptionalMethodProviders(com.android.tools.r8.graph.DexItemFactory):1311:1330 -> h
+    1:13:void initializeJava9MethodProviders(com.android.tools.r8.graph.DexItemFactory):1081:1093 -> i
+    14:14:boolean com.android.tools.r8.utils.InternalOptions.canParseNumbersWithPlusPrefix():1963:1963 -> i
+    14:14:void initializeJava9MethodProviders(com.android.tools.r8.graph.DexItemFactory):1093 -> i
+    15:19:void initializeJava9MethodProviders(com.android.tools.r8.graph.DexItemFactory):1094:1098 -> i
+    20:44:void initializeJava9MethodProviders(com.android.tools.r8.graph.DexItemFactory):1092:1116 -> i
+    45:45:boolean com.android.tools.r8.utils.InternalOptions.canParseNumbersWithPlusPrefix():1963:1963 -> i
+    45:45:void initializeJava9MethodProviders(com.android.tools.r8.graph.DexItemFactory):1116 -> i
+    46:50:void initializeJava9MethodProviders(com.android.tools.r8.graph.DexItemFactory):1117:1121 -> i
+    51:72:void initializeJava9MethodProviders(com.android.tools.r8.graph.DexItemFactory):1115:1136 -> i
+    1:61:void initializeJava9OptionalMethodProviders(com.android.tools.r8.graph.DexItemFactory):1216:1276 -> j
+    1:7:void initializeStreamMethodProviders(com.android.tools.r8.graph.DexItemFactory):1337:1343 -> k
 com.android.tools.r8.ir.desugar.BackportedMethodRewriter$StatifyingMethodGenerator -> com.android.tools.r8.internal.a2$g:
     com.android.tools.r8.graph.DexType receiverType -> c
-    1:2:void <init>(com.android.tools.r8.graph.DexMethod,com.android.tools.r8.ir.desugar.BackportedMethodRewriter$TemplateMethodFactory,java.lang.String,com.android.tools.r8.graph.DexType):1471:1472 -> <init>
-    1:1:com.android.tools.r8.graph.DexProto getProto(com.android.tools.r8.graph.DexItemFactory):1477:1477 -> a
-    2:2:com.android.tools.r8.graph.DexProto com.android.tools.r8.ir.desugar.BackportedMethodRewriter$MethodGenerator.getProto(com.android.tools.r8.graph.DexItemFactory):1454:1454 -> a
-    2:2:com.android.tools.r8.graph.DexProto getProto(com.android.tools.r8.graph.DexItemFactory):1477 -> a
-    3:3:com.android.tools.r8.graph.DexProto getProto(com.android.tools.r8.graph.DexItemFactory):1477:1477 -> a
+    1:2:void <init>(com.android.tools.r8.graph.DexMethod,com.android.tools.r8.ir.desugar.BackportedMethodRewriter$TemplateMethodFactory,java.lang.String,com.android.tools.r8.graph.DexType):1473:1474 -> <init>
+    1:1:com.android.tools.r8.graph.DexProto getProto(com.android.tools.r8.graph.DexItemFactory):1479:1479 -> a
+    2:2:com.android.tools.r8.graph.DexProto com.android.tools.r8.ir.desugar.BackportedMethodRewriter$MethodGenerator.getProto(com.android.tools.r8.graph.DexItemFactory):1456:1456 -> a
+    2:2:com.android.tools.r8.graph.DexProto getProto(com.android.tools.r8.graph.DexItemFactory):1479 -> a
+    3:3:com.android.tools.r8.graph.DexProto getProto(com.android.tools.r8.graph.DexItemFactory):1479:1479 -> a
 com.android.tools.r8.ir.desugar.BackportedMethodRewriter$TemplateMethodFactory -> com.android.tools.r8.internal.a2$h:
     com.android.tools.r8.graph.CfCode create(com.android.tools.r8.utils.InternalOptions,com.android.tools.r8.graph.DexMethod) -> a
 com.android.tools.r8.ir.desugar.BufferCovariantReturnTypeRewriter -> com.android.tools.r8.internal.t3:
@@ -39831,7 +39848,7 @@ com.android.tools.r8.ir.desugar.NonEmptyCfInstructionDesugaringCollection -> com
     4:11:void ensureCfCode(com.android.tools.r8.graph.ProgramMethod):88:95 -> b
     12:12:com.android.tools.r8.position.MethodPosition com.android.tools.r8.graph.ProgramMethod.getPosition():109:109 -> b
     12:12:void ensureCfCode(com.android.tools.r8.graph.ProgramMethod):96 -> b
-    13:13:com.android.tools.r8.position.MethodPosition com.android.tools.r8.graph.DexEncodedMethod.getPosition():1446:1446 -> b
+    13:13:com.android.tools.r8.position.MethodPosition com.android.tools.r8.graph.DexEncodedMethod.getPosition():1455:1455 -> b
     13:13:com.android.tools.r8.position.MethodPosition com.android.tools.r8.graph.ProgramMethod.getPosition():109 -> b
     13:13:void ensureCfCode(com.android.tools.r8.graph.ProgramMethod):96 -> b
     14:14:void ensureCfCode(com.android.tools.r8.graph.ProgramMethod):96:96 -> b
@@ -47804,14 +47821,14 @@ com.android.tools.r8.ir.optimize.enums.EnumUnboxingTreeFixer -> com.android.tool
     39:39:void lambda$fixupTypeReferences$1(com.android.tools.r8.graph.DexProgramClass,java.util.Set,com.android.tools.r8.graph.DexEncodedMethod):65:65 -> a
     40:40:void com.android.tools.r8.ir.optimize.enums.EnumUnboxingTreeFixer.clearEnumToUnboxMethod(com.android.tools.r8.graph.DexEncodedMethod):101:101 -> a
     40:40:void lambda$fixupTypeReferences$1(com.android.tools.r8.graph.DexProgramClass,java.util.Set,com.android.tools.r8.graph.DexEncodedMethod):66 -> a
-    41:41:com.android.tools.r8.graph.Code com.android.tools.r8.graph.DexEncodedMethod.buildEmptyThrowingCode(com.android.tools.r8.utils.InternalOptions):996:996 -> a
+    41:41:com.android.tools.r8.graph.Code com.android.tools.r8.graph.DexEncodedMethod.buildEmptyThrowingCode(com.android.tools.r8.utils.InternalOptions):1005:1005 -> a
     41:41:void com.android.tools.r8.ir.optimize.enums.EnumUnboxingTreeFixer.clearEnumToUnboxMethod(com.android.tools.r8.graph.DexEncodedMethod):101 -> a
     41:41:void lambda$fixupTypeReferences$1(com.android.tools.r8.graph.DexProgramClass,java.util.Set,com.android.tools.r8.graph.DexEncodedMethod):66 -> a
-    42:42:com.android.tools.r8.graph.CfCode com.android.tools.r8.graph.DexEncodedMethod.buildEmptyThrowingCfCode():1002:1002 -> a
-    42:42:com.android.tools.r8.graph.Code com.android.tools.r8.graph.DexEncodedMethod.buildEmptyThrowingCode(com.android.tools.r8.utils.InternalOptions):997 -> a
+    42:42:com.android.tools.r8.graph.CfCode com.android.tools.r8.graph.DexEncodedMethod.buildEmptyThrowingCfCode():1011:1011 -> a
+    42:42:com.android.tools.r8.graph.Code com.android.tools.r8.graph.DexEncodedMethod.buildEmptyThrowingCode(com.android.tools.r8.utils.InternalOptions):1006 -> a
     42:42:void com.android.tools.r8.ir.optimize.enums.EnumUnboxingTreeFixer.clearEnumToUnboxMethod(com.android.tools.r8.graph.DexEncodedMethod):101 -> a
     42:42:void lambda$fixupTypeReferences$1(com.android.tools.r8.graph.DexProgramClass,java.util.Set,com.android.tools.r8.graph.DexEncodedMethod):66 -> a
-    43:43:com.android.tools.r8.graph.Code com.android.tools.r8.graph.DexEncodedMethod.buildEmptyThrowingCode(com.android.tools.r8.utils.InternalOptions):998:998 -> a
+    43:43:com.android.tools.r8.graph.Code com.android.tools.r8.graph.DexEncodedMethod.buildEmptyThrowingCode(com.android.tools.r8.utils.InternalOptions):1007:1007 -> a
     43:43:void com.android.tools.r8.ir.optimize.enums.EnumUnboxingTreeFixer.clearEnumToUnboxMethod(com.android.tools.r8.graph.DexEncodedMethod):101 -> a
     43:43:void lambda$fixupTypeReferences$1(com.android.tools.r8.graph.DexProgramClass,java.util.Set,com.android.tools.r8.graph.DexEncodedMethod):66 -> a
     44:44:void com.android.tools.r8.ir.optimize.enums.EnumUnboxingTreeFixer.clearEnumToUnboxMethod(com.android.tools.r8.graph.DexEncodedMethod):101:101 -> a
@@ -47823,14 +47840,14 @@ com.android.tools.r8.ir.optimize.enums.EnumUnboxingTreeFixer -> com.android.tool
     70:70:void com.android.tools.r8.ir.optimize.enums.EnumUnboxingLens$Builder.move(com.android.tools.r8.graph.DexMethod,com.android.tools.r8.graph.DexMethod,boolean,boolean):87:87 -> a
     70:70:com.android.tools.r8.graph.DexEncodedMethod fixupEncodedMethodToUtility(com.android.tools.r8.graph.DexEncodedMethod,com.android.tools.r8.graph.DexType):117 -> a
     71:73:com.android.tools.r8.graph.DexEncodedMethod fixupEncodedMethodToUtility(com.android.tools.r8.graph.DexEncodedMethod,com.android.tools.r8.graph.DexType):118:120 -> a
-    74:74:void com.android.tools.r8.graph.DexEncodedMethod.clearParameterAnnotations():898:898 -> a
+    74:74:void com.android.tools.r8.graph.DexEncodedMethod.clearParameterAnnotations():903:903 -> a
     74:74:com.android.tools.r8.graph.DexEncodedMethod fixupEncodedMethodToUtility(com.android.tools.r8.graph.DexEncodedMethod,com.android.tools.r8.graph.DexType):121 -> a
     75:75:com.android.tools.r8.graph.DexEncodedMethod fixupEncodedMethodToUtility(com.android.tools.r8.graph.DexEncodedMethod,com.android.tools.r8.graph.DexType):122:122 -> a
     76:76:void lambda$fixupEncodedMethodToUtility$4(com.android.tools.r8.graph.DexEncodedMethod,com.android.tools.r8.graph.DexEncodedMethod$Builder):123:123 -> a
     77:93:com.android.tools.r8.graph.DexEncodedMethod fixupEncodedMethod(com.android.tools.r8.graph.DexProgramClass,com.android.tools.r8.graph.DexEncodedMethod):127:143 -> a
     94:96:com.android.tools.r8.graph.DexEncodedMethod fixupEncodedMethod(com.android.tools.r8.graph.DexProgramClass,com.android.tools.r8.graph.DexEncodedMethod):142:144 -> a
     97:99:void lambda$fixupEncodedMethod$5(com.android.tools.r8.graph.DexEncodedMethod,com.android.tools.r8.graph.DexProgramClass,com.android.tools.r8.graph.DexProto,com.android.tools.r8.graph.DexProto,com.android.tools.r8.graph.DexEncodedMethod$Builder):148:150 -> a
-    100:100:com.android.tools.r8.graph.DexEncodedMethod$Builder com.android.tools.r8.graph.DexEncodedMethod$Builder.setIsLibraryMethodOverrideIf(boolean,com.android.tools.r8.utils.OptionalBool):1638:1638 -> a
+    100:100:com.android.tools.r8.graph.DexEncodedMethod$Builder com.android.tools.r8.graph.DexEncodedMethod$Builder.setIsLibraryMethodOverrideIf(boolean,com.android.tools.r8.utils.OptionalBool):1642:1642 -> a
     100:100:void lambda$fixupEncodedMethod$5(com.android.tools.r8.graph.DexEncodedMethod,com.android.tools.r8.graph.DexProgramClass,com.android.tools.r8.graph.DexProto,com.android.tools.r8.graph.DexProto,com.android.tools.r8.graph.DexEncodedMethod$Builder):149 -> a
     101:101:com.android.tools.r8.ir.analysis.inlining.SimpleInliningConstraint com.android.tools.r8.ir.optimize.enums.EnumUnboxingTreeFixer.getRewrittenSimpleInliningConstraint(com.android.tools.r8.graph.DexEncodedMethod,com.android.tools.r8.graph.DexProto,com.android.tools.r8.graph.DexProto):157:157 -> a
     101:101:void lambda$fixupEncodedMethod$5(com.android.tools.r8.graph.DexEncodedMethod,com.android.tools.r8.graph.DexProgramClass,com.android.tools.r8.graph.DexProto,com.android.tools.r8.graph.DexProto,com.android.tools.r8.graph.DexEncodedMethod$Builder):152 -> a
@@ -72202,13 +72219,13 @@ com.android.tools.r8.repackaging.RepackagingConstraintGraph -> com.android.tools
     59:60:void registerReferencesFromMethod(com.android.tools.r8.graph.ProgramMethod):154 -> a
     61:65:void registerReferencesFromMethod(com.android.tools.r8.graph.ProgramMethod):157:161 -> a
     66:73:void registerReferencesFromMethod(com.android.tools.r8.graph.ProgramMethod):160:167 -> a
-    74:74:com.android.tools.r8.graph.ParameterAnnotationsList com.android.tools.r8.graph.DexEncodedMethod.getParameterAnnotations():894:894 -> a
+    74:74:com.android.tools.r8.graph.ParameterAnnotationsList com.android.tools.r8.graph.DexEncodedMethod.getParameterAnnotations():899:899 -> a
     74:74:void registerReferencesFromMethod(com.android.tools.r8.graph.ProgramMethod):168 -> a
     75:79:void registerReferencesFromMethod(com.android.tools.r8.graph.ProgramMethod):168:172 -> a
     80:93:java.util.Collection computeClassesToRepackage():177:190 -> a
     1:9:boolean initializeGraph():60:68 -> b
     10:10:com.android.tools.r8.repackaging.RepackagingConstraintGraph$Node getNode(com.android.tools.r8.graph.DexDefinition):82:82 -> b
-    11:15:boolean com.android.tools.r8.graph.DexDefinition.isNotProgramDefinition(com.android.tools.r8.graph.AppView):113:117 -> b
+    11:15:boolean com.android.tools.r8.graph.DexDefinition.isNotProgramDefinition(com.android.tools.r8.graph.AppView):118:122 -> b
     11:15:com.android.tools.r8.repackaging.RepackagingConstraintGraph$Node getNode(com.android.tools.r8.graph.DexDefinition):82 -> b
     16:22:com.android.tools.r8.repackaging.RepackagingConstraintGraph$Node getNode(com.android.tools.r8.graph.DexDefinition):83:89 -> b
 com.android.tools.r8.repackaging.RepackagingConstraintGraph$Node -> com.android.tools.r8.internal.NA:
@@ -75128,7 +75145,7 @@ com.android.tools.r8.shaking.Enqueuer -> com.android.tools.r8.shaking.r:
     45:48:void markReferencedTypesAsLive(com.android.tools.r8.graph.ProgramMethod):3919 -> g
     45:48:void traceMethodDefinitionExcludingCode(com.android.tools.r8.graph.ProgramMethod):3880 -> g
     49:51:void traceMethodDefinitionExcludingCode(com.android.tools.r8.graph.ProgramMethod):3881:3883 -> g
-    52:52:com.android.tools.r8.graph.ParameterAnnotationsList com.android.tools.r8.graph.DexEncodedMethod.getParameterAnnotations():894:894 -> g
+    52:52:com.android.tools.r8.graph.ParameterAnnotationsList com.android.tools.r8.graph.DexEncodedMethod.getParameterAnnotations():899:899 -> g
     52:52:void traceMethodDefinitionExcludingCode(com.android.tools.r8.graph.ProgramMethod):3884 -> g
     53:54:void traceMethodDefinitionExcludingCode(com.android.tools.r8.graph.ProgramMethod):3884:3885 -> g
     1:1:java.util.Set access$900(com.android.tools.r8.shaking.Enqueuer):179:179 -> h
@@ -81041,7 +81058,7 @@ com.android.tools.r8.synthesis.SyntheticMethodBuilder -> com.android.tools.r8.sy
     22:22:boolean com.android.tools.r8.graph.DexEncodedMethod.isPublic():488:488 -> a
     22:22:boolean isValidSyntheticMethod(com.android.tools.r8.graph.DexEncodedMethod):101 -> a
     23:23:boolean isValidSyntheticMethod(com.android.tools.r8.graph.DexEncodedMethod):102:102 -> a
-    24:24:com.android.tools.r8.graph.ParameterAnnotationsList com.android.tools.r8.graph.DexEncodedMethod.getParameterAnnotations():894:894 -> a
+    24:24:com.android.tools.r8.graph.ParameterAnnotationsList com.android.tools.r8.graph.DexEncodedMethod.getParameterAnnotations():899:899 -> a
     24:24:boolean isValidSyntheticMethod(com.android.tools.r8.graph.DexEncodedMethod):103 -> a
     25:25:boolean isValidSyntheticMethod(com.android.tools.r8.graph.DexEncodedMethod):103:103 -> a
 com.android.tools.r8.synthesis.SyntheticMethodBuilder$SyntheticCodeGenerator -> com.android.tools.r8.synthesis.u$a:
@@ -83799,7 +83816,7 @@ com.android.tools.r8.utils.LineNumberOptimizer -> com.android.tools.r8.utils.J:
     430:443:int getMethodStartLine(com.android.tools.r8.graph.DexEncodedMethod):530:543 -> a
     444:444:void sortMethods(java.util.List):552:552 -> a
     445:446:int lambda$sortMethods$8(com.android.tools.r8.graph.DexEncodedMethod,com.android.tools.r8.graph.DexEncodedMethod):554:555 -> a
-    447:447:int com.android.tools.r8.graph.DexEncodedMethod.slowCompare(com.android.tools.r8.graph.DexEncodedMethod,com.android.tools.r8.graph.DexEncodedMethod):1467:1467 -> a
+    447:447:int com.android.tools.r8.graph.DexEncodedMethod.slowCompare(com.android.tools.r8.graph.DexEncodedMethod,com.android.tools.r8.graph.DexEncodedMethod):1471:1471 -> a
     447:447:int lambda$sortMethods$8(com.android.tools.r8.graph.DexEncodedMethod,com.android.tools.r8.graph.DexEncodedMethod):558 -> a
     448:448:void addFieldsToClassNaming(com.android.tools.r8.graph.GraphLens,com.android.tools.r8.naming.NamingLens,com.android.tools.r8.graph.DexProgramClass,com.android.tools.r8.graph.DexType,java.util.function.Supplier):580:580 -> a
     449:456:void lambda$addFieldsToClassNaming$9(com.android.tools.r8.graph.GraphLens,com.android.tools.r8.naming.NamingLens,com.android.tools.r8.graph.DexType,java.util.function.Supplier,com.android.tools.r8.graph.DexEncodedField):582:589 -> a
