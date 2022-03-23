@@ -1,14 +1,14 @@
 # compiler: R8
-# compiler_version: 3.0.41-sc03
+# compiler_version: 3.0.41-sc04
 # compiler_hash: engineering
-# pg_map_id: 8114fc5
+# pg_map_id: 229fec2
 # common_typos_disable
 com.android.tools.r8.ApiLevelException -> com.android.tools.r8.internal.m1:
     boolean $assertionsDisabled -> c
     1:1:void <clinit>():10:10 -> <clinit>
     1:1:void <init>(com.android.tools.r8.utils.AndroidApiLevel,java.lang.String,java.lang.String):14:14 -> <init>
     1:4:java.lang.String makeMessage(com.android.tools.r8.utils.AndroidApiLevel,java.lang.String,java.lang.String):21:24 -> a
-    5:5:java.lang.String com.android.tools.r8.utils.AndroidApiLevel.getName():60:60 -> a
+    5:5:java.lang.String com.android.tools.r8.utils.AndroidApiLevel.getName():61:61 -> a
     5:5:java.lang.String makeMessage(com.android.tools.r8.utils.AndroidApiLevel,java.lang.String,java.lang.String):24 -> a
     6:10:java.lang.String makeMessage(com.android.tools.r8.utils.AndroidApiLevel,java.lang.String,java.lang.String):24:28 -> a
 com.android.tools.r8.ArchiveClassFileProvider -> com.android.tools.r8.ArchiveClassFileProvider:
@@ -81920,12 +81920,11 @@ com.android.tools.r8.utils.AndroidApiLevel -> com.android.tools.r8.utils.b:
     com.android.tools.r8.utils.AndroidApiLevel L_MR1 -> w
     com.android.tools.r8.utils.AndroidApiLevel K_WATCH -> u
     com.android.tools.r8.utils.AndroidApiLevel N -> y
-    com.android.tools.r8.utils.AndroidApiLevel[] $VALUES -> H
     com.android.tools.r8.utils.AndroidApiLevel B -> b
     com.android.tools.r8.utils.AndroidApiLevel P -> C
     com.android.tools.r8.utils.AndroidApiLevel O -> A
     com.android.tools.r8.utils.AndroidApiLevel E -> f
-    com.android.tools.r8.utils.AndroidApiLevel LATEST -> G
+    com.android.tools.r8.utils.AndroidApiLevel Sv2 -> G
     com.android.tools.r8.utils.AndroidApiLevel C -> d
     com.android.tools.r8.utils.AndroidApiLevel R -> E
     com.android.tools.r8.utils.AndroidApiLevel G -> j
@@ -81938,6 +81937,7 @@ com.android.tools.r8.utils.AndroidApiLevel -> com.android.tools.r8.utils.b:
     com.android.tools.r8.utils.AndroidApiLevel K -> t
     com.android.tools.r8.utils.AndroidApiLevel N_MR1 -> z
     com.android.tools.r8.utils.AndroidApiLevel M -> x
+    com.android.tools.r8.utils.AndroidApiLevel[] $VALUES -> I
     com.android.tools.r8.utils.AndroidApiLevel O_MR1 -> B
     com.android.tools.r8.utils.AndroidApiLevel B_1_1 -> c
     int level -> a
@@ -81946,59 +81946,61 @@ com.android.tools.r8.utils.AndroidApiLevel -> com.android.tools.r8.utils.b:
     com.android.tools.r8.utils.AndroidApiLevel Q -> D
     com.android.tools.r8.utils.AndroidApiLevel D -> e
     com.android.tools.r8.utils.AndroidApiLevel G_MR1 -> k
+    com.android.tools.r8.utils.AndroidApiLevel LATEST -> H
     com.android.tools.r8.utils.AndroidApiLevel F -> i
     com.android.tools.r8.utils.AndroidApiLevel I -> o
     com.android.tools.r8.utils.AndroidApiLevel H_MR1 -> m
     com.android.tools.r8.utils.AndroidApiLevel J_MR2 -> s
     com.android.tools.r8.utils.AndroidApiLevel J -> q
-    1:31:void <clinit>():13:43 -> <clinit>
-    32:65:void <clinit>():12:45 -> <clinit>
-    1:2:void <init>(java.lang.String,int,int):51:52 -> <init>
-    1:1:java.util.List getAndroidApiLevelsSorted():72:72 -> a
-    2:12:com.android.tools.r8.utils.AndroidApiLevel getMinAndroidApiLevel(com.android.tools.r8.utils.DexVersion):76:86 -> a
-    13:13:com.android.tools.r8.utils.AndroidApiLevel getMinAndroidApiLevel(com.android.tools.r8.utils.DexVersion):84:84 -> a
-    14:14:com.android.tools.r8.utils.AndroidApiLevel getMinAndroidApiLevel(com.android.tools.r8.utils.DexVersion):82:82 -> a
-    15:15:com.android.tools.r8.utils.AndroidApiLevel getMinAndroidApiLevel(com.android.tools.r8.utils.DexVersion):80:80 -> a
-    16:16:com.android.tools.r8.utils.AndroidApiLevel getMinAndroidApiLevel(com.android.tools.r8.utils.DexVersion):78:78 -> a
-    1:1:com.android.tools.r8.utils.AndroidApiLevel getDefault():64:64 -> b
-    1:1:com.android.tools.r8.utils.DexVersion getDexVersion():68:68 -> c
-    1:1:int getLevel():56:56 -> d
-    2:2:com.android.tools.r8.utils.AndroidApiLevel getAndroidApiLevel(int):156:156 -> d
-    3:3:com.android.tools.r8.utils.AndroidApiLevel getAndroidApiLevel(int):154:154 -> d
-    4:4:com.android.tools.r8.utils.AndroidApiLevel getAndroidApiLevel(int):152:152 -> d
-    5:5:com.android.tools.r8.utils.AndroidApiLevel getAndroidApiLevel(int):150:150 -> d
-    6:6:com.android.tools.r8.utils.AndroidApiLevel getAndroidApiLevel(int):148:148 -> d
-    7:7:com.android.tools.r8.utils.AndroidApiLevel getAndroidApiLevel(int):146:146 -> d
-    8:8:com.android.tools.r8.utils.AndroidApiLevel getAndroidApiLevel(int):144:144 -> d
-    9:9:com.android.tools.r8.utils.AndroidApiLevel getAndroidApiLevel(int):142:142 -> d
-    10:10:com.android.tools.r8.utils.AndroidApiLevel getAndroidApiLevel(int):140:140 -> d
-    11:11:com.android.tools.r8.utils.AndroidApiLevel getAndroidApiLevel(int):138:138 -> d
-    12:12:com.android.tools.r8.utils.AndroidApiLevel getAndroidApiLevel(int):136:136 -> d
-    13:13:com.android.tools.r8.utils.AndroidApiLevel getAndroidApiLevel(int):134:134 -> d
-    14:14:com.android.tools.r8.utils.AndroidApiLevel getAndroidApiLevel(int):132:132 -> d
-    15:15:com.android.tools.r8.utils.AndroidApiLevel getAndroidApiLevel(int):130:130 -> d
-    16:16:com.android.tools.r8.utils.AndroidApiLevel getAndroidApiLevel(int):128:128 -> d
-    17:17:com.android.tools.r8.utils.AndroidApiLevel getAndroidApiLevel(int):126:126 -> d
-    18:18:com.android.tools.r8.utils.AndroidApiLevel getAndroidApiLevel(int):124:124 -> d
-    19:19:com.android.tools.r8.utils.AndroidApiLevel getAndroidApiLevel(int):122:122 -> d
-    20:20:com.android.tools.r8.utils.AndroidApiLevel getAndroidApiLevel(int):120:120 -> d
-    21:21:com.android.tools.r8.utils.AndroidApiLevel getAndroidApiLevel(int):118:118 -> d
-    22:22:com.android.tools.r8.utils.AndroidApiLevel getAndroidApiLevel(int):116:116 -> d
-    23:23:com.android.tools.r8.utils.AndroidApiLevel getAndroidApiLevel(int):114:114 -> d
-    24:24:com.android.tools.r8.utils.AndroidApiLevel getAndroidApiLevel(int):112:112 -> d
-    25:25:com.android.tools.r8.utils.AndroidApiLevel getAndroidApiLevel(int):110:110 -> d
-    26:26:com.android.tools.r8.utils.AndroidApiLevel getAndroidApiLevel(int):108:108 -> d
-    27:27:com.android.tools.r8.utils.AndroidApiLevel getAndroidApiLevel(int):106:106 -> d
-    28:28:com.android.tools.r8.utils.AndroidApiLevel getAndroidApiLevel(int):104:104 -> d
-    29:29:com.android.tools.r8.utils.AndroidApiLevel getAndroidApiLevel(int):102:102 -> d
-    30:30:com.android.tools.r8.utils.AndroidApiLevel getAndroidApiLevel(int):100:100 -> d
-    31:31:com.android.tools.r8.utils.AndroidApiLevel getAndroidApiLevel(int):98:98 -> d
-    32:32:com.android.tools.r8.utils.AndroidApiLevel getAndroidApiLevel(int):96:96 -> d
-    33:33:com.android.tools.r8.utils.AndroidApiLevel getAndroidApiLevel(int):94:94 -> d
+    1:32:void <clinit>():13:44 -> <clinit>
+    33:67:void <clinit>():12:46 -> <clinit>
+    1:2:void <init>(java.lang.String,int,int):52:53 -> <init>
+    1:1:java.util.List getAndroidApiLevelsSorted():73:73 -> a
+    2:12:com.android.tools.r8.utils.AndroidApiLevel getMinAndroidApiLevel(com.android.tools.r8.utils.DexVersion):77:87 -> a
+    13:13:com.android.tools.r8.utils.AndroidApiLevel getMinAndroidApiLevel(com.android.tools.r8.utils.DexVersion):85:85 -> a
+    14:14:com.android.tools.r8.utils.AndroidApiLevel getMinAndroidApiLevel(com.android.tools.r8.utils.DexVersion):83:83 -> a
+    15:15:com.android.tools.r8.utils.AndroidApiLevel getMinAndroidApiLevel(com.android.tools.r8.utils.DexVersion):81:81 -> a
+    16:16:com.android.tools.r8.utils.AndroidApiLevel getMinAndroidApiLevel(com.android.tools.r8.utils.DexVersion):79:79 -> a
+    1:1:com.android.tools.r8.utils.AndroidApiLevel getDefault():65:65 -> b
+    1:1:com.android.tools.r8.utils.DexVersion getDexVersion():69:69 -> c
+    1:1:int getLevel():57:57 -> d
+    2:2:com.android.tools.r8.utils.AndroidApiLevel getAndroidApiLevel(int):159:159 -> d
+    3:3:com.android.tools.r8.utils.AndroidApiLevel getAndroidApiLevel(int):157:157 -> d
+    4:4:com.android.tools.r8.utils.AndroidApiLevel getAndroidApiLevel(int):155:155 -> d
+    5:5:com.android.tools.r8.utils.AndroidApiLevel getAndroidApiLevel(int):153:153 -> d
+    6:6:com.android.tools.r8.utils.AndroidApiLevel getAndroidApiLevel(int):151:151 -> d
+    7:7:com.android.tools.r8.utils.AndroidApiLevel getAndroidApiLevel(int):149:149 -> d
+    8:8:com.android.tools.r8.utils.AndroidApiLevel getAndroidApiLevel(int):147:147 -> d
+    9:9:com.android.tools.r8.utils.AndroidApiLevel getAndroidApiLevel(int):145:145 -> d
+    10:10:com.android.tools.r8.utils.AndroidApiLevel getAndroidApiLevel(int):143:143 -> d
+    11:11:com.android.tools.r8.utils.AndroidApiLevel getAndroidApiLevel(int):141:141 -> d
+    12:12:com.android.tools.r8.utils.AndroidApiLevel getAndroidApiLevel(int):139:139 -> d
+    13:13:com.android.tools.r8.utils.AndroidApiLevel getAndroidApiLevel(int):137:137 -> d
+    14:14:com.android.tools.r8.utils.AndroidApiLevel getAndroidApiLevel(int):135:135 -> d
+    15:15:com.android.tools.r8.utils.AndroidApiLevel getAndroidApiLevel(int):133:133 -> d
+    16:16:com.android.tools.r8.utils.AndroidApiLevel getAndroidApiLevel(int):131:131 -> d
+    17:17:com.android.tools.r8.utils.AndroidApiLevel getAndroidApiLevel(int):129:129 -> d
+    18:18:com.android.tools.r8.utils.AndroidApiLevel getAndroidApiLevel(int):127:127 -> d
+    19:19:com.android.tools.r8.utils.AndroidApiLevel getAndroidApiLevel(int):125:125 -> d
+    20:20:com.android.tools.r8.utils.AndroidApiLevel getAndroidApiLevel(int):123:123 -> d
+    21:21:com.android.tools.r8.utils.AndroidApiLevel getAndroidApiLevel(int):121:121 -> d
+    22:22:com.android.tools.r8.utils.AndroidApiLevel getAndroidApiLevel(int):119:119 -> d
+    23:23:com.android.tools.r8.utils.AndroidApiLevel getAndroidApiLevel(int):117:117 -> d
+    24:24:com.android.tools.r8.utils.AndroidApiLevel getAndroidApiLevel(int):115:115 -> d
+    25:25:com.android.tools.r8.utils.AndroidApiLevel getAndroidApiLevel(int):113:113 -> d
+    26:26:com.android.tools.r8.utils.AndroidApiLevel getAndroidApiLevel(int):111:111 -> d
+    27:27:com.android.tools.r8.utils.AndroidApiLevel getAndroidApiLevel(int):109:109 -> d
+    28:28:com.android.tools.r8.utils.AndroidApiLevel getAndroidApiLevel(int):107:107 -> d
+    29:29:com.android.tools.r8.utils.AndroidApiLevel getAndroidApiLevel(int):105:105 -> d
+    30:30:com.android.tools.r8.utils.AndroidApiLevel getAndroidApiLevel(int):103:103 -> d
+    31:31:com.android.tools.r8.utils.AndroidApiLevel getAndroidApiLevel(int):101:101 -> d
+    32:32:com.android.tools.r8.utils.AndroidApiLevel getAndroidApiLevel(int):99:99 -> d
+    33:33:com.android.tools.r8.utils.AndroidApiLevel getAndroidApiLevel(int):97:97 -> d
+    34:34:com.android.tools.r8.utils.AndroidApiLevel getAndroidApiLevel(int):95:95 -> d
     1:1:com.android.tools.r8.utils.AndroidApiLevel[] values():12:12 -> e
 com.android.tools.r8.utils.AndroidApiLevel$1 -> com.android.tools.r8.utils.b$a:
     int[] $SwitchMap$com$android$tools$r8$utils$DexVersion -> a
-    1:1:void <clinit>():76:76 -> <clinit>
+    1:1:void <clinit>():77:77 -> <clinit>
 com.android.tools.r8.utils.AndroidApp -> com.android.tools.r8.utils.c:
     com.android.tools.r8.StringResource proguardMapInputData -> g
     boolean $assertionsDisabled -> j
@@ -82850,21 +82852,21 @@ com.android.tools.r8.utils.DexVersion -> com.android.tools.r8.utils.v:
     5:5:void <clinit>():12:12 -> <clinit>
     1:3:void <init>(java.lang.String,int,int,byte[]):22:24 -> <init>
     1:1:byte[] getBytes():32:32 -> a
-    2:39:com.android.tools.r8.utils.DexVersion getDexVersion(com.android.tools.r8.utils.AndroidApiLevel):40:77 -> a
-    40:40:com.android.tools.r8.utils.DexVersion getDexVersion(com.android.tools.r8.utils.AndroidApiLevel):75:75 -> a
-    41:41:com.android.tools.r8.utils.DexVersion getDexVersion(com.android.tools.r8.utils.AndroidApiLevel):51:51 -> a
-    42:42:com.android.tools.r8.utils.DexVersion getDexVersion(com.android.tools.r8.utils.AndroidApiLevel):48:48 -> a
-    43:43:com.android.tools.r8.utils.DexVersion getDexVersion(com.android.tools.r8.utils.AndroidApiLevel):45:45 -> a
-    44:44:java.util.Optional getDexVersion(char,char,char):100:100 -> a
-    45:45:java.util.Optional getDexVersion(char,char,char):98:98 -> a
+    2:40:com.android.tools.r8.utils.DexVersion getDexVersion(com.android.tools.r8.utils.AndroidApiLevel):40:78 -> a
+    41:41:com.android.tools.r8.utils.DexVersion getDexVersion(com.android.tools.r8.utils.AndroidApiLevel):76:76 -> a
+    42:42:com.android.tools.r8.utils.DexVersion getDexVersion(com.android.tools.r8.utils.AndroidApiLevel):52:52 -> a
+    43:43:com.android.tools.r8.utils.DexVersion getDexVersion(com.android.tools.r8.utils.AndroidApiLevel):49:49 -> a
+    44:44:com.android.tools.r8.utils.DexVersion getDexVersion(com.android.tools.r8.utils.AndroidApiLevel):46:46 -> a
+    45:45:java.util.Optional getDexVersion(char,char,char):101:101 -> a
+    46:46:java.util.Optional getDexVersion(char,char,char):99:99 -> a
     1:1:int getIntValue():28:28 -> b
     2:2:boolean matchesApiLevel(com.android.tools.r8.utils.AndroidApiLevel):36:36 -> b
     1:1:com.android.tools.r8.utils.DexVersion[] values():12:12 -> c
-    1:1:java.util.Optional getDexVersion(int):92:92 -> d
-    2:2:java.util.Optional getDexVersion(int):90:90 -> d
-    3:3:java.util.Optional getDexVersion(int):88:88 -> d
-    4:4:java.util.Optional getDexVersion(int):86:86 -> d
-    5:5:java.util.Optional getDexVersion(int):84:84 -> d
+    1:1:java.util.Optional getDexVersion(int):93:93 -> d
+    2:2:java.util.Optional getDexVersion(int):91:91 -> d
+    3:3:java.util.Optional getDexVersion(int):89:89 -> d
+    4:4:java.util.Optional getDexVersion(int):87:87 -> d
+    5:5:java.util.Optional getDexVersion(int):85:85 -> d
 com.android.tools.r8.utils.DexVersion$1 -> com.android.tools.r8.utils.v$a:
     int[] $SwitchMap$com$android$tools$r8$utils$AndroidApiLevel -> a
     1:1:void <clinit>():40:40 -> <clinit>
