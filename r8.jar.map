@@ -1,10 +1,10 @@
 # compiler: R8
-# compiler_version: 3.3.20-dev
+# compiler_version: 3.3.20-dev+aosp1
 # compiler_hash: engineering
 # common_typos_disable
 # {"id":"com.android.tools.r8.mapping","version":"2.0"}
-# pg_map_id: 3.3.20-dev
-# pg_map_hash: SHA-256 9c42396756a810932dfec4d127b4774cf195810b51b46deddf114fd6b40ec1f1
+# pg_map_id: 3.3.20-dev+aosp1
+# pg_map_hash: SHA-256 dd4c01853fd917497aef2d09abff533f0d25b062517ea74449d40e1778a34753
 com.android.tools.r8.ApiLevelException -> com.android.tools.r8.internal.i2:
     boolean $assertionsDisabled -> d
     1:1:void <clinit>():10:10 -> <clinit>
@@ -19541,10 +19541,10 @@ com.android.tools.r8.debuginfo.DebugRepresentation -> com.android.tools.r8.inter
     1:2:void <init>(com.android.tools.r8.it.unimi.dsi.fastutil.ints.Int2ReferenceMap):67:68 -> <init>
     boolean lambda$fromFiles$1(com.android.tools.r8.graph.DexProgramClass,com.android.tools.r8.graph.DexEncodedMethod) -> a
     1:1:com.android.tools.r8.debuginfo.DebugRepresentation$DebugRepresentationPredicate none(com.android.tools.r8.utils.InternalOptions):38:38 -> a
-    2:2:boolean com.android.tools.r8.utils.InternalOptions.canUseDexPc2PcAsDebugInformation():1988:1988 -> a
+    2:2:boolean com.android.tools.r8.utils.InternalOptions.canUseDexPc2PcAsDebugInformation():1989:1989 -> a
     2:2:com.android.tools.r8.debuginfo.DebugRepresentation$DebugRepresentationPredicate none(com.android.tools.r8.utils.InternalOptions):38 -> a
       # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(1)"]}
-    3:3:boolean com.android.tools.r8.utils.InternalOptions.canUseDexPc2PcAsDebugInformation():1988:1988 -> a
+    3:3:boolean com.android.tools.r8.utils.InternalOptions.canUseDexPc2PcAsDebugInformation():1989:1989 -> a
     3:3:com.android.tools.r8.debuginfo.DebugRepresentation$DebugRepresentationPredicate none(com.android.tools.r8.utils.InternalOptions):38 -> a
     4:5:com.android.tools.r8.debuginfo.DebugRepresentation$DebugRepresentationPredicate none(com.android.tools.r8.utils.InternalOptions):38:39 -> a
     6:6:void lambda$fromFiles$2(java.util.Map,com.android.tools.r8.dex.VirtualFile,com.android.tools.r8.graph.DexProgramClass):53:53 -> a
@@ -19561,10 +19561,10 @@ com.android.tools.r8.debuginfo.DebugRepresentation -> com.android.tools.r8.inter
     23:24:boolean lambda$fromFiles$3(java.util.Map,com.android.tools.r8.graph.DexProgramClass,com.android.tools.r8.graph.DexEncodedMethod):61 -> a
     25:26:boolean com.android.tools.r8.debuginfo.DebugRepresentation.usesPcEncoding(com.android.tools.r8.graph.DexEncodedMethod):125:126 -> a
     25:26:boolean lambda$fromFiles$3(java.util.Map,com.android.tools.r8.graph.DexProgramClass,com.android.tools.r8.graph.DexEncodedMethod):61 -> a
-    27:27:boolean com.android.tools.r8.utils.InternalOptions.canUseDexPc2PcAsDebugInformation():1988:1988 -> a
+    27:27:boolean com.android.tools.r8.utils.InternalOptions.canUseDexPc2PcAsDebugInformation():1989:1989 -> a
     27:27:void computeForFile(com.android.tools.r8.dex.VirtualFile,com.android.tools.r8.graph.GraphLens,com.android.tools.r8.naming.NamingLens,com.android.tools.r8.utils.InternalOptions):73 -> a
       # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(1)"]}
-    28:28:boolean com.android.tools.r8.utils.InternalOptions.canUseDexPc2PcAsDebugInformation():1988:1988 -> a
+    28:28:boolean com.android.tools.r8.utils.InternalOptions.canUseDexPc2PcAsDebugInformation():1989:1989 -> a
     28:28:void computeForFile(com.android.tools.r8.dex.VirtualFile,com.android.tools.r8.graph.GraphLens,com.android.tools.r8.naming.NamingLens,com.android.tools.r8.utils.InternalOptions):73 -> a
     29:35:void computeForFile(com.android.tools.r8.dex.VirtualFile,com.android.tools.r8.graph.GraphLens,com.android.tools.r8.naming.NamingLens,com.android.tools.r8.utils.InternalOptions):74:80 -> a
     36:36:void com.android.tools.r8.it.unimi.dsi.fastutil.ints.Int2ReferenceOpenHashMap.<init>():119:119 -> a
@@ -19579,10 +19579,10 @@ com.android.tools.r8.debuginfo.DebugRepresentation -> com.android.tools.r8.inter
     56:67:int com.android.tools.r8.debuginfo.DebugRepresentation.estimatedDebugInfoSize(com.android.tools.r8.graph.DexDebugInfo):276:287 -> a
     56:67:void computeForFile(com.android.tools.r8.dex.VirtualFile,com.android.tools.r8.graph.GraphLens,com.android.tools.r8.naming.NamingLens,com.android.tools.r8.utils.InternalOptions):100 -> a
     68:76:void computeForFile(com.android.tools.r8.dex.VirtualFile,com.android.tools.r8.graph.GraphLens,com.android.tools.r8.naming.NamingLens,com.android.tools.r8.utils.InternalOptions):102:110 -> a
-    77:77:boolean com.android.tools.r8.utils.InternalOptions.canUseDexPc2PcAsDebugInformation():1988:1988 -> a
+    77:77:boolean com.android.tools.r8.utils.InternalOptions.canUseDexPc2PcAsDebugInformation():1989:1989 -> a
     77:77:com.android.tools.r8.debuginfo.DebugRepresentation$DebugRepresentationPredicate fromFiles(java.util.List,com.android.tools.r8.utils.InternalOptions):44 -> a
       # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(1)"]}
-    78:78:boolean com.android.tools.r8.utils.InternalOptions.canUseDexPc2PcAsDebugInformation():1988:1988 -> a
+    78:78:boolean com.android.tools.r8.utils.InternalOptions.canUseDexPc2PcAsDebugInformation():1989:1989 -> a
     78:78:com.android.tools.r8.debuginfo.DebugRepresentation$DebugRepresentationPredicate fromFiles(java.util.List,com.android.tools.r8.utils.InternalOptions):44 -> a
     79:89:com.android.tools.r8.debuginfo.DebugRepresentation$DebugRepresentationPredicate fromFiles(java.util.List,com.android.tools.r8.utils.InternalOptions):45:55 -> a
     90:90:com.android.tools.r8.debuginfo.DebugRepresentation$DebugRepresentationPredicate fromFiles(java.util.List,com.android.tools.r8.utils.InternalOptions):48:48 -> a
@@ -33492,7 +33492,7 @@ com.android.tools.r8.graph.JarClassFileReader$CreateMethodVisitor -> com.android
     1:3:void visitEnd():891:893 -> c
     4:5:boolean classRequiresCode():883:884 -> c
     4:5:void visitEnd():893 -> c
-    6:6:boolean com.android.tools.r8.utils.InternalOptions.canUseNestBasedAccess():1943:1943 -> c
+    6:6:boolean com.android.tools.r8.utils.InternalOptions.canUseNestBasedAccess():1944:1944 -> c
     6:6:boolean classRequiresCode():884 -> c
     6:6:void visitEnd():893 -> c
       # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(2)"]}
@@ -53930,23 +53930,23 @@ com.android.tools.r8.ir.conversion.IRConverter -> com.android.tools.r8.internal.
     316:318:boolean com.android.tools.r8.graph.DexProgramClass.hasReachabilitySensitiveAnnotation(com.android.tools.r8.graph.DexItemFactory):764:766 -> a
     316:318:void convertMethods(com.android.tools.r8.graph.DexProgramClass,com.android.tools.r8.ir.desugar.CfInstructionDesugaringEventConsumer$D8CfInstructionDesugaringEventConsumer,com.android.tools.r8.ir.conversion.D8MethodProcessor,com.android.tools.r8.ir.desugar.itf.InterfaceProcessor):490 -> a
     319:350:void convertMethods(com.android.tools.r8.graph.DexProgramClass,com.android.tools.r8.ir.desugar.CfInstructionDesugaringEventConsumer$D8CfInstructionDesugaringEventConsumer,com.android.tools.r8.ir.conversion.D8MethodProcessor,com.android.tools.r8.ir.desugar.itf.InterfaceProcessor):492:523 -> a
-    351:351:com.android.tools.r8.cf.CfVersion com.android.tools.r8.utils.InternalOptions.classFileVersionAfterDesugaring(com.android.tools.r8.cf.CfVersion):2038:2038 -> a
+    351:351:com.android.tools.r8.cf.CfVersion com.android.tools.r8.utils.InternalOptions.classFileVersionAfterDesugaring(com.android.tools.r8.cf.CfVersion):2039:2039 -> a
     351:351:void convertMethods(com.android.tools.r8.graph.DexProgramClass,com.android.tools.r8.ir.desugar.CfInstructionDesugaringEventConsumer$D8CfInstructionDesugaringEventConsumer,com.android.tools.r8.ir.conversion.D8MethodProcessor,com.android.tools.r8.ir.desugar.itf.InterfaceProcessor):523 -> a
       # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(1)"]}
-    355:355:com.android.tools.r8.cf.CfVersion com.android.tools.r8.utils.InternalOptions.classFileVersionAfterDesugaring(com.android.tools.r8.cf.CfVersion):2042:2042 -> a
+    355:355:com.android.tools.r8.cf.CfVersion com.android.tools.r8.utils.InternalOptions.classFileVersionAfterDesugaring(com.android.tools.r8.cf.CfVersion):2043:2043 -> a
     355:355:void convertMethods(com.android.tools.r8.graph.DexProgramClass,com.android.tools.r8.ir.desugar.CfInstructionDesugaringEventConsumer$D8CfInstructionDesugaringEventConsumer,com.android.tools.r8.ir.conversion.D8MethodProcessor,com.android.tools.r8.ir.desugar.itf.InterfaceProcessor):523 -> a
     356:356:com.android.tools.r8.utils.structural.Ordered com.android.tools.r8.utils.structural.Ordered.min(com.android.tools.r8.utils.structural.Ordered,com.android.tools.r8.utils.structural.Ordered):21:21 -> a
-    356:356:com.android.tools.r8.cf.CfVersion com.android.tools.r8.utils.InternalOptions.classFileVersionAfterDesugaring(com.android.tools.r8.cf.CfVersion):2043 -> a
+    356:356:com.android.tools.r8.cf.CfVersion com.android.tools.r8.utils.InternalOptions.classFileVersionAfterDesugaring(com.android.tools.r8.cf.CfVersion):2044 -> a
     356:356:void convertMethods(com.android.tools.r8.graph.DexProgramClass,com.android.tools.r8.ir.desugar.CfInstructionDesugaringEventConsumer$D8CfInstructionDesugaringEventConsumer,com.android.tools.r8.ir.conversion.D8MethodProcessor,com.android.tools.r8.ir.desugar.itf.InterfaceProcessor):523 -> a
     357:357:void convertMethods(com.android.tools.r8.graph.DexProgramClass,com.android.tools.r8.ir.desugar.CfInstructionDesugaringEventConsumer$D8CfInstructionDesugaringEventConsumer,com.android.tools.r8.ir.conversion.D8MethodProcessor,com.android.tools.r8.ir.desugar.itf.InterfaceProcessor):522:522 -> a
     358:361:void convertMethod(com.android.tools.r8.graph.ProgramMethod,com.android.tools.r8.ir.desugar.CfInstructionDesugaringEventConsumer,com.android.tools.r8.ir.conversion.MethodProcessor,com.android.tools.r8.contexts.CompilationContext$MethodProcessingContext):532:535 -> a
-    362:362:com.android.tools.r8.cf.CfVersion com.android.tools.r8.utils.InternalOptions.classFileVersionAfterDesugaring(com.android.tools.r8.cf.CfVersion):2038:2038 -> a
+    362:362:com.android.tools.r8.cf.CfVersion com.android.tools.r8.utils.InternalOptions.classFileVersionAfterDesugaring(com.android.tools.r8.cf.CfVersion):2039:2039 -> a
     362:362:void convertMethod(com.android.tools.r8.graph.ProgramMethod,com.android.tools.r8.ir.desugar.CfInstructionDesugaringEventConsumer,com.android.tools.r8.ir.conversion.MethodProcessor,com.android.tools.r8.contexts.CompilationContext$MethodProcessingContext):535 -> a
       # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(1)"]}
-    366:366:com.android.tools.r8.cf.CfVersion com.android.tools.r8.utils.InternalOptions.classFileVersionAfterDesugaring(com.android.tools.r8.cf.CfVersion):2042:2042 -> a
+    366:366:com.android.tools.r8.cf.CfVersion com.android.tools.r8.utils.InternalOptions.classFileVersionAfterDesugaring(com.android.tools.r8.cf.CfVersion):2043:2043 -> a
     366:366:void convertMethod(com.android.tools.r8.graph.ProgramMethod,com.android.tools.r8.ir.desugar.CfInstructionDesugaringEventConsumer,com.android.tools.r8.ir.conversion.MethodProcessor,com.android.tools.r8.contexts.CompilationContext$MethodProcessingContext):535 -> a
     367:367:com.android.tools.r8.utils.structural.Ordered com.android.tools.r8.utils.structural.Ordered.min(com.android.tools.r8.utils.structural.Ordered,com.android.tools.r8.utils.structural.Ordered):21:21 -> a
-    367:367:com.android.tools.r8.cf.CfVersion com.android.tools.r8.utils.InternalOptions.classFileVersionAfterDesugaring(com.android.tools.r8.cf.CfVersion):2043 -> a
+    367:367:com.android.tools.r8.cf.CfVersion com.android.tools.r8.utils.InternalOptions.classFileVersionAfterDesugaring(com.android.tools.r8.cf.CfVersion):2044 -> a
     367:367:void convertMethod(com.android.tools.r8.graph.ProgramMethod,com.android.tools.r8.ir.desugar.CfInstructionDesugaringEventConsumer,com.android.tools.r8.ir.conversion.MethodProcessor,com.android.tools.r8.contexts.CompilationContext$MethodProcessingContext):535 -> a
     368:374:void convertMethod(com.android.tools.r8.graph.ProgramMethod,com.android.tools.r8.ir.desugar.CfInstructionDesugaringEventConsumer,com.android.tools.r8.ir.conversion.MethodProcessor,com.android.tools.r8.contexts.CompilationContext$MethodProcessingContext):534:540 -> a
     375:379:void com.android.tools.r8.ir.conversion.IRConverter.checkPrefixMerging(com.android.tools.r8.graph.ProgramMethod):575:579 -> a
@@ -56464,7 +56464,7 @@ com.android.tools.r8.ir.desugar.LambdaClass -> com.android.tools.r8.internal.SA:
     147:152:com.android.tools.r8.graph.DexField getCaptureField(int):123:128 -> a
     153:153:com.android.tools.r8.graph.DexField getCaptureField(int):125:125 -> a
     154:155:boolean canAccessModifyLambdaImplMethod():249:250 -> a
-    156:156:boolean com.android.tools.r8.utils.InternalOptions.canAccessModifyLambdaImplementationMethods(com.android.tools.r8.graph.AppView):1889:1889 -> a
+    156:156:boolean com.android.tools.r8.utils.InternalOptions.canAccessModifyLambdaImplementationMethods(com.android.tools.r8.graph.AppView):1890:1890 -> a
     156:156:boolean canAccessModifyLambdaImplMethod():250 -> a
     157:160:boolean com.android.tools.r8.ir.desugar.LambdaClass.isPrivateOrStaticInterfaceMethodInvokeThatWillBeDesugared():242:245 -> a
     157:160:boolean canAccessModifyLambdaImplMethod():251 -> a
@@ -63113,7 +63113,7 @@ com.android.tools.r8.ir.desugar.nest.NestBasedAccessDesugaring -> com.android.to
     void lambda$getMethodBridgeReference$5(com.android.tools.r8.synthesis.SyntheticClasspathClassBuilder) -> a
     void lambda$getMethodBridgeReference$6(com.android.tools.r8.graph.DexClasspathClass) -> a
     60:60:com.android.tools.r8.ir.desugar.nest.NestBasedAccessDesugaring create(com.android.tools.r8.graph.AppView):78:78 -> a
-    61:61:boolean com.android.tools.r8.utils.InternalOptions.canUseNestBasedAccess():1943:1943 -> a
+    61:61:boolean com.android.tools.r8.utils.InternalOptions.canUseNestBasedAccess():1944:1944 -> a
     61:61:boolean com.android.tools.r8.utils.InternalOptions.shouldDesugarNests():524 -> a
     61:61:com.android.tools.r8.ir.desugar.nest.NestBasedAccessDesugaring create(com.android.tools.r8.graph.AppView):78 -> a
       # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(2)"]}
@@ -65134,11 +65134,11 @@ com.android.tools.r8.ir.optimize.CodeRewriter -> com.android.tools.r8.internal.F
     75:77:boolean rewriteMoveResult(com.android.tools.r8.ir.code.IRCode):1376:1378 -> j
     1:1:boolean com.android.tools.r8.ir.optimize.CodeRewriter.rewriteSwitch(com.android.tools.r8.ir.code.IRCode,com.android.tools.r8.ir.optimize.controlflow.SwitchCaseAnalyzer):939:939 -> k
     1:1:boolean rewriteSwitch(com.android.tools.r8.ir.code.IRCode):935 -> k
-    2:2:boolean com.android.tools.r8.utils.InternalOptions.isSwitchRewritingEnabled():2008:2008 -> k
+    2:2:boolean com.android.tools.r8.utils.InternalOptions.isSwitchRewritingEnabled():2009:2009 -> k
     2:2:boolean com.android.tools.r8.ir.optimize.CodeRewriter.rewriteSwitch(com.android.tools.r8.ir.code.IRCode,com.android.tools.r8.ir.optimize.controlflow.SwitchCaseAnalyzer):939 -> k
       # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(1)"]}
     2:2:boolean rewriteSwitch(com.android.tools.r8.ir.code.IRCode):935 -> k
-    3:3:boolean com.android.tools.r8.utils.InternalOptions.isSwitchRewritingEnabled():2008:2008 -> k
+    3:3:boolean com.android.tools.r8.utils.InternalOptions.isSwitchRewritingEnabled():2009:2009 -> k
     3:3:boolean com.android.tools.r8.ir.optimize.CodeRewriter.rewriteSwitch(com.android.tools.r8.ir.code.IRCode,com.android.tools.r8.ir.optimize.controlflow.SwitchCaseAnalyzer):939 -> k
     3:3:boolean rewriteSwitch(com.android.tools.r8.ir.code.IRCode):935 -> k
     4:4:boolean com.android.tools.r8.ir.optimize.CodeRewriter.rewriteSwitch(com.android.tools.r8.ir.code.IRCode,com.android.tools.r8.ir.optimize.controlflow.SwitchCaseAnalyzer):942:942 -> k
@@ -66760,81 +66760,86 @@ com.android.tools.r8.ir.optimize.MultiCallerInliner -> com.android.tools.r8.inte
     1:1:void onMethodPruned(com.android.tools.r8.graph.ProgramMethod):186:186 -> c
 com.android.tools.r8.ir.optimize.NaturalIntLoopRemover -> com.android.tools.r8.internal.DG:
     boolean $assertionsDisabled -> a
-    1:1:void <clinit>():29:29 -> <clinit>
-    1:1:void <init>():29:29 -> <init>
-    1:1:void run(com.android.tools.r8.ir.code.IRCode):33:33 -> a
-    2:14:boolean com.android.tools.r8.ir.optimize.NaturalIntLoopRemover.isComparisonBlock(com.android.tools.r8.ir.code.BasicBlock):45:57 -> a
-    2:14:void run(com.android.tools.r8.ir.code.IRCode):34 -> a
-    15:15:void run(com.android.tools.r8.ir.code.IRCode):35:35 -> a
-    16:27:com.android.tools.r8.ir.code.Phi com.android.tools.r8.ir.optimize.NaturalIntLoopRemover.computeLoopPhi(com.android.tools.r8.ir.code.If):197:208 -> a
-    16:27:boolean com.android.tools.r8.ir.optimize.NaturalIntLoopRemover.tryRemoveLoop(com.android.tools.r8.ir.code.IRCode,com.android.tools.r8.ir.code.If):61 -> a
-    16:27:void run(com.android.tools.r8.ir.code.IRCode):35 -> a
-    28:28:com.android.tools.r8.ir.optimize.NaturalIntLoopRemover$NaturalIntLoopWithKnowIterations$Builder com.android.tools.r8.ir.optimize.NaturalIntLoopRemover$NaturalIntLoopWithKnowIterations.builder(com.android.tools.r8.ir.code.If):321:321 -> a
-    28:28:boolean com.android.tools.r8.ir.optimize.NaturalIntLoopRemover.tryRemoveLoop(com.android.tools.r8.ir.code.IRCode,com.android.tools.r8.ir.code.If):67 -> a
-    28:28:void run(com.android.tools.r8.ir.code.IRCode):35 -> a
-    29:37:boolean com.android.tools.r8.ir.optimize.NaturalIntLoopRemover.analyzeLoopIterator(com.android.tools.r8.ir.code.If,com.android.tools.r8.ir.code.Phi,com.android.tools.r8.ir.optimize.NaturalIntLoopRemover$NaturalIntLoopWithKnowIterations$Builder):123:131 -> a
-    29:37:boolean com.android.tools.r8.ir.optimize.NaturalIntLoopRemover.tryRemoveLoop(com.android.tools.r8.ir.code.IRCode,com.android.tools.r8.ir.code.If):69 -> a
-    29:37:void run(com.android.tools.r8.ir.code.IRCode):35 -> a
-    38:38:boolean com.android.tools.r8.ir.analysis.type.TypeElement.isInt():0:0 -> a
-    38:38:boolean com.android.tools.r8.ir.optimize.NaturalIntLoopRemover.analyzeLoopIterator(com.android.tools.r8.ir.code.If,com.android.tools.r8.ir.code.Phi,com.android.tools.r8.ir.optimize.NaturalIntLoopRemover$NaturalIntLoopWithKnowIterations$Builder):131 -> a
-    38:38:boolean com.android.tools.r8.ir.optimize.NaturalIntLoopRemover.tryRemoveLoop(com.android.tools.r8.ir.code.IRCode,com.android.tools.r8.ir.code.If):69 -> a
-    38:38:void run(com.android.tools.r8.ir.code.IRCode):35 -> a
-    39:52:boolean com.android.tools.r8.ir.optimize.NaturalIntLoopRemover.analyzeLoopIterator(com.android.tools.r8.ir.code.If,com.android.tools.r8.ir.code.Phi,com.android.tools.r8.ir.optimize.NaturalIntLoopRemover$NaturalIntLoopWithKnowIterations$Builder):131:144 -> a
-    39:52:boolean com.android.tools.r8.ir.optimize.NaturalIntLoopRemover.tryRemoveLoop(com.android.tools.r8.ir.code.IRCode,com.android.tools.r8.ir.code.If):69 -> a
-    39:52:void run(com.android.tools.r8.ir.code.IRCode):35 -> a
-    53:53:boolean com.android.tools.r8.ir.analysis.type.TypeElement.isInt():0:0 -> a
-    53:53:boolean com.android.tools.r8.ir.optimize.NaturalIntLoopRemover.analyzeLoopIterator(com.android.tools.r8.ir.code.If,com.android.tools.r8.ir.code.Phi,com.android.tools.r8.ir.optimize.NaturalIntLoopRemover$NaturalIntLoopWithKnowIterations$Builder):144 -> a
-    53:53:boolean com.android.tools.r8.ir.optimize.NaturalIntLoopRemover.tryRemoveLoop(com.android.tools.r8.ir.code.IRCode,com.android.tools.r8.ir.code.If):69 -> a
-    53:53:void run(com.android.tools.r8.ir.code.IRCode):35 -> a
-    54:68:boolean com.android.tools.r8.ir.optimize.NaturalIntLoopRemover.analyzeLoopIterator(com.android.tools.r8.ir.code.If,com.android.tools.r8.ir.code.Phi,com.android.tools.r8.ir.optimize.NaturalIntLoopRemover$NaturalIntLoopWithKnowIterations$Builder):145:159 -> a
-    54:68:boolean com.android.tools.r8.ir.optimize.NaturalIntLoopRemover.tryRemoveLoop(com.android.tools.r8.ir.code.IRCode,com.android.tools.r8.ir.code.If):69 -> a
-    54:68:void run(com.android.tools.r8.ir.code.IRCode):35 -> a
-    69:69:boolean com.android.tools.r8.ir.code.Instruction.isSub():0:0 -> a
-    69:69:boolean com.android.tools.r8.ir.optimize.NaturalIntLoopRemover.analyzeLoopIterator(com.android.tools.r8.ir.code.If,com.android.tools.r8.ir.code.Phi,com.android.tools.r8.ir.optimize.NaturalIntLoopRemover$NaturalIntLoopWithKnowIterations$Builder):159 -> a
-    69:69:boolean com.android.tools.r8.ir.optimize.NaturalIntLoopRemover.tryRemoveLoop(com.android.tools.r8.ir.code.IRCode,com.android.tools.r8.ir.code.If):69 -> a
-    69:69:void run(com.android.tools.r8.ir.code.IRCode):35 -> a
-    70:79:boolean com.android.tools.r8.ir.optimize.NaturalIntLoopRemover.analyzeLoopIterator(com.android.tools.r8.ir.code.If,com.android.tools.r8.ir.code.Phi,com.android.tools.r8.ir.optimize.NaturalIntLoopRemover$NaturalIntLoopWithKnowIterations$Builder):161:170 -> a
-    70:79:boolean com.android.tools.r8.ir.optimize.NaturalIntLoopRemover.tryRemoveLoop(com.android.tools.r8.ir.code.IRCode,com.android.tools.r8.ir.code.If):69 -> a
-    70:79:void run(com.android.tools.r8.ir.code.IRCode):35 -> a
-    80:80:boolean com.android.tools.r8.ir.analysis.type.TypeElement.isInt():0:0 -> a
-    80:80:boolean com.android.tools.r8.ir.optimize.NaturalIntLoopRemover.analyzeLoopIterator(com.android.tools.r8.ir.code.If,com.android.tools.r8.ir.code.Phi,com.android.tools.r8.ir.optimize.NaturalIntLoopRemover$NaturalIntLoopWithKnowIterations$Builder):170 -> a
-    80:80:boolean com.android.tools.r8.ir.optimize.NaturalIntLoopRemover.tryRemoveLoop(com.android.tools.r8.ir.code.IRCode,com.android.tools.r8.ir.code.If):69 -> a
-    80:80:void run(com.android.tools.r8.ir.code.IRCode):35 -> a
-    81:98:boolean com.android.tools.r8.ir.optimize.NaturalIntLoopRemover.analyzeLoopIterator(com.android.tools.r8.ir.code.If,com.android.tools.r8.ir.code.Phi,com.android.tools.r8.ir.optimize.NaturalIntLoopRemover$NaturalIntLoopWithKnowIterations$Builder):171:188 -> a
-    81:98:boolean com.android.tools.r8.ir.optimize.NaturalIntLoopRemover.tryRemoveLoop(com.android.tools.r8.ir.code.IRCode,com.android.tools.r8.ir.code.If):69 -> a
-    81:98:void run(com.android.tools.r8.ir.code.IRCode):35 -> a
-    99:99:boolean com.android.tools.r8.ir.optimize.NaturalIntLoopRemover.tryRemoveLoop(com.android.tools.r8.ir.code.IRCode,com.android.tools.r8.ir.code.If):73:73 -> a
-    99:99:void run(com.android.tools.r8.ir.code.IRCode):35 -> a
-    100:102:java.util.Set com.android.tools.r8.ir.optimize.NaturalIntLoopRemover.computeLoopBody(com.android.tools.r8.ir.code.BasicBlock,com.android.tools.r8.ir.code.BasicBlock):379:381 -> a
-    100:102:boolean com.android.tools.r8.ir.optimize.NaturalIntLoopRemover.tryRemoveLoop(com.android.tools.r8.ir.code.IRCode,com.android.tools.r8.ir.code.If):73 -> a
-    100:102:void run(com.android.tools.r8.ir.code.IRCode):35 -> a
-    103:103:boolean com.android.tools.r8.utils.WorkList.isEmpty():112:112 -> a
-    103:103:java.util.Set com.android.tools.r8.ir.optimize.NaturalIntLoopRemover.computeLoopBody(com.android.tools.r8.ir.code.BasicBlock,com.android.tools.r8.ir.code.BasicBlock):382 -> a
-    103:103:boolean com.android.tools.r8.ir.optimize.NaturalIntLoopRemover.tryRemoveLoop(com.android.tools.r8.ir.code.IRCode,com.android.tools.r8.ir.code.If):73 -> a
-    103:103:void run(com.android.tools.r8.ir.code.IRCode):35 -> a
-    104:104:java.util.Set com.android.tools.r8.ir.optimize.NaturalIntLoopRemover.computeLoopBody(com.android.tools.r8.ir.code.BasicBlock,com.android.tools.r8.ir.code.BasicBlock):383:383 -> a
-    104:104:boolean com.android.tools.r8.ir.optimize.NaturalIntLoopRemover.tryRemoveLoop(com.android.tools.r8.ir.code.IRCode,com.android.tools.r8.ir.code.If):73 -> a
-    104:104:void run(com.android.tools.r8.ir.code.IRCode):35 -> a
-    105:105:boolean com.android.tools.r8.ir.code.BasicBlock.isEntry():610:610 -> a
-    105:105:java.util.Set com.android.tools.r8.ir.optimize.NaturalIntLoopRemover.computeLoopBody(com.android.tools.r8.ir.code.BasicBlock,com.android.tools.r8.ir.code.BasicBlock):384 -> a
+    1:1:void <clinit>():30:30 -> <clinit>
+    1:1:void <init>():30:30 -> <init>
+    1:1:com.android.tools.r8.utils.InternalOptions$TestingOptions com.android.tools.r8.graph.AppView.testing():526:526 -> a
+    1:1:void run(com.android.tools.r8.graph.AppView,com.android.tools.r8.ir.code.IRCode):33 -> a
       # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(1)"]}
-    105:105:boolean com.android.tools.r8.ir.optimize.NaturalIntLoopRemover.tryRemoveLoop(com.android.tools.r8.ir.code.IRCode,com.android.tools.r8.ir.code.If):73 -> a
-    105:105:void run(com.android.tools.r8.ir.code.IRCode):35 -> a
-    106:106:boolean com.android.tools.r8.ir.code.BasicBlock.isEntry():610:610 -> a
-    106:106:java.util.Set com.android.tools.r8.ir.optimize.NaturalIntLoopRemover.computeLoopBody(com.android.tools.r8.ir.code.BasicBlock,com.android.tools.r8.ir.code.BasicBlock):384 -> a
-    106:106:boolean com.android.tools.r8.ir.optimize.NaturalIntLoopRemover.tryRemoveLoop(com.android.tools.r8.ir.code.IRCode,com.android.tools.r8.ir.code.If):73 -> a
-    106:106:void run(com.android.tools.r8.ir.code.IRCode):35 -> a
-    107:111:java.util.Set com.android.tools.r8.ir.optimize.NaturalIntLoopRemover.computeLoopBody(com.android.tools.r8.ir.code.BasicBlock,com.android.tools.r8.ir.code.BasicBlock):389:393 -> a
-    107:111:boolean com.android.tools.r8.ir.optimize.NaturalIntLoopRemover.tryRemoveLoop(com.android.tools.r8.ir.code.IRCode,com.android.tools.r8.ir.code.If):73 -> a
-    107:111:void run(com.android.tools.r8.ir.code.IRCode):35 -> a
-    112:116:boolean com.android.tools.r8.ir.optimize.NaturalIntLoopRemover.tryRemoveLoop(com.android.tools.r8.ir.code.IRCode,com.android.tools.r8.ir.code.If):77:81 -> a
-    112:116:void run(com.android.tools.r8.ir.code.IRCode):35 -> a
-    117:126:boolean com.android.tools.r8.ir.optimize.NaturalIntLoopRemover.analyzeLoopExit(java.util.Set,com.android.tools.r8.ir.code.If,com.android.tools.r8.ir.optimize.NaturalIntLoopRemover$NaturalIntLoopWithKnowIterations$Builder):102:111 -> a
-    117:126:boolean com.android.tools.r8.ir.optimize.NaturalIntLoopRemover.tryRemoveLoop(com.android.tools.r8.ir.code.IRCode,com.android.tools.r8.ir.code.If):83 -> a
-    117:126:void run(com.android.tools.r8.ir.code.IRCode):35 -> a
-    127:130:boolean com.android.tools.r8.ir.optimize.NaturalIntLoopRemover.tryRemoveLoop(com.android.tools.r8.ir.code.IRCode,com.android.tools.r8.ir.code.If):87:90 -> a
-    127:130:void run(com.android.tools.r8.ir.code.IRCode):35 -> a
-    131:132:void run(com.android.tools.r8.ir.code.IRCode):39:40 -> a
+    2:2:com.android.tools.r8.utils.InternalOptions$TestingOptions com.android.tools.r8.graph.AppView.testing():526:526 -> a
+    2:2:void run(com.android.tools.r8.graph.AppView,com.android.tools.r8.ir.code.IRCode):33 -> a
+    3:7:void run(com.android.tools.r8.graph.AppView,com.android.tools.r8.ir.code.IRCode):33:37 -> a
+    8:20:boolean com.android.tools.r8.ir.optimize.NaturalIntLoopRemover.isComparisonBlock(com.android.tools.r8.ir.code.BasicBlock):49:61 -> a
+    8:20:void run(com.android.tools.r8.graph.AppView,com.android.tools.r8.ir.code.IRCode):38 -> a
+    21:21:void run(com.android.tools.r8.graph.AppView,com.android.tools.r8.ir.code.IRCode):39:39 -> a
+    22:33:com.android.tools.r8.ir.code.Phi com.android.tools.r8.ir.optimize.NaturalIntLoopRemover.computeLoopPhi(com.android.tools.r8.ir.code.If):201:212 -> a
+    22:33:boolean com.android.tools.r8.ir.optimize.NaturalIntLoopRemover.tryRemoveLoop(com.android.tools.r8.ir.code.IRCode,com.android.tools.r8.ir.code.If):65 -> a
+    22:33:void run(com.android.tools.r8.graph.AppView,com.android.tools.r8.ir.code.IRCode):39 -> a
+    34:34:com.android.tools.r8.ir.optimize.NaturalIntLoopRemover$NaturalIntLoopWithKnowIterations$Builder com.android.tools.r8.ir.optimize.NaturalIntLoopRemover$NaturalIntLoopWithKnowIterations.builder(com.android.tools.r8.ir.code.If):325:325 -> a
+    34:34:boolean com.android.tools.r8.ir.optimize.NaturalIntLoopRemover.tryRemoveLoop(com.android.tools.r8.ir.code.IRCode,com.android.tools.r8.ir.code.If):71 -> a
+    34:34:void run(com.android.tools.r8.graph.AppView,com.android.tools.r8.ir.code.IRCode):39 -> a
+    35:43:boolean com.android.tools.r8.ir.optimize.NaturalIntLoopRemover.analyzeLoopIterator(com.android.tools.r8.ir.code.If,com.android.tools.r8.ir.code.Phi,com.android.tools.r8.ir.optimize.NaturalIntLoopRemover$NaturalIntLoopWithKnowIterations$Builder):127:135 -> a
+    35:43:boolean com.android.tools.r8.ir.optimize.NaturalIntLoopRemover.tryRemoveLoop(com.android.tools.r8.ir.code.IRCode,com.android.tools.r8.ir.code.If):73 -> a
+    35:43:void run(com.android.tools.r8.graph.AppView,com.android.tools.r8.ir.code.IRCode):39 -> a
+    44:44:boolean com.android.tools.r8.ir.analysis.type.TypeElement.isInt():0:0 -> a
+    44:44:boolean com.android.tools.r8.ir.optimize.NaturalIntLoopRemover.analyzeLoopIterator(com.android.tools.r8.ir.code.If,com.android.tools.r8.ir.code.Phi,com.android.tools.r8.ir.optimize.NaturalIntLoopRemover$NaturalIntLoopWithKnowIterations$Builder):135 -> a
+    44:44:boolean com.android.tools.r8.ir.optimize.NaturalIntLoopRemover.tryRemoveLoop(com.android.tools.r8.ir.code.IRCode,com.android.tools.r8.ir.code.If):73 -> a
+    44:44:void run(com.android.tools.r8.graph.AppView,com.android.tools.r8.ir.code.IRCode):39 -> a
+    45:58:boolean com.android.tools.r8.ir.optimize.NaturalIntLoopRemover.analyzeLoopIterator(com.android.tools.r8.ir.code.If,com.android.tools.r8.ir.code.Phi,com.android.tools.r8.ir.optimize.NaturalIntLoopRemover$NaturalIntLoopWithKnowIterations$Builder):135:148 -> a
+    45:58:boolean com.android.tools.r8.ir.optimize.NaturalIntLoopRemover.tryRemoveLoop(com.android.tools.r8.ir.code.IRCode,com.android.tools.r8.ir.code.If):73 -> a
+    45:58:void run(com.android.tools.r8.graph.AppView,com.android.tools.r8.ir.code.IRCode):39 -> a
+    59:59:boolean com.android.tools.r8.ir.analysis.type.TypeElement.isInt():0:0 -> a
+    59:59:boolean com.android.tools.r8.ir.optimize.NaturalIntLoopRemover.analyzeLoopIterator(com.android.tools.r8.ir.code.If,com.android.tools.r8.ir.code.Phi,com.android.tools.r8.ir.optimize.NaturalIntLoopRemover$NaturalIntLoopWithKnowIterations$Builder):148 -> a
+    59:59:boolean com.android.tools.r8.ir.optimize.NaturalIntLoopRemover.tryRemoveLoop(com.android.tools.r8.ir.code.IRCode,com.android.tools.r8.ir.code.If):73 -> a
+    59:59:void run(com.android.tools.r8.graph.AppView,com.android.tools.r8.ir.code.IRCode):39 -> a
+    60:74:boolean com.android.tools.r8.ir.optimize.NaturalIntLoopRemover.analyzeLoopIterator(com.android.tools.r8.ir.code.If,com.android.tools.r8.ir.code.Phi,com.android.tools.r8.ir.optimize.NaturalIntLoopRemover$NaturalIntLoopWithKnowIterations$Builder):149:163 -> a
+    60:74:boolean com.android.tools.r8.ir.optimize.NaturalIntLoopRemover.tryRemoveLoop(com.android.tools.r8.ir.code.IRCode,com.android.tools.r8.ir.code.If):73 -> a
+    60:74:void run(com.android.tools.r8.graph.AppView,com.android.tools.r8.ir.code.IRCode):39 -> a
+    75:75:boolean com.android.tools.r8.ir.code.Instruction.isSub():0:0 -> a
+    75:75:boolean com.android.tools.r8.ir.optimize.NaturalIntLoopRemover.analyzeLoopIterator(com.android.tools.r8.ir.code.If,com.android.tools.r8.ir.code.Phi,com.android.tools.r8.ir.optimize.NaturalIntLoopRemover$NaturalIntLoopWithKnowIterations$Builder):163 -> a
+    75:75:boolean com.android.tools.r8.ir.optimize.NaturalIntLoopRemover.tryRemoveLoop(com.android.tools.r8.ir.code.IRCode,com.android.tools.r8.ir.code.If):73 -> a
+    75:75:void run(com.android.tools.r8.graph.AppView,com.android.tools.r8.ir.code.IRCode):39 -> a
+    76:85:boolean com.android.tools.r8.ir.optimize.NaturalIntLoopRemover.analyzeLoopIterator(com.android.tools.r8.ir.code.If,com.android.tools.r8.ir.code.Phi,com.android.tools.r8.ir.optimize.NaturalIntLoopRemover$NaturalIntLoopWithKnowIterations$Builder):165:174 -> a
+    76:85:boolean com.android.tools.r8.ir.optimize.NaturalIntLoopRemover.tryRemoveLoop(com.android.tools.r8.ir.code.IRCode,com.android.tools.r8.ir.code.If):73 -> a
+    76:85:void run(com.android.tools.r8.graph.AppView,com.android.tools.r8.ir.code.IRCode):39 -> a
+    86:86:boolean com.android.tools.r8.ir.analysis.type.TypeElement.isInt():0:0 -> a
+    86:86:boolean com.android.tools.r8.ir.optimize.NaturalIntLoopRemover.analyzeLoopIterator(com.android.tools.r8.ir.code.If,com.android.tools.r8.ir.code.Phi,com.android.tools.r8.ir.optimize.NaturalIntLoopRemover$NaturalIntLoopWithKnowIterations$Builder):174 -> a
+    86:86:boolean com.android.tools.r8.ir.optimize.NaturalIntLoopRemover.tryRemoveLoop(com.android.tools.r8.ir.code.IRCode,com.android.tools.r8.ir.code.If):73 -> a
+    86:86:void run(com.android.tools.r8.graph.AppView,com.android.tools.r8.ir.code.IRCode):39 -> a
+    87:104:boolean com.android.tools.r8.ir.optimize.NaturalIntLoopRemover.analyzeLoopIterator(com.android.tools.r8.ir.code.If,com.android.tools.r8.ir.code.Phi,com.android.tools.r8.ir.optimize.NaturalIntLoopRemover$NaturalIntLoopWithKnowIterations$Builder):175:192 -> a
+    87:104:boolean com.android.tools.r8.ir.optimize.NaturalIntLoopRemover.tryRemoveLoop(com.android.tools.r8.ir.code.IRCode,com.android.tools.r8.ir.code.If):73 -> a
+    87:104:void run(com.android.tools.r8.graph.AppView,com.android.tools.r8.ir.code.IRCode):39 -> a
+    105:105:boolean com.android.tools.r8.ir.optimize.NaturalIntLoopRemover.tryRemoveLoop(com.android.tools.r8.ir.code.IRCode,com.android.tools.r8.ir.code.If):77:77 -> a
+    105:105:void run(com.android.tools.r8.graph.AppView,com.android.tools.r8.ir.code.IRCode):39 -> a
+    106:108:java.util.Set com.android.tools.r8.ir.optimize.NaturalIntLoopRemover.computeLoopBody(com.android.tools.r8.ir.code.BasicBlock,com.android.tools.r8.ir.code.BasicBlock):383:385 -> a
+    106:108:boolean com.android.tools.r8.ir.optimize.NaturalIntLoopRemover.tryRemoveLoop(com.android.tools.r8.ir.code.IRCode,com.android.tools.r8.ir.code.If):77 -> a
+    106:108:void run(com.android.tools.r8.graph.AppView,com.android.tools.r8.ir.code.IRCode):39 -> a
+    109:109:boolean com.android.tools.r8.utils.WorkList.isEmpty():112:112 -> a
+    109:109:java.util.Set com.android.tools.r8.ir.optimize.NaturalIntLoopRemover.computeLoopBody(com.android.tools.r8.ir.code.BasicBlock,com.android.tools.r8.ir.code.BasicBlock):386 -> a
+    109:109:boolean com.android.tools.r8.ir.optimize.NaturalIntLoopRemover.tryRemoveLoop(com.android.tools.r8.ir.code.IRCode,com.android.tools.r8.ir.code.If):77 -> a
+    109:109:void run(com.android.tools.r8.graph.AppView,com.android.tools.r8.ir.code.IRCode):39 -> a
+    110:110:java.util.Set com.android.tools.r8.ir.optimize.NaturalIntLoopRemover.computeLoopBody(com.android.tools.r8.ir.code.BasicBlock,com.android.tools.r8.ir.code.BasicBlock):387:387 -> a
+    110:110:boolean com.android.tools.r8.ir.optimize.NaturalIntLoopRemover.tryRemoveLoop(com.android.tools.r8.ir.code.IRCode,com.android.tools.r8.ir.code.If):77 -> a
+    110:110:void run(com.android.tools.r8.graph.AppView,com.android.tools.r8.ir.code.IRCode):39 -> a
+    111:111:boolean com.android.tools.r8.ir.code.BasicBlock.isEntry():610:610 -> a
+    111:111:java.util.Set com.android.tools.r8.ir.optimize.NaturalIntLoopRemover.computeLoopBody(com.android.tools.r8.ir.code.BasicBlock,com.android.tools.r8.ir.code.BasicBlock):388 -> a
+      # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(1)"]}
+    111:111:boolean com.android.tools.r8.ir.optimize.NaturalIntLoopRemover.tryRemoveLoop(com.android.tools.r8.ir.code.IRCode,com.android.tools.r8.ir.code.If):77 -> a
+    111:111:void run(com.android.tools.r8.graph.AppView,com.android.tools.r8.ir.code.IRCode):39 -> a
+    112:112:boolean com.android.tools.r8.ir.code.BasicBlock.isEntry():610:610 -> a
+    112:112:java.util.Set com.android.tools.r8.ir.optimize.NaturalIntLoopRemover.computeLoopBody(com.android.tools.r8.ir.code.BasicBlock,com.android.tools.r8.ir.code.BasicBlock):388 -> a
+    112:112:boolean com.android.tools.r8.ir.optimize.NaturalIntLoopRemover.tryRemoveLoop(com.android.tools.r8.ir.code.IRCode,com.android.tools.r8.ir.code.If):77 -> a
+    112:112:void run(com.android.tools.r8.graph.AppView,com.android.tools.r8.ir.code.IRCode):39 -> a
+    113:117:java.util.Set com.android.tools.r8.ir.optimize.NaturalIntLoopRemover.computeLoopBody(com.android.tools.r8.ir.code.BasicBlock,com.android.tools.r8.ir.code.BasicBlock):393:397 -> a
+    113:117:boolean com.android.tools.r8.ir.optimize.NaturalIntLoopRemover.tryRemoveLoop(com.android.tools.r8.ir.code.IRCode,com.android.tools.r8.ir.code.If):77 -> a
+    113:117:void run(com.android.tools.r8.graph.AppView,com.android.tools.r8.ir.code.IRCode):39 -> a
+    118:122:boolean com.android.tools.r8.ir.optimize.NaturalIntLoopRemover.tryRemoveLoop(com.android.tools.r8.ir.code.IRCode,com.android.tools.r8.ir.code.If):81:85 -> a
+    118:122:void run(com.android.tools.r8.graph.AppView,com.android.tools.r8.ir.code.IRCode):39 -> a
+    123:132:boolean com.android.tools.r8.ir.optimize.NaturalIntLoopRemover.analyzeLoopExit(java.util.Set,com.android.tools.r8.ir.code.If,com.android.tools.r8.ir.optimize.NaturalIntLoopRemover$NaturalIntLoopWithKnowIterations$Builder):106:115 -> a
+    123:132:boolean com.android.tools.r8.ir.optimize.NaturalIntLoopRemover.tryRemoveLoop(com.android.tools.r8.ir.code.IRCode,com.android.tools.r8.ir.code.If):87 -> a
+    123:132:void run(com.android.tools.r8.graph.AppView,com.android.tools.r8.ir.code.IRCode):39 -> a
+    133:136:boolean com.android.tools.r8.ir.optimize.NaturalIntLoopRemover.tryRemoveLoop(com.android.tools.r8.ir.code.IRCode,com.android.tools.r8.ir.code.If):91:94 -> a
+    133:136:void run(com.android.tools.r8.graph.AppView,com.android.tools.r8.ir.code.IRCode):39 -> a
+    137:138:void run(com.android.tools.r8.graph.AppView,com.android.tools.r8.ir.code.IRCode):43:44 -> a
 com.android.tools.r8.ir.optimize.NaturalIntLoopRemover$NaturalIntLoopWithKnowIterations -> com.android.tools.r8.internal.CG:
     com.android.tools.r8.ir.code.If comparison -> c
     java.util.Set loopBody -> g
@@ -66844,40 +66849,40 @@ com.android.tools.r8.ir.optimize.NaturalIntLoopRemover$NaturalIntLoopWithKnowIte
     int counterIncrement -> b
     com.android.tools.r8.ir.code.BasicBlock loopExit -> d
     int initCounter -> a
-    1:1:void <clinit>():229:229 -> <clinit>
-    1:8:void <init>(int,int,com.android.tools.r8.ir.code.If,com.android.tools.r8.ir.code.BasicBlock,com.android.tools.r8.ir.code.BasicBlock,com.android.tools.r8.ir.code.BasicBlock,java.util.Set):246:253 -> <init>
-    1:1:boolean has1Iteration():334:334 -> a
-    2:7:com.android.tools.r8.ir.code.BasicBlock com.android.tools.r8.ir.optimize.NaturalIntLoopRemover$NaturalIntLoopWithKnowIterations.target(int):325:330 -> a
-    2:7:boolean has1Iteration():334 -> a
-    8:8:boolean has1Iteration():334:334 -> a
-    9:14:com.android.tools.r8.ir.code.BasicBlock com.android.tools.r8.ir.optimize.NaturalIntLoopRemover$NaturalIntLoopWithKnowIterations.target(int):325:330 -> a
-    9:14:boolean has1Iteration():335 -> a
-    15:15:boolean has1Iteration():335:335 -> a
-    16:16:void com.android.tools.r8.ir.optimize.NaturalIntLoopRemover$NaturalIntLoopWithKnowIterations.remove1IterationLoop(com.android.tools.r8.ir.code.IRCode):339:339 -> a
-    16:16:void access$000(com.android.tools.r8.ir.optimize.NaturalIntLoopRemover$NaturalIntLoopWithKnowIterations,com.android.tools.r8.ir.code.IRCode):229 -> a
+    1:1:void <clinit>():233:233 -> <clinit>
+    1:8:void <init>(int,int,com.android.tools.r8.ir.code.If,com.android.tools.r8.ir.code.BasicBlock,com.android.tools.r8.ir.code.BasicBlock,com.android.tools.r8.ir.code.BasicBlock,java.util.Set):250:257 -> <init>
+    1:1:boolean has1Iteration():338:338 -> a
+    2:7:com.android.tools.r8.ir.code.BasicBlock com.android.tools.r8.ir.optimize.NaturalIntLoopRemover$NaturalIntLoopWithKnowIterations.target(int):329:334 -> a
+    2:7:boolean has1Iteration():338 -> a
+    8:8:boolean has1Iteration():338:338 -> a
+    9:14:com.android.tools.r8.ir.code.BasicBlock com.android.tools.r8.ir.optimize.NaturalIntLoopRemover$NaturalIntLoopWithKnowIterations.target(int):329:334 -> a
+    9:14:boolean has1Iteration():339 -> a
+    15:15:boolean has1Iteration():339:339 -> a
+    16:16:void com.android.tools.r8.ir.optimize.NaturalIntLoopRemover$NaturalIntLoopWithKnowIterations.remove1IterationLoop(com.android.tools.r8.ir.code.IRCode):343:343 -> a
+    16:16:void access$000(com.android.tools.r8.ir.optimize.NaturalIntLoopRemover$NaturalIntLoopWithKnowIterations,com.android.tools.r8.ir.code.IRCode):233 -> a
       # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(1)"]}
-    17:17:void com.android.tools.r8.ir.optimize.NaturalIntLoopRemover$NaturalIntLoopWithKnowIterations.remove1IterationLoop(com.android.tools.r8.ir.code.IRCode):339:339 -> a
-    17:17:void access$000(com.android.tools.r8.ir.optimize.NaturalIntLoopRemover$NaturalIntLoopWithKnowIterations,com.android.tools.r8.ir.code.IRCode):229 -> a
-    18:33:void com.android.tools.r8.ir.optimize.NaturalIntLoopRemover$NaturalIntLoopWithKnowIterations.updatePhis(com.android.tools.r8.ir.code.BasicBlock):356:371 -> a
-    18:33:void com.android.tools.r8.ir.optimize.NaturalIntLoopRemover$NaturalIntLoopWithKnowIterations.remove1IterationLoop(com.android.tools.r8.ir.code.IRCode):340 -> a
-    18:33:void access$000(com.android.tools.r8.ir.optimize.NaturalIntLoopRemover$NaturalIntLoopWithKnowIterations,com.android.tools.r8.ir.code.IRCode):229 -> a
-    34:35:void com.android.tools.r8.ir.optimize.NaturalIntLoopRemover$NaturalIntLoopWithKnowIterations.patchControlFlow(com.android.tools.r8.ir.code.IRCode,com.android.tools.r8.ir.code.BasicBlock):345:346 -> a
-    34:35:void com.android.tools.r8.ir.optimize.NaturalIntLoopRemover$NaturalIntLoopWithKnowIterations.remove1IterationLoop(com.android.tools.r8.ir.code.IRCode):341 -> a
-    34:35:void access$000(com.android.tools.r8.ir.optimize.NaturalIntLoopRemover$NaturalIntLoopWithKnowIterations,com.android.tools.r8.ir.code.IRCode):229 -> a
+    17:17:void com.android.tools.r8.ir.optimize.NaturalIntLoopRemover$NaturalIntLoopWithKnowIterations.remove1IterationLoop(com.android.tools.r8.ir.code.IRCode):343:343 -> a
+    17:17:void access$000(com.android.tools.r8.ir.optimize.NaturalIntLoopRemover$NaturalIntLoopWithKnowIterations,com.android.tools.r8.ir.code.IRCode):233 -> a
+    18:33:void com.android.tools.r8.ir.optimize.NaturalIntLoopRemover$NaturalIntLoopWithKnowIterations.updatePhis(com.android.tools.r8.ir.code.BasicBlock):360:375 -> a
+    18:33:void com.android.tools.r8.ir.optimize.NaturalIntLoopRemover$NaturalIntLoopWithKnowIterations.remove1IterationLoop(com.android.tools.r8.ir.code.IRCode):344 -> a
+    18:33:void access$000(com.android.tools.r8.ir.optimize.NaturalIntLoopRemover$NaturalIntLoopWithKnowIterations,com.android.tools.r8.ir.code.IRCode):233 -> a
+    34:35:void com.android.tools.r8.ir.optimize.NaturalIntLoopRemover$NaturalIntLoopWithKnowIterations.patchControlFlow(com.android.tools.r8.ir.code.IRCode,com.android.tools.r8.ir.code.BasicBlock):349:350 -> a
+    34:35:void com.android.tools.r8.ir.optimize.NaturalIntLoopRemover$NaturalIntLoopWithKnowIterations.remove1IterationLoop(com.android.tools.r8.ir.code.IRCode):345 -> a
+    34:35:void access$000(com.android.tools.r8.ir.optimize.NaturalIntLoopRemover$NaturalIntLoopWithKnowIterations,com.android.tools.r8.ir.code.IRCode):233 -> a
     36:37:void com.android.tools.r8.ir.code.Goto.<init>(com.android.tools.r8.ir.code.BasicBlock):21:22 -> a
-    36:37:void com.android.tools.r8.ir.optimize.NaturalIntLoopRemover$NaturalIntLoopWithKnowIterations.patchControlFlow(com.android.tools.r8.ir.code.IRCode,com.android.tools.r8.ir.code.BasicBlock):346 -> a
-    36:37:void com.android.tools.r8.ir.optimize.NaturalIntLoopRemover$NaturalIntLoopWithKnowIterations.remove1IterationLoop(com.android.tools.r8.ir.code.IRCode):341 -> a
-    36:37:void access$000(com.android.tools.r8.ir.optimize.NaturalIntLoopRemover$NaturalIntLoopWithKnowIterations,com.android.tools.r8.ir.code.IRCode):229 -> a
-    38:42:void com.android.tools.r8.ir.optimize.NaturalIntLoopRemover$NaturalIntLoopWithKnowIterations.patchControlFlow(com.android.tools.r8.ir.code.IRCode,com.android.tools.r8.ir.code.BasicBlock):346:350 -> a
-    38:42:void com.android.tools.r8.ir.optimize.NaturalIntLoopRemover$NaturalIntLoopWithKnowIterations.remove1IterationLoop(com.android.tools.r8.ir.code.IRCode):341 -> a
-    38:42:void access$000(com.android.tools.r8.ir.optimize.NaturalIntLoopRemover$NaturalIntLoopWithKnowIterations,com.android.tools.r8.ir.code.IRCode):229 -> a
+    36:37:void com.android.tools.r8.ir.optimize.NaturalIntLoopRemover$NaturalIntLoopWithKnowIterations.patchControlFlow(com.android.tools.r8.ir.code.IRCode,com.android.tools.r8.ir.code.BasicBlock):350 -> a
+    36:37:void com.android.tools.r8.ir.optimize.NaturalIntLoopRemover$NaturalIntLoopWithKnowIterations.remove1IterationLoop(com.android.tools.r8.ir.code.IRCode):345 -> a
+    36:37:void access$000(com.android.tools.r8.ir.optimize.NaturalIntLoopRemover$NaturalIntLoopWithKnowIterations,com.android.tools.r8.ir.code.IRCode):233 -> a
+    38:42:void com.android.tools.r8.ir.optimize.NaturalIntLoopRemover$NaturalIntLoopWithKnowIterations.patchControlFlow(com.android.tools.r8.ir.code.IRCode,com.android.tools.r8.ir.code.BasicBlock):350:354 -> a
+    38:42:void com.android.tools.r8.ir.optimize.NaturalIntLoopRemover$NaturalIntLoopWithKnowIterations.remove1IterationLoop(com.android.tools.r8.ir.code.IRCode):345 -> a
+    38:42:void access$000(com.android.tools.r8.ir.optimize.NaturalIntLoopRemover$NaturalIntLoopWithKnowIterations,com.android.tools.r8.ir.code.IRCode):233 -> a
     43:44:void com.android.tools.r8.ir.code.Goto.<init>(com.android.tools.r8.ir.code.BasicBlock):21:22 -> a
-    43:44:void com.android.tools.r8.ir.optimize.NaturalIntLoopRemover$NaturalIntLoopWithKnowIterations.patchControlFlow(com.android.tools.r8.ir.code.IRCode,com.android.tools.r8.ir.code.BasicBlock):350 -> a
-    43:44:void com.android.tools.r8.ir.optimize.NaturalIntLoopRemover$NaturalIntLoopWithKnowIterations.remove1IterationLoop(com.android.tools.r8.ir.code.IRCode):341 -> a
-    43:44:void access$000(com.android.tools.r8.ir.optimize.NaturalIntLoopRemover$NaturalIntLoopWithKnowIterations,com.android.tools.r8.ir.code.IRCode):229 -> a
-    45:47:void com.android.tools.r8.ir.optimize.NaturalIntLoopRemover$NaturalIntLoopWithKnowIterations.patchControlFlow(com.android.tools.r8.ir.code.IRCode,com.android.tools.r8.ir.code.BasicBlock):350:352 -> a
-    45:47:void com.android.tools.r8.ir.optimize.NaturalIntLoopRemover$NaturalIntLoopWithKnowIterations.remove1IterationLoop(com.android.tools.r8.ir.code.IRCode):341 -> a
-    45:47:void access$000(com.android.tools.r8.ir.optimize.NaturalIntLoopRemover$NaturalIntLoopWithKnowIterations,com.android.tools.r8.ir.code.IRCode):229 -> a
+    43:44:void com.android.tools.r8.ir.optimize.NaturalIntLoopRemover$NaturalIntLoopWithKnowIterations.patchControlFlow(com.android.tools.r8.ir.code.IRCode,com.android.tools.r8.ir.code.BasicBlock):354 -> a
+    43:44:void com.android.tools.r8.ir.optimize.NaturalIntLoopRemover$NaturalIntLoopWithKnowIterations.remove1IterationLoop(com.android.tools.r8.ir.code.IRCode):345 -> a
+    43:44:void access$000(com.android.tools.r8.ir.optimize.NaturalIntLoopRemover$NaturalIntLoopWithKnowIterations,com.android.tools.r8.ir.code.IRCode):233 -> a
+    45:47:void com.android.tools.r8.ir.optimize.NaturalIntLoopRemover$NaturalIntLoopWithKnowIterations.patchControlFlow(com.android.tools.r8.ir.code.IRCode,com.android.tools.r8.ir.code.BasicBlock):354:356 -> a
+    45:47:void com.android.tools.r8.ir.optimize.NaturalIntLoopRemover$NaturalIntLoopWithKnowIterations.remove1IterationLoop(com.android.tools.r8.ir.code.IRCode):345 -> a
+    45:47:void access$000(com.android.tools.r8.ir.optimize.NaturalIntLoopRemover$NaturalIntLoopWithKnowIterations,com.android.tools.r8.ir.code.IRCode):233 -> a
 com.android.tools.r8.ir.optimize.NaturalIntLoopRemover$NaturalIntLoopWithKnowIterations$Builder -> com.android.tools.r8.internal.BG:
     com.android.tools.r8.ir.code.If comparison -> c
     com.android.tools.r8.ir.code.BasicBlock backPredecessor -> g
@@ -66887,22 +66892,22 @@ com.android.tools.r8.ir.optimize.NaturalIntLoopRemover$NaturalIntLoopWithKnowIte
     int counterIncrement -> b
     com.android.tools.r8.ir.code.BasicBlock loopExit -> d
     int initCounter -> a
-    1:2:void <init>(com.android.tools.r8.ir.code.If):267:268 -> <init>
-    1:1:void setCounterIncrement(int):280:280 -> a
-    2:2:void setBackPredecessor(com.android.tools.r8.ir.code.BasicBlock):296:296 -> a
-    3:4:void setLoop(com.android.tools.r8.ir.code.BasicBlock,com.android.tools.r8.ir.code.BasicBlock):300:301 -> a
-    5:5:void setLoopBody(java.util.Set):305:305 -> a
-    6:6:com.android.tools.r8.ir.optimize.NaturalIntLoopRemover$NaturalIntLoopWithKnowIterations build():309:309 -> a
-    1:1:void setInitCounter(int):272:272 -> b
-    2:2:void setLoopEntry(com.android.tools.r8.ir.code.BasicBlock):288:288 -> b
-    3:3:com.android.tools.r8.ir.code.BasicBlock getBackPredecessor():292:292 -> b
-    1:1:int getCounterIncrement():276:276 -> c
-    1:1:com.android.tools.r8.ir.code.BasicBlock getLoopEntry():284:284 -> d
+    1:2:void <init>(com.android.tools.r8.ir.code.If):271:272 -> <init>
+    1:1:void setCounterIncrement(int):284:284 -> a
+    2:2:void setBackPredecessor(com.android.tools.r8.ir.code.BasicBlock):300:300 -> a
+    3:4:void setLoop(com.android.tools.r8.ir.code.BasicBlock,com.android.tools.r8.ir.code.BasicBlock):304:305 -> a
+    5:5:void setLoopBody(java.util.Set):309:309 -> a
+    6:6:com.android.tools.r8.ir.optimize.NaturalIntLoopRemover$NaturalIntLoopWithKnowIterations build():313:313 -> a
+    1:1:void setInitCounter(int):276:276 -> b
+    2:2:void setLoopEntry(com.android.tools.r8.ir.code.BasicBlock):292:292 -> b
+    3:3:com.android.tools.r8.ir.code.BasicBlock getBackPredecessor():296:296 -> b
+    1:1:int getCounterIncrement():280:280 -> c
+    1:1:com.android.tools.r8.ir.code.BasicBlock getLoopEntry():288:288 -> d
 com.android.tools.r8.ir.optimize.NestReducer -> com.android.tools.r8.internal.MG:
     com.android.tools.r8.graph.AppView appView -> a
     1:2:void <init>(com.android.tools.r8.graph.AppView):35:36 -> <init>
     1:2:void run(java.util.concurrent.ExecutorService,com.android.tools.r8.utils.Timing):40:41 -> a
-    3:3:boolean com.android.tools.r8.utils.InternalOptions.canUseNestBasedAccess():1943:1943 -> a
+    3:3:boolean com.android.tools.r8.utils.InternalOptions.canUseNestBasedAccess():1944:1944 -> a
     3:3:boolean com.android.tools.r8.utils.InternalOptions.shouldDesugarNests():524 -> a
     3:3:void run(java.util.concurrent.ExecutorService,com.android.tools.r8.utils.Timing):41 -> a
       # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(2)"]}
@@ -83616,19 +83621,19 @@ com.android.tools.r8.jar.CfApplicationWriter -> com.android.tools.r8.internal.C6
     542:542:com.android.tools.r8.cf.CfVersion getClassFileVersion(com.android.tools.r8.graph.DexEncodedMethod):326:326 -> a
     543:543:com.android.tools.r8.cf.CfVersion getClassFileVersion(com.android.tools.r8.graph.DexEncodedMethod):326:326 -> a
     518:519:com.android.tools.r8.cf.CfVersion getClassFileVersion(com.android.tools.r8.graph.DexEncodedMethod):327:328 -> a
-    520:520:com.android.tools.r8.cf.CfVersion com.android.tools.r8.utils.InternalOptions.classFileVersionAfterDesugaring(com.android.tools.r8.cf.CfVersion):2038:2038 -> a
+    520:520:com.android.tools.r8.cf.CfVersion com.android.tools.r8.utils.InternalOptions.classFileVersionAfterDesugaring(com.android.tools.r8.cf.CfVersion):2039:2039 -> a
     520:520:com.android.tools.r8.cf.CfVersion getClassFileVersion(com.android.tools.r8.graph.DexEncodedMethod):329 -> a
       # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(1)"]}
-    524:524:com.android.tools.r8.cf.CfVersion com.android.tools.r8.utils.InternalOptions.classFileVersionAfterDesugaring(com.android.tools.r8.cf.CfVersion):2042:2042 -> a
+    524:524:com.android.tools.r8.cf.CfVersion com.android.tools.r8.utils.InternalOptions.classFileVersionAfterDesugaring(com.android.tools.r8.cf.CfVersion):2043:2043 -> a
     524:524:com.android.tools.r8.cf.CfVersion getClassFileVersion(com.android.tools.r8.graph.DexEncodedMethod):329 -> a
     525:525:com.android.tools.r8.utils.structural.Ordered com.android.tools.r8.utils.structural.Ordered.min(com.android.tools.r8.utils.structural.Ordered,com.android.tools.r8.utils.structural.Ordered):21:21 -> a
-    525:525:com.android.tools.r8.cf.CfVersion com.android.tools.r8.utils.InternalOptions.classFileVersionAfterDesugaring(com.android.tools.r8.cf.CfVersion):2043 -> a
+    525:525:com.android.tools.r8.cf.CfVersion com.android.tools.r8.utils.InternalOptions.classFileVersionAfterDesugaring(com.android.tools.r8.cf.CfVersion):2044 -> a
     525:525:com.android.tools.r8.cf.CfVersion getClassFileVersion(com.android.tools.r8.graph.DexEncodedMethod):329 -> a
     526:531:com.android.tools.r8.cf.CfVersion getClassFileVersion(com.android.tools.r8.graph.DexEncodedMethod):328:333 -> a
-    532:536:com.android.tools.r8.cf.CfVersion com.android.tools.r8.utils.InternalOptions.classFileVersionAfterDesugaring(com.android.tools.r8.cf.CfVersion):2038:2042 -> a
+    532:536:com.android.tools.r8.cf.CfVersion com.android.tools.r8.utils.InternalOptions.classFileVersionAfterDesugaring(com.android.tools.r8.cf.CfVersion):2039:2043 -> a
     532:536:com.android.tools.r8.cf.CfVersion getClassFileVersion(com.android.tools.r8.graph.DexEncodedMethod):333 -> a
     537:537:com.android.tools.r8.utils.structural.Ordered com.android.tools.r8.utils.structural.Ordered.min(com.android.tools.r8.utils.structural.Ordered,com.android.tools.r8.utils.structural.Ordered):21:21 -> a
-    537:537:com.android.tools.r8.cf.CfVersion com.android.tools.r8.utils.InternalOptions.classFileVersionAfterDesugaring(com.android.tools.r8.cf.CfVersion):2043 -> a
+    537:537:com.android.tools.r8.cf.CfVersion com.android.tools.r8.utils.InternalOptions.classFileVersionAfterDesugaring(com.android.tools.r8.cf.CfVersion):2044 -> a
     537:537:com.android.tools.r8.cf.CfVersion getClassFileVersion(com.android.tools.r8.graph.DexEncodedMethod):333 -> a
     538:540:com.android.tools.r8.cf.CfVersion getClassFileVersion(com.android.tools.r8.graph.DexEncodedMethod):334:336 -> a
     544:551:com.android.tools.r8.graph.DexValue getSystemAnnotationValue(com.android.tools.r8.graph.DexAnnotationSet,com.android.tools.r8.graph.DexType):354:361 -> a
@@ -98008,11 +98013,11 @@ com.android.tools.r8.naming.ProguardMapSupplier -> com.android.tools.r8.internal
     13:15:com.android.tools.r8.naming.ProguardMapSupplier$ProguardMapId writeProguardMap():81 -> a
     19:21:void com.android.tools.r8.naming.ProguardMapSupplier.writeMarker(com.android.tools.r8.naming.ProguardMapSupplier$ProguardMapId):118:120 -> a
     19:21:com.android.tools.r8.naming.ProguardMapSupplier$ProguardMapId writeProguardMap():81 -> a
-    22:22:com.android.tools.r8.naming.MapVersion com.android.tools.r8.utils.InternalOptions.getMapFileVersion():1867:1867 -> a
+    22:22:com.android.tools.r8.naming.MapVersion com.android.tools.r8.utils.InternalOptions.getMapFileVersion():1868:1868 -> a
     22:22:void com.android.tools.r8.naming.ProguardMapSupplier.writeMarker(com.android.tools.r8.naming.ProguardMapSupplier$ProguardMapId):120 -> a
       # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(1)"]}
     22:22:com.android.tools.r8.naming.ProguardMapSupplier$ProguardMapId writeProguardMap():81 -> a
-    23:25:com.android.tools.r8.naming.MapVersion com.android.tools.r8.utils.InternalOptions.getMapFileVersion():1867:1869 -> a
+    23:25:com.android.tools.r8.naming.MapVersion com.android.tools.r8.utils.InternalOptions.getMapFileVersion():1868:1870 -> a
     23:25:void com.android.tools.r8.naming.ProguardMapSupplier.writeMarker(com.android.tools.r8.naming.ProguardMapSupplier$ProguardMapId):120 -> a
     23:25:com.android.tools.r8.naming.ProguardMapSupplier$ProguardMapId writeProguardMap():81 -> a
     26:30:void com.android.tools.r8.naming.ProguardMapSupplier.writeMarker(com.android.tools.r8.naming.ProguardMapSupplier$ProguardMapId):121:125 -> a
@@ -123691,196 +123696,196 @@ com.android.tools.r8.utils.InternalOptions -> com.android.tools.r8.internal.qu:
     1924:1924:void <init>(com.android.tools.r8.CompilationMode,com.android.tools.r8.shaking.ProguardConfiguration,com.android.tools.r8.utils.Reporter):196:196 -> <init>
     1925:2878:void <init>(com.android.tools.r8.CompilationMode,com.android.tools.r8.shaking.ProguardConfiguration,com.android.tools.r8.utils.Reporter):165:1118 -> <init>
     2879:2899:void <init>(com.android.tools.r8.CompilationMode,com.android.tools.r8.shaking.ProguardConfiguration,com.android.tools.r8.utils.Reporter):197:217 -> <init>
-    1:1:boolean canHaveNumberConversionRegisterAllocationBug():2239:2239 -> A
+    1:1:boolean canHaveNumberConversionRegisterAllocationBug():2240:2240 -> A
     2:2:com.android.tools.r8.utils.AndroidApiLevel com.android.tools.r8.utils.InternalOptions.getMinApiLevel():580:580 -> A
-    2:2:boolean canHaveNumberConversionRegisterAllocationBug():2239 -> A
-    3:3:boolean canHaveNumberConversionRegisterAllocationBug():2239:2239 -> A
+    2:2:boolean canHaveNumberConversionRegisterAllocationBug():2240 -> A
+    3:3:boolean canHaveNumberConversionRegisterAllocationBug():2240:2240 -> A
     1:1:boolean com.android.tools.r8.utils.InternalOptions.isGeneratingClassFiles():482:482 -> A0
     1:1:boolean isDesugaring():486 -> A0
     2:2:boolean isDesugaring():486:486 -> A0
-    1:1:boolean canHaveOverlappingLongRegisterBug():2123:2123 -> B
+    1:1:boolean canHaveOverlappingLongRegisterBug():2124:2124 -> B
     2:2:com.android.tools.r8.utils.AndroidApiLevel com.android.tools.r8.utils.InternalOptions.getMinApiLevel():580:580 -> B
-    2:2:boolean canHaveOverlappingLongRegisterBug():2123 -> B
-    3:3:boolean canHaveOverlappingLongRegisterBug():2123:2123 -> B
+    2:2:boolean canHaveOverlappingLongRegisterBug():2124 -> B
+    3:3:boolean canHaveOverlappingLongRegisterBug():2124:2124 -> B
     1:1:boolean isForceProguardCompatibilityEnabled():635:635 -> B0
     1:1:com.android.tools.r8.utils.AndroidApiLevel com.android.tools.r8.utils.InternalOptions.getMinApiLevel():580:580 -> C
-    1:1:boolean canHaveSuperInvokeBug():2428 -> C
-    2:2:boolean canHaveSuperInvokeBug():2428:2428 -> C
+    1:1:boolean canHaveSuperInvokeBug():2429 -> C
+    2:2:boolean canHaveSuperInvokeBug():2429:2429 -> C
     1:1:boolean isGeneratingClassFiles():482:482 -> C0
-    1:1:boolean canHaveSwitchMaxIntBug():2412:2412 -> D
+    1:1:boolean canHaveSwitchMaxIntBug():2413:2413 -> D
     2:2:com.android.tools.r8.utils.AndroidApiLevel com.android.tools.r8.utils.InternalOptions.getMinApiLevel():580:580 -> D
-    2:2:boolean canHaveSwitchMaxIntBug():2412 -> D
-    3:3:boolean canHaveSwitchMaxIntBug():2412:2412 -> D
+    2:2:boolean canHaveSwitchMaxIntBug():2413 -> D
+    3:3:boolean canHaveSwitchMaxIntBug():2413:2413 -> D
     1:1:boolean com.android.tools.r8.utils.InternalOptions.isGeneratingDexIndexed():474:474 -> D0
     1:1:boolean isGeneratingDex():470 -> D0
     2:2:boolean com.android.tools.r8.utils.InternalOptions.isGeneratingDexFilePerClassFile():478:478 -> D0
     2:2:boolean isGeneratingDex():470 -> D0
     1:1:com.android.tools.r8.utils.AndroidApiLevel com.android.tools.r8.utils.InternalOptions.getMinApiLevel():580:580 -> E
-    1:1:boolean canHaveThisJitCodeDebuggingBug():2117 -> E
-    2:2:boolean canHaveThisJitCodeDebuggingBug():2117:2117 -> E
+    1:1:boolean canHaveThisJitCodeDebuggingBug():2118 -> E
+    2:2:boolean canHaveThisJitCodeDebuggingBug():2118:2118 -> E
     1:1:boolean com.android.tools.r8.utils.InternalOptions.hasConsumer():427:427 -> E0
-    1:1:boolean isInterfaceMethodDesugaringEnabled():1999 -> E0
-    2:4:boolean isInterfaceMethodDesugaringEnabled():2002:2004 -> E0
-    1:1:boolean canHaveThisTypeVerifierBug():2108:2108 -> F
+    1:1:boolean isInterfaceMethodDesugaringEnabled():2000 -> E0
+    2:4:boolean isInterfaceMethodDesugaringEnabled():2003:2005 -> E0
+    1:1:boolean canHaveThisTypeVerifierBug():2109:2109 -> F
     2:2:com.android.tools.r8.utils.AndroidApiLevel com.android.tools.r8.utils.InternalOptions.getMinApiLevel():580:580 -> F
-    2:2:boolean canHaveThisTypeVerifierBug():2108 -> F
-    3:3:boolean canHaveThisTypeVerifierBug():2108:2108 -> F
+    2:2:boolean canHaveThisTypeVerifierBug():2109 -> F
+    3:3:boolean canHaveThisTypeVerifierBug():2109:2109 -> F
     1:1:boolean isKeepAttributesSignatureEnabled():644:644 -> F0
     1:1:com.android.tools.r8.utils.AndroidApiLevel com.android.tools.r8.utils.InternalOptions.getMinApiLevel():580:580 -> G
-    1:1:boolean canHaveTracingPastInstructionsStreamBug():2279 -> G
-    2:2:boolean canHaveTracingPastInstructionsStreamBug():2279:2279 -> G
+    1:1:boolean canHaveTracingPastInstructionsStreamBug():2280 -> G
+    2:2:boolean canHaveTracingPastInstructionsStreamBug():2280:2280 -> G
     1:1:boolean isKeepEnclosingMethodAttributeEnabled():649:649 -> G0
     1:1:boolean com.android.tools.r8.utils.InternalOptions.isGeneratingClassFiles():482:482 -> H
-    1:1:boolean canHaveZipFileWithMissingCloseableBug():2404 -> H
+    1:1:boolean canHaveZipFileWithMissingCloseableBug():2405 -> H
     2:2:com.android.tools.r8.utils.AndroidApiLevel com.android.tools.r8.utils.InternalOptions.getMinApiLevel():580:580 -> H
-    2:2:boolean canHaveZipFileWithMissingCloseableBug():2404 -> H
-    3:3:boolean canHaveZipFileWithMissingCloseableBug():2404:2404 -> H
+    2:2:boolean canHaveZipFileWithMissingCloseableBug():2405 -> H
+    3:3:boolean canHaveZipFileWithMissingCloseableBug():2405:2405 -> H
     1:1:boolean isKeepInnerClassesAttributeEnabled():654:654 -> H0
-    1:1:boolean canInitCauseAfterAssertionErrorObjectConstructor():2053:2053 -> I
+    1:1:boolean canInitCauseAfterAssertionErrorObjectConstructor():2054:2054 -> I
     2:2:com.android.tools.r8.utils.AndroidApiLevel com.android.tools.r8.utils.InternalOptions.getMinApiLevel():580:580 -> I
-    2:2:boolean com.android.tools.r8.utils.InternalOptions.hasMinApi(com.android.tools.r8.utils.AndroidApiLevel):1880 -> I
-    2:2:boolean canInitCauseAfterAssertionErrorObjectConstructor():2053 -> I
-    3:3:boolean com.android.tools.r8.utils.InternalOptions.hasMinApi(com.android.tools.r8.utils.AndroidApiLevel):1880:1880 -> I
-    3:3:boolean canInitCauseAfterAssertionErrorObjectConstructor():2053 -> I
+    2:2:boolean com.android.tools.r8.utils.InternalOptions.hasMinApi(com.android.tools.r8.utils.AndroidApiLevel):1881 -> I
+    2:2:boolean canInitCauseAfterAssertionErrorObjectConstructor():2054 -> I
+    3:3:boolean com.android.tools.r8.utils.InternalOptions.hasMinApi(com.android.tools.r8.utils.AndroidApiLevel):1881:1881 -> I
+    3:3:boolean canInitCauseAfterAssertionErrorObjectConstructor():2054 -> I
     1:1:boolean isKeepRuntimeInvisibleAnnotationsEnabled():659:659 -> I0
-    1:1:boolean canLeaveStaticInterfaceMethodInvokes():1951:1951 -> J
+    1:1:boolean canLeaveStaticInterfaceMethodInvokes():1952:1952 -> J
     2:2:com.android.tools.r8.utils.AndroidApiLevel com.android.tools.r8.utils.InternalOptions.getMinApiLevel():580:580 -> J
-    2:2:boolean com.android.tools.r8.utils.InternalOptions.hasMinApi(com.android.tools.r8.utils.AndroidApiLevel):1880 -> J
-    2:2:boolean canLeaveStaticInterfaceMethodInvokes():1951 -> J
-    3:3:boolean com.android.tools.r8.utils.InternalOptions.hasMinApi(com.android.tools.r8.utils.AndroidApiLevel):1880:1880 -> J
-    3:3:boolean canLeaveStaticInterfaceMethodInvokes():1951 -> J
+    2:2:boolean com.android.tools.r8.utils.InternalOptions.hasMinApi(com.android.tools.r8.utils.AndroidApiLevel):1881 -> J
+    2:2:boolean canLeaveStaticInterfaceMethodInvokes():1952 -> J
+    3:3:boolean com.android.tools.r8.utils.InternalOptions.hasMinApi(com.android.tools.r8.utils.AndroidApiLevel):1881:1881 -> J
+    3:3:boolean canLeaveStaticInterfaceMethodInvokes():1952 -> J
     1:1:boolean isKeepRuntimeInvisibleParameterAnnotationsEnabled():664:664 -> J0
     1:1:com.android.tools.r8.utils.AndroidApiLevel com.android.tools.r8.utils.InternalOptions.getMinApiLevel():580:580 -> K
-    1:1:boolean canParseNumbersWithPlusPrefix():2420 -> K
-    2:2:boolean canParseNumbersWithPlusPrefix():2420:2420 -> K
+    1:1:boolean canParseNumbersWithPlusPrefix():2421 -> K
+    2:2:boolean canParseNumbersWithPlusPrefix():2421:2421 -> K
     1:1:boolean isKeepRuntimeVisibleAnnotationsEnabled():669:669 -> K0
-    1:1:boolean canUseAssertionErrorTwoArgumentConstructor():2034:2034 -> L
+    1:1:boolean canUseAssertionErrorTwoArgumentConstructor():2035:2035 -> L
     2:2:com.android.tools.r8.utils.AndroidApiLevel com.android.tools.r8.utils.InternalOptions.getMinApiLevel():580:580 -> L
-    2:2:boolean com.android.tools.r8.utils.InternalOptions.hasMinApi(com.android.tools.r8.utils.AndroidApiLevel):1880 -> L
-    2:2:boolean canUseAssertionErrorTwoArgumentConstructor():2034 -> L
-    3:3:boolean com.android.tools.r8.utils.InternalOptions.hasMinApi(com.android.tools.r8.utils.AndroidApiLevel):1880:1880 -> L
-    3:3:boolean canUseAssertionErrorTwoArgumentConstructor():2034 -> L
+    2:2:boolean com.android.tools.r8.utils.InternalOptions.hasMinApi(com.android.tools.r8.utils.AndroidApiLevel):1881 -> L
+    2:2:boolean canUseAssertionErrorTwoArgumentConstructor():2035 -> L
+    3:3:boolean com.android.tools.r8.utils.InternalOptions.hasMinApi(com.android.tools.r8.utils.AndroidApiLevel):1881:1881 -> L
+    3:3:boolean canUseAssertionErrorTwoArgumentConstructor():2035 -> L
     1:1:boolean isKeepRuntimeVisibleParameterAnnotationsEnabled():674:674 -> L0
     1:1:boolean com.android.tools.r8.utils.InternalOptions.isGeneratingClassFiles():482:482 -> M
-    1:1:boolean canUseConstantMethodHandle():1927 -> M
-    2:2:boolean canUseConstantMethodHandle():1927:1927 -> M
+    1:1:boolean canUseConstantMethodHandle():1928 -> M
+    2:2:boolean canUseConstantMethodHandle():1928:1928 -> M
     3:3:com.android.tools.r8.utils.AndroidApiLevel com.android.tools.r8.utils.InternalOptions.getMinApiLevel():580:580 -> M
-    3:3:boolean com.android.tools.r8.utils.InternalOptions.hasMinApi(com.android.tools.r8.utils.AndroidApiLevel):1880 -> M
-    3:3:boolean canUseConstantMethodHandle():1927 -> M
-    4:4:boolean com.android.tools.r8.utils.InternalOptions.hasMinApi(com.android.tools.r8.utils.AndroidApiLevel):1880:1880 -> M
-    4:4:boolean canUseConstantMethodHandle():1927 -> M
+    3:3:boolean com.android.tools.r8.utils.InternalOptions.hasMinApi(com.android.tools.r8.utils.AndroidApiLevel):1881 -> M
+    3:3:boolean canUseConstantMethodHandle():1928 -> M
+    4:4:boolean com.android.tools.r8.utils.InternalOptions.hasMinApi(com.android.tools.r8.utils.AndroidApiLevel):1881:1881 -> M
+    4:4:boolean canUseConstantMethodHandle():1928 -> M
     1:3:boolean isMinifying():603:603 -> M0
     5:5:boolean isMinifying():605:605 -> M0
     1:1:boolean com.android.tools.r8.utils.InternalOptions.isGeneratingClassFiles():482:482 -> N
-    1:1:boolean canUseConstantMethodType():1931 -> N
-    2:2:boolean canUseConstantMethodType():1931:1931 -> N
+    1:1:boolean canUseConstantMethodType():1932 -> N
+    2:2:boolean canUseConstantMethodType():1932:1932 -> N
     3:3:com.android.tools.r8.utils.AndroidApiLevel com.android.tools.r8.utils.InternalOptions.getMinApiLevel():580:580 -> N
-    3:3:boolean com.android.tools.r8.utils.InternalOptions.hasMinApi(com.android.tools.r8.utils.AndroidApiLevel):1880 -> N
-    3:3:boolean canUseConstantMethodType():1931 -> N
-    4:4:boolean com.android.tools.r8.utils.InternalOptions.hasMinApi(com.android.tools.r8.utils.AndroidApiLevel):1880:1880 -> N
-    4:4:boolean canUseConstantMethodType():1931 -> N
+    3:3:boolean com.android.tools.r8.utils.InternalOptions.hasMinApi(com.android.tools.r8.utils.AndroidApiLevel):1881 -> N
+    3:3:boolean canUseConstantMethodType():1932 -> N
+    4:4:boolean com.android.tools.r8.utils.InternalOptions.hasMinApi(com.android.tools.r8.utils.AndroidApiLevel):1881:1881 -> N
+    4:4:boolean canUseConstantMethodType():1932 -> N
     1:1:boolean isOptimizing():589:589 -> N0
-    1:1:boolean canUseDefaultAndStaticInterfaceMethods():1939:1939 -> O
+    1:1:boolean canUseDefaultAndStaticInterfaceMethods():1940:1940 -> O
     2:2:com.android.tools.r8.utils.AndroidApiLevel com.android.tools.r8.utils.InternalOptions.getMinApiLevel():580:580 -> O
-    2:2:boolean com.android.tools.r8.utils.InternalOptions.hasMinApi(com.android.tools.r8.utils.AndroidApiLevel):1880 -> O
-    2:2:boolean canUseDefaultAndStaticInterfaceMethods():1939 -> O
-    3:3:boolean com.android.tools.r8.utils.InternalOptions.hasMinApi(com.android.tools.r8.utils.AndroidApiLevel):1880:1880 -> O
-    3:3:boolean canUseDefaultAndStaticInterfaceMethods():1939 -> O
+    2:2:boolean com.android.tools.r8.utils.InternalOptions.hasMinApi(com.android.tools.r8.utils.AndroidApiLevel):1881 -> O
+    2:2:boolean canUseDefaultAndStaticInterfaceMethods():1940 -> O
+    3:3:boolean com.android.tools.r8.utils.InternalOptions.hasMinApi(com.android.tools.r8.utils.AndroidApiLevel):1881:1881 -> O
+    3:3:boolean canUseDefaultAndStaticInterfaceMethods():1940 -> O
     1:1:boolean isRelease():593:593 -> O0
-    1:2:boolean canUseFilledNewArrayOfObjects():2065:2066 -> P
+    1:2:boolean canUseFilledNewArrayOfObjects():2066:2067 -> P
     3:3:com.android.tools.r8.utils.AndroidApiLevel com.android.tools.r8.utils.InternalOptions.getMinApiLevel():580:580 -> P
-    3:3:boolean com.android.tools.r8.utils.InternalOptions.hasMinApi(com.android.tools.r8.utils.AndroidApiLevel):1880 -> P
-    3:3:boolean canUseFilledNewArrayOfObjects():2066 -> P
-    4:4:boolean com.android.tools.r8.utils.InternalOptions.hasMinApi(com.android.tools.r8.utils.AndroidApiLevel):1880:1880 -> P
-    4:4:boolean canUseFilledNewArrayOfObjects():2066 -> P
+    3:3:boolean com.android.tools.r8.utils.InternalOptions.hasMinApi(com.android.tools.r8.utils.AndroidApiLevel):1881 -> P
+    3:3:boolean canUseFilledNewArrayOfObjects():2067 -> P
+    4:4:boolean com.android.tools.r8.utils.InternalOptions.hasMinApi(com.android.tools.r8.utils.AndroidApiLevel):1881:1881 -> P
+    4:4:boolean canUseFilledNewArrayOfObjects():2067 -> P
     1:3:boolean isShrinking():597:597 -> P0
     5:5:boolean isShrinking():599:599 -> P0
     1:1:boolean canUseInputStackMaps():712:712 -> Q
     2:2:boolean com.android.tools.r8.utils.InternalOptions.isGeneratingClassFiles():482:482 -> Q
     2:2:boolean canUseInputStackMaps():712 -> Q
-    1:1:boolean isStringSwitchConversionEnabled():2012:2012 -> Q0
+    1:1:boolean isStringSwitchConversionEnabled():2013:2013 -> Q0
     1:1:boolean com.android.tools.r8.utils.InternalOptions.isGeneratingClassFiles():482:482 -> R
-    1:1:boolean canUseInvokeCustom():1935 -> R
-    2:2:boolean canUseInvokeCustom():1935:1935 -> R
+    1:1:boolean canUseInvokeCustom():1936 -> R
+    2:2:boolean canUseInvokeCustom():1936:1936 -> R
     3:3:com.android.tools.r8.utils.AndroidApiLevel com.android.tools.r8.utils.InternalOptions.getMinApiLevel():580:580 -> R
-    3:3:boolean com.android.tools.r8.utils.InternalOptions.hasMinApi(com.android.tools.r8.utils.AndroidApiLevel):1880 -> R
-    3:3:boolean canUseInvokeCustom():1935 -> R
-    4:4:boolean com.android.tools.r8.utils.InternalOptions.hasMinApi(com.android.tools.r8.utils.AndroidApiLevel):1880:1880 -> R
-    4:4:boolean canUseInvokeCustom():1935 -> R
+    3:3:boolean com.android.tools.r8.utils.InternalOptions.hasMinApi(com.android.tools.r8.utils.AndroidApiLevel):1881 -> R
+    3:3:boolean canUseInvokeCustom():1936 -> R
+    4:4:boolean com.android.tools.r8.utils.InternalOptions.hasMinApi(com.android.tools.r8.utils.AndroidApiLevel):1881:1881 -> R
+    4:4:boolean canUseInvokeCustom():1936 -> R
     1:6:void keepDebugRelatedInformation():222:227 -> R0
     1:1:boolean com.android.tools.r8.utils.InternalOptions.isGeneratingClassFiles():482:482 -> S
-    1:1:boolean canUseInvokePolymorphic():1923 -> S
-    2:2:boolean canUseInvokePolymorphic():1923:1923 -> S
+    1:1:boolean canUseInvokePolymorphic():1924 -> S
+    2:2:boolean canUseInvokePolymorphic():1924:1924 -> S
     3:3:com.android.tools.r8.utils.AndroidApiLevel com.android.tools.r8.utils.InternalOptions.getMinApiLevel():580:580 -> S
-    3:3:boolean com.android.tools.r8.utils.InternalOptions.hasMinApi(com.android.tools.r8.utils.AndroidApiLevel):1880 -> S
-    3:3:boolean canUseInvokePolymorphic():1923 -> S
-    4:4:boolean com.android.tools.r8.utils.InternalOptions.hasMinApi(com.android.tools.r8.utils.AndroidApiLevel):1880:1880 -> S
-    4:4:boolean canUseInvokePolymorphic():1923 -> S
+    3:3:boolean com.android.tools.r8.utils.InternalOptions.hasMinApi(com.android.tools.r8.utils.AndroidApiLevel):1881 -> S
+    3:3:boolean canUseInvokePolymorphic():1924 -> S
+    4:4:boolean com.android.tools.r8.utils.InternalOptions.hasMinApi(com.android.tools.r8.utils.AndroidApiLevel):1881:1881 -> S
+    4:4:boolean canUseInvokePolymorphic():1924 -> S
     1:2:boolean keepInnerClassStructure():707:708 -> S0
     1:1:boolean com.android.tools.r8.utils.InternalOptions.isGeneratingClassFiles():482:482 -> T
-    1:1:boolean canUseInvokePolymorphicOnVarHandle():1919 -> T
-    2:2:boolean canUseInvokePolymorphicOnVarHandle():1919:1919 -> T
+    1:1:boolean canUseInvokePolymorphicOnVarHandle():1920 -> T
+    2:2:boolean canUseInvokePolymorphicOnVarHandle():1920:1920 -> T
     3:3:com.android.tools.r8.utils.AndroidApiLevel com.android.tools.r8.utils.InternalOptions.getMinApiLevel():580:580 -> T
-    3:3:boolean com.android.tools.r8.utils.InternalOptions.hasMinApi(com.android.tools.r8.utils.AndroidApiLevel):1880 -> T
-    3:3:boolean canUseInvokePolymorphicOnVarHandle():1919 -> T
-    4:4:boolean com.android.tools.r8.utils.InternalOptions.hasMinApi(com.android.tools.r8.utils.AndroidApiLevel):1880:1880 -> T
-    4:4:boolean canUseInvokePolymorphicOnVarHandle():1919 -> T
+    3:3:boolean com.android.tools.r8.utils.InternalOptions.hasMinApi(com.android.tools.r8.utils.AndroidApiLevel):1881 -> T
+    3:3:boolean canUseInvokePolymorphicOnVarHandle():1920 -> T
+    4:4:boolean com.android.tools.r8.utils.InternalOptions.hasMinApi(com.android.tools.r8.utils.AndroidApiLevel):1881:1881 -> T
+    4:4:boolean canUseInvokePolymorphicOnVarHandle():1920 -> T
     1:1:com.android.tools.r8.utils.InternalOptions$KotlinOptimizationOptions kotlinOptimizationOptions():781:781 -> T0
-    1:1:boolean canUseJavaUtilObjects():2021:2021 -> U
+    1:1:boolean canUseJavaUtilObjects():2022:2022 -> U
     2:2:com.android.tools.r8.utils.AndroidApiLevel com.android.tools.r8.utils.InternalOptions.getMinApiLevel():580:580 -> U
-    2:2:boolean com.android.tools.r8.utils.InternalOptions.hasMinApi(com.android.tools.r8.utils.AndroidApiLevel):1880 -> U
-    2:2:boolean canUseJavaUtilObjects():2021 -> U
-    3:3:boolean com.android.tools.r8.utils.InternalOptions.hasMinApi(com.android.tools.r8.utils.AndroidApiLevel):1880:1880 -> U
-    3:3:boolean canUseJavaUtilObjects():2021 -> U
+    2:2:boolean com.android.tools.r8.utils.InternalOptions.hasMinApi(com.android.tools.r8.utils.AndroidApiLevel):1881 -> U
+    2:2:boolean canUseJavaUtilObjects():2022 -> U
+    3:3:boolean com.android.tools.r8.utils.InternalOptions.hasMinApi(com.android.tools.r8.utils.AndroidApiLevel):1881:1881 -> U
+    3:3:boolean canUseJavaUtilObjects():2022 -> U
     1:1:boolean parseSignatureAttribute():639:639 -> U0
-    1:1:boolean canUseJavaUtilObjectsIsNull():2025:2025 -> V
+    1:1:boolean canUseJavaUtilObjectsIsNull():2026:2026 -> V
     2:2:com.android.tools.r8.utils.AndroidApiLevel com.android.tools.r8.utils.InternalOptions.getMinApiLevel():580:580 -> V
-    2:2:boolean com.android.tools.r8.utils.InternalOptions.hasMinApi(com.android.tools.r8.utils.AndroidApiLevel):1880 -> V
-    2:2:boolean canUseJavaUtilObjectsIsNull():2025 -> V
-    3:3:boolean com.android.tools.r8.utils.InternalOptions.hasMinApi(com.android.tools.r8.utils.AndroidApiLevel):1880:1880 -> V
-    3:3:boolean canUseJavaUtilObjectsIsNull():2025 -> V
+    2:2:boolean com.android.tools.r8.utils.InternalOptions.hasMinApi(com.android.tools.r8.utils.AndroidApiLevel):1881 -> V
+    2:2:boolean canUseJavaUtilObjectsIsNull():2026 -> V
+    3:3:boolean com.android.tools.r8.utils.InternalOptions.hasMinApi(com.android.tools.r8.utils.AndroidApiLevel):1881:1881 -> V
+    3:3:boolean canUseJavaUtilObjectsIsNull():2026 -> V
     1:32:boolean printWarnings():1138:1169 -> V0
     33:72:boolean printWarnings():1165:1204 -> V0
-    1:2:boolean canUseMultidex():2016:2017 -> W
+    1:2:boolean canUseMultidex():2017:2018 -> W
     3:3:com.android.tools.r8.utils.AndroidApiLevel com.android.tools.r8.utils.InternalOptions.getMinApiLevel():580:580 -> W
-    3:3:boolean com.android.tools.r8.utils.InternalOptions.hasMinApi(com.android.tools.r8.utils.AndroidApiLevel):1880 -> W
-    3:3:boolean canUseMultidex():2017 -> W
-    4:4:boolean com.android.tools.r8.utils.InternalOptions.hasMinApi(com.android.tools.r8.utils.AndroidApiLevel):1880:1880 -> W
-    4:4:boolean canUseMultidex():2017 -> W
+    3:3:boolean com.android.tools.r8.utils.InternalOptions.hasMinApi(com.android.tools.r8.utils.AndroidApiLevel):1881 -> W
+    3:3:boolean canUseMultidex():2018 -> W
+    4:4:boolean com.android.tools.r8.utils.InternalOptions.hasMinApi(com.android.tools.r8.utils.AndroidApiLevel):1881:1881 -> W
+    4:4:boolean canUseMultidex():2018 -> W
     1:1:com.android.tools.r8.utils.InternalOptions$ProtoShrinkingOptions protoShrinking():777:777 -> W0
-    1:1:boolean com.android.tools.r8.utils.InternalOptions.canUseDexPc2PcAsDebugInformation():1988:1988 -> X
-    1:1:boolean canUseNativeDexPcInsteadOfDebugInfo():1992 -> X
-    2:2:boolean canUseNativeDexPcInsteadOfDebugInfo():1992:1992 -> X
+    1:1:boolean com.android.tools.r8.utils.InternalOptions.canUseDexPc2PcAsDebugInformation():1989:1989 -> X
+    1:1:boolean canUseNativeDexPcInsteadOfDebugInfo():1993 -> X
+    2:2:boolean canUseNativeDexPcInsteadOfDebugInfo():1993:1993 -> X
     3:3:com.android.tools.r8.utils.AndroidApiLevel com.android.tools.r8.utils.InternalOptions.getMinApiLevel():580:580 -> X
-    3:3:boolean com.android.tools.r8.utils.InternalOptions.hasMinApi(com.android.tools.r8.utils.AndroidApiLevel):1880 -> X
-    3:3:boolean canUseNativeDexPcInsteadOfDebugInfo():1993 -> X
-    4:4:boolean com.android.tools.r8.utils.InternalOptions.hasMinApi(com.android.tools.r8.utils.AndroidApiLevel):1880:1880 -> X
-    4:4:boolean canUseNativeDexPcInsteadOfDebugInfo():1993 -> X
-    5:5:boolean com.android.tools.r8.utils.InternalOptions.allowDiscardingResidualDebugInfo():1984:1984 -> X
-    5:5:boolean canUseNativeDexPcInsteadOfDebugInfo():1994 -> X
-    1:1:com.android.tools.r8.cf.CfVersion requiredCfVersionForConstClassInstructions():1914:1914 -> X0
+    3:3:boolean com.android.tools.r8.utils.InternalOptions.hasMinApi(com.android.tools.r8.utils.AndroidApiLevel):1881 -> X
+    3:3:boolean canUseNativeDexPcInsteadOfDebugInfo():1994 -> X
+    4:4:boolean com.android.tools.r8.utils.InternalOptions.hasMinApi(com.android.tools.r8.utils.AndroidApiLevel):1881:1881 -> X
+    4:4:boolean canUseNativeDexPcInsteadOfDebugInfo():1994 -> X
+    5:5:boolean com.android.tools.r8.utils.InternalOptions.allowDiscardingResidualDebugInfo():1985:1985 -> X
+    5:5:boolean canUseNativeDexPcInsteadOfDebugInfo():1995 -> X
+    1:1:com.android.tools.r8.cf.CfVersion requiredCfVersionForConstClassInstructions():1915:1915 -> X0
     2:2:boolean com.android.tools.r8.utils.InternalOptions.isGeneratingClassFiles():482:482 -> X0
-    2:2:com.android.tools.r8.cf.CfVersion requiredCfVersionForConstClassInstructions():1914 -> X0
-    3:4:com.android.tools.r8.cf.CfVersion requiredCfVersionForConstClassInstructions():1914:1915 -> X0
+    2:2:com.android.tools.r8.cf.CfVersion requiredCfVersionForConstClassInstructions():1915 -> X0
+    3:4:com.android.tools.r8.cf.CfVersion requiredCfVersionForConstClassInstructions():1915:1916 -> X0
     1:1:boolean com.android.tools.r8.utils.InternalOptions.isGeneratingClassFiles():482:482 -> Y
-    1:1:boolean canUseNotInstruction():2101 -> Y
-    2:2:boolean canUseNotInstruction():2101:2101 -> Y
+    1:1:boolean canUseNotInstruction():2102 -> Y
+    2:2:boolean canUseNotInstruction():2102:2102 -> Y
     3:3:com.android.tools.r8.utils.AndroidApiLevel com.android.tools.r8.utils.InternalOptions.getMinApiLevel():580:580 -> Y
-    3:3:boolean com.android.tools.r8.utils.InternalOptions.hasMinApi(com.android.tools.r8.utils.AndroidApiLevel):1880 -> Y
-    3:3:boolean canUseNotInstruction():2101 -> Y
-    4:4:boolean com.android.tools.r8.utils.InternalOptions.hasMinApi(com.android.tools.r8.utils.AndroidApiLevel):1880:1880 -> Y
-    4:4:boolean canUseNotInstruction():2101 -> Y
+    3:3:boolean com.android.tools.r8.utils.InternalOptions.hasMinApi(com.android.tools.r8.utils.AndroidApiLevel):1881 -> Y
+    3:3:boolean canUseNotInstruction():2102 -> Y
+    4:4:boolean com.android.tools.r8.utils.InternalOptions.hasMinApi(com.android.tools.r8.utils.AndroidApiLevel):1881:1881 -> Y
+    4:4:boolean canUseNotInstruction():2102 -> Y
     1:1:boolean com.android.tools.r8.utils.InternalOptions.hasConsumer():427:427 -> Y0
     1:1:boolean shouldBackportMethods():455 -> Y0
     2:2:boolean shouldBackportMethods():455:455 -> Y0
-    1:1:boolean canUsePrivateInterfaceMethods():1977:1977 -> Z
+    1:1:boolean canUsePrivateInterfaceMethods():1978:1978 -> Z
     2:2:com.android.tools.r8.utils.AndroidApiLevel com.android.tools.r8.utils.InternalOptions.getMinApiLevel():580:580 -> Z
-    2:2:boolean com.android.tools.r8.utils.InternalOptions.hasMinApi(com.android.tools.r8.utils.AndroidApiLevel):1880 -> Z
-    2:2:boolean canUsePrivateInterfaceMethods():1977 -> Z
-    3:3:boolean com.android.tools.r8.utils.InternalOptions.hasMinApi(com.android.tools.r8.utils.AndroidApiLevel):1880:1880 -> Z
-    3:3:boolean canUsePrivateInterfaceMethods():1977 -> Z
+    2:2:boolean com.android.tools.r8.utils.InternalOptions.hasMinApi(com.android.tools.r8.utils.AndroidApiLevel):1881 -> Z
+    2:2:boolean canUsePrivateInterfaceMethods():1978 -> Z
+    3:3:boolean com.android.tools.r8.utils.InternalOptions.hasMinApi(com.android.tools.r8.utils.AndroidApiLevel):1881:1881 -> Z
+    3:3:boolean canUsePrivateInterfaceMethods():1978 -> Z
     1:1:boolean shouldDesugarRecords():528:528 -> Z0
-    2:2:boolean com.android.tools.r8.utils.InternalOptions.canUseRecords():1947:1947 -> Z0
+    2:2:boolean com.android.tools.r8.utils.InternalOptions.canUseRecords():1948:1948 -> Z0
     2:2:boolean shouldDesugarRecords():528 -> Z0
     boolean lambda$new$0(java.lang.String,java.lang.Long) -> a
     1:1:com.android.tools.r8.utils.InternalOptions$InlinerOptions access$200(com.android.tools.r8.utils.InternalOptions):112:112 -> a
@@ -123929,14 +123934,14 @@ com.android.tools.r8.utils.InternalOptions -> com.android.tools.r8.internal.qu:
     118:118:void warningInvalidDebugInfo(com.android.tools.r8.graph.ProgramMethod,com.android.tools.r8.origin.Origin,com.android.tools.r8.errors.InvalidDebugInfoException):1110:1110 -> a
     119:119:java.util.List lambda$warningInvalidDebugInfo$5(com.android.tools.r8.origin.Origin):1114:1114 -> a
     120:125:boolean methodMatchesFilter(com.android.tools.r8.graph.DexEncodedMethod):1218:1223 -> a
-    126:126:boolean canUseConstClassInstructions(com.android.tools.r8.cf.CfVersion):1909:1909 -> a
+    126:126:boolean canUseConstClassInstructions(com.android.tools.r8.cf.CfVersion):1910:1910 -> a
     127:127:boolean com.android.tools.r8.utils.InternalOptions.isGeneratingClassFiles():482:482 -> a
-    127:127:boolean canUseConstClassInstructions(com.android.tools.r8.cf.CfVersion):1909 -> a
-    128:129:boolean canUseConstClassInstructions(com.android.tools.r8.cf.CfVersion):1909:1910 -> a
-    1:1:boolean canUseSameArrayAndResultRegisterInArrayGetWide():2074:2074 -> a0
+    127:127:boolean canUseConstClassInstructions(com.android.tools.r8.cf.CfVersion):1910 -> a
+    128:129:boolean canUseConstClassInstructions(com.android.tools.r8.cf.CfVersion):1910:1911 -> a
+    1:1:boolean canUseSameArrayAndResultRegisterInArrayGetWide():2075:2075 -> a0
     2:2:com.android.tools.r8.utils.AndroidApiLevel com.android.tools.r8.utils.InternalOptions.getMinApiLevel():580:580 -> a0
-    2:2:boolean canUseSameArrayAndResultRegisterInArrayGetWide():2075 -> a0
-    3:3:boolean canUseSameArrayAndResultRegisterInArrayGetWide():2075:2075 -> a0
+    2:2:boolean canUseSameArrayAndResultRegisterInArrayGetWide():2076 -> a0
+    3:3:boolean canUseSameArrayAndResultRegisterInArrayGetWide():2076:2076 -> a0
     1:1:boolean shouldKeepStackMapTable():459:459 -> a1
     2:2:boolean com.android.tools.r8.utils.InternalOptions.isRelocatorCompilation():451:451 -> a1
     2:2:boolean shouldKeepStackMapTable():459 -> a1
@@ -123948,12 +123953,12 @@ com.android.tools.r8.utils.InternalOptions -> com.android.tools.r8.internal.qu:
     2:2:boolean isTreeShakingEnabled():615:615 -> b
     3:36:java.lang.String messageErrorIncompleteNest(com.android.tools.r8.ir.desugar.nest.Nest):999:1032 -> b
     37:37:java.util.List lambda$warningInvalidParameterAnnotations$4(com.android.tools.r8.origin.Origin):1103:1103 -> b
-    1:1:boolean canUseSuppressedExceptions():2030:2030 -> b0
+    1:1:boolean canUseSuppressedExceptions():2031:2031 -> b0
     2:2:com.android.tools.r8.utils.AndroidApiLevel com.android.tools.r8.utils.InternalOptions.getMinApiLevel():580:580 -> b0
-    2:2:boolean com.android.tools.r8.utils.InternalOptions.hasMinApi(com.android.tools.r8.utils.AndroidApiLevel):1880 -> b0
-    2:2:boolean canUseSuppressedExceptions():2030 -> b0
-    3:3:boolean com.android.tools.r8.utils.InternalOptions.hasMinApi(com.android.tools.r8.utils.AndroidApiLevel):1880:1880 -> b0
-    3:3:boolean canUseSuppressedExceptions():2030 -> b0
+    2:2:boolean com.android.tools.r8.utils.InternalOptions.hasMinApi(com.android.tools.r8.utils.AndroidApiLevel):1881 -> b0
+    2:2:boolean canUseSuppressedExceptions():2031 -> b0
+    3:3:boolean com.android.tools.r8.utils.InternalOptions.hasMinApi(com.android.tools.r8.utils.AndroidApiLevel):1881:1881 -> b0
+    3:3:boolean canUseSuppressedExceptions():2031 -> b0
     1:1:boolean shouldRerunEnqueuer():466:466 -> b1
     1:1:boolean isMinificationEnabled():620:620 -> c
     2:2:java.util.List lambda$warningMissingEnclosingMember$3(com.android.tools.r8.origin.Origin):1094:1094 -> c
@@ -123986,44 +123991,44 @@ com.android.tools.r8.utils.InternalOptions -> com.android.tools.r8.internal.qu:
     14:14:void disableGlobalOptimizations():258 -> g0
       # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(1)"]}
     1:1:boolean assertionsEnabled():960:960 -> h
-    1:1:void disableNameReflectionOptimization():1876:1876 -> h0
+    1:1:void disableNameReflectionOptimization():1877:1877 -> h0
     1:1:com.android.tools.r8.utils.InternalOptions$CallSiteOptimizationOptions callSiteOptimizationOptions():761:761 -> i
-    1:1:boolean enableBackportedMethodRewriting():1963:1963 -> i0
+    1:1:boolean enableBackportedMethodRewriting():1964:1964 -> i0
     2:2:com.android.tools.r8.utils.AndroidApiLevel com.android.tools.r8.utils.InternalOptions.getMinApiLevel():580:580 -> i0
-    2:2:boolean enableBackportedMethodRewriting():1963 -> i0
-    3:3:boolean enableBackportedMethodRewriting():1963:1963 -> i0
+    2:2:boolean enableBackportedMethodRewriting():1964 -> i0
+    3:3:boolean enableBackportedMethodRewriting():1964:1964 -> i0
     1:1:com.android.tools.r8.utils.AndroidApiLevel com.android.tools.r8.utils.InternalOptions.getMinApiLevel():580:580 -> j
-    1:1:boolean canHaveArtCheckCastVerifierBug():2351 -> j
-    2:2:boolean canHaveArtCheckCastVerifierBug():2351:2351 -> j
+    1:1:boolean canHaveArtCheckCastVerifierBug():2352 -> j
+    2:2:boolean canHaveArtCheckCastVerifierBug():2352:2352 -> j
     1:6:void enableProtoShrinking():231:236 -> j0
-    1:1:boolean canHaveArtInstanceOfVerifierBug():2306:2306 -> k
+    1:1:boolean canHaveArtInstanceOfVerifierBug():2307:2307 -> k
     2:2:com.android.tools.r8.utils.AndroidApiLevel com.android.tools.r8.utils.InternalOptions.getMinApiLevel():580:580 -> k
-    2:2:boolean canHaveArtInstanceOfVerifierBug():2307 -> k
-    3:3:boolean canHaveArtInstanceOfVerifierBug():2307:2307 -> k
-    1:5:boolean enableTryWithResourcesDesugaring():1967:1971 -> k0
-    6:6:boolean com.android.tools.r8.utils.InternalOptions.canUseTwrCloseResourceMethod():1955:1955 -> k0
-    6:6:boolean enableTryWithResourcesDesugaring():1971 -> k0
+    2:2:boolean canHaveArtInstanceOfVerifierBug():2308 -> k
+    3:3:boolean canHaveArtInstanceOfVerifierBug():2308:2308 -> k
+    1:5:boolean enableTryWithResourcesDesugaring():1968:1972 -> k0
+    6:6:boolean com.android.tools.r8.utils.InternalOptions.canUseTwrCloseResourceMethod():1956:1956 -> k0
+    6:6:boolean enableTryWithResourcesDesugaring():1972 -> k0
     7:7:com.android.tools.r8.utils.AndroidApiLevel com.android.tools.r8.utils.InternalOptions.getMinApiLevel():580:580 -> k0
-    7:7:boolean com.android.tools.r8.utils.InternalOptions.hasMinApi(com.android.tools.r8.utils.AndroidApiLevel):1880 -> k0
-    7:7:boolean com.android.tools.r8.utils.InternalOptions.canUseTwrCloseResourceMethod():1955 -> k0
-    7:7:boolean enableTryWithResourcesDesugaring():1971 -> k0
-    8:8:boolean com.android.tools.r8.utils.InternalOptions.hasMinApi(com.android.tools.r8.utils.AndroidApiLevel):1880:1880 -> k0
-    8:8:boolean com.android.tools.r8.utils.InternalOptions.canUseTwrCloseResourceMethod():1955 -> k0
-    8:8:boolean enableTryWithResourcesDesugaring():1971 -> k0
-    9:9:boolean enableTryWithResourcesDesugaring():1973:1973 -> k0
-    1:1:boolean canHaveArtStringNewInitBug():2231:2231 -> l
+    7:7:boolean com.android.tools.r8.utils.InternalOptions.hasMinApi(com.android.tools.r8.utils.AndroidApiLevel):1881 -> k0
+    7:7:boolean com.android.tools.r8.utils.InternalOptions.canUseTwrCloseResourceMethod():1956 -> k0
+    7:7:boolean enableTryWithResourcesDesugaring():1972 -> k0
+    8:8:boolean com.android.tools.r8.utils.InternalOptions.hasMinApi(com.android.tools.r8.utils.AndroidApiLevel):1881:1881 -> k0
+    8:8:boolean com.android.tools.r8.utils.InternalOptions.canUseTwrCloseResourceMethod():1956 -> k0
+    8:8:boolean enableTryWithResourcesDesugaring():1972 -> k0
+    9:9:boolean enableTryWithResourcesDesugaring():1974:1974 -> k0
+    1:1:boolean canHaveArtStringNewInitBug():2232:2232 -> l
     2:2:com.android.tools.r8.utils.AndroidApiLevel com.android.tools.r8.utils.InternalOptions.getMinApiLevel():580:580 -> l
-    2:2:boolean canHaveArtStringNewInitBug():2231 -> l
-    3:3:boolean canHaveArtStringNewInitBug():2231:2231 -> l
+    2:2:boolean canHaveArtStringNewInitBug():2232 -> l
+    3:3:boolean canHaveArtStringNewInitBug():2232:2232 -> l
     1:9:java.util.Set getExtensiveInterfaceMethodMinifierLoggingFilter():810:818 -> l0
-    1:1:boolean canHaveBoundsCheckEliminationBug():2092:2092 -> m
+    1:1:boolean canHaveBoundsCheckEliminationBug():2093:2093 -> m
     2:2:com.android.tools.r8.utils.AndroidApiLevel com.android.tools.r8.utils.InternalOptions.getMinApiLevel():580:580 -> m
-    2:2:boolean canHaveBoundsCheckEliminationBug():2092 -> m
-    3:3:boolean canHaveBoundsCheckEliminationBug():2092:2092 -> m
+    2:2:boolean canHaveBoundsCheckEliminationBug():2093 -> m
+    3:3:boolean canHaveBoundsCheckEliminationBug():2093:2093 -> m
     1:9:java.util.Set getExtensiveLoggingFilter():797:805 -> m0
     1:1:com.android.tools.r8.utils.AndroidApiLevel com.android.tools.r8.utils.InternalOptions.getMinApiLevel():580:580 -> n
-    1:1:boolean canHaveCmpIfFloatBug():2184 -> n
-    2:2:boolean canHaveCmpIfFloatBug():2184:2184 -> n
+    1:1:boolean canHaveCmpIfFloatBug():2185 -> n
+    2:2:boolean canHaveCmpIfFloatBug():2185:2185 -> n
     1:1:com.android.tools.r8.utils.InternalOutputMode getInternalOutputMode():431:431 -> n0
     2:2:boolean com.android.tools.r8.utils.InternalOptions.hasConsumer():427:427 -> n0
     2:2:com.android.tools.r8.utils.InternalOutputMode getInternalOutputMode():431 -> n0
@@ -124037,73 +124042,73 @@ com.android.tools.r8.utils.InternalOptions -> com.android.tools.r8.internal.qu:
     8:8:boolean com.android.tools.r8.utils.InternalOptions.isGeneratingClassFiles():482:482 -> n0
     8:8:com.android.tools.r8.utils.InternalOutputMode getInternalOutputMode():436 -> n0
     9:11:com.android.tools.r8.utils.InternalOutputMode getInternalOutputMode():437:439 -> n0
-    1:1:boolean canHaveCmpLongBug():2156:2156 -> o
+    1:1:boolean canHaveCmpLongBug():2157:2157 -> o
     2:2:com.android.tools.r8.utils.AndroidApiLevel com.android.tools.r8.utils.InternalOptions.getMinApiLevel():580:580 -> o
-    2:2:boolean canHaveCmpLongBug():2156 -> o
-    3:3:boolean canHaveCmpLongBug():2156:2156 -> o
+    2:2:boolean canHaveCmpLongBug():2157 -> o
+    3:3:boolean canHaveCmpLongBug():2157:2157 -> o
     1:1:com.android.tools.r8.utils.AndroidApiLevel getMinApiLevel():580:580 -> o0
-    1:1:boolean canHaveDalvikAbstractMethodOnNonAbstractClassVerificationBug():2383:2383 -> p
+    1:1:boolean canHaveDalvikAbstractMethodOnNonAbstractClassVerificationBug():2384:2384 -> p
     2:2:com.android.tools.r8.utils.AndroidApiLevel com.android.tools.r8.utils.InternalOptions.getMinApiLevel():580:580 -> p
-    2:2:boolean canHaveDalvikAbstractMethodOnNonAbstractClassVerificationBug():2383 -> p
-    3:3:boolean canHaveDalvikAbstractMethodOnNonAbstractClassVerificationBug():2383:2383 -> p
+    2:2:boolean canHaveDalvikAbstractMethodOnNonAbstractClassVerificationBug():2384 -> p
+    3:3:boolean canHaveDalvikAbstractMethodOnNonAbstractClassVerificationBug():2384:2384 -> p
     1:1:com.android.tools.r8.utils.InternalOptions$OpenClosedInterfacesOptions getOpenClosedInterfacesOptions():793:793 -> p0
     1:1:boolean com.android.tools.r8.utils.InternalOptions.isGeneratingClassFiles():482:482 -> q
-    1:1:boolean canHaveDalvikCatchHandlerVerificationBug():2375 -> q
+    1:1:boolean canHaveDalvikCatchHandlerVerificationBug():2376 -> q
     2:2:com.android.tools.r8.utils.AndroidApiLevel com.android.tools.r8.utils.InternalOptions.getMinApiLevel():580:580 -> q
-    2:2:boolean canHaveDalvikCatchHandlerVerificationBug():2375 -> q
-    3:3:boolean canHaveDalvikCatchHandlerVerificationBug():2375:2375 -> q
+    2:2:boolean canHaveDalvikCatchHandlerVerificationBug():2376 -> q
+    3:3:boolean canHaveDalvikCatchHandlerVerificationBug():2376:2376 -> q
     1:1:com.android.tools.r8.shaking.ProguardConfiguration getProguardConfiguration():158:158 -> q0
     1:1:boolean com.android.tools.r8.utils.InternalOptions.isGeneratingClassFiles():482:482 -> r
-    1:1:boolean canHaveDalvikIntUsedAsNonIntPrimitiveTypeBug():2397 -> r
+    1:1:boolean canHaveDalvikIntUsedAsNonIntPrimitiveTypeBug():2398 -> r
     2:2:com.android.tools.r8.utils.AndroidApiLevel com.android.tools.r8.utils.InternalOptions.getMinApiLevel():580:580 -> r
-    2:2:boolean canHaveDalvikIntUsedAsNonIntPrimitiveTypeBug():2397 -> r
-    3:3:boolean canHaveDalvikIntUsedAsNonIntPrimitiveTypeBug():2397:2397 -> r
+    2:2:boolean canHaveDalvikIntUsedAsNonIntPrimitiveTypeBug():2398 -> r
+    3:3:boolean canHaveDalvikIntUsedAsNonIntPrimitiveTypeBug():2398:2398 -> r
     1:1:com.android.tools.r8.ir.desugar.TypeRewriter getTypeRewriter():928:928 -> r0
     2:2:com.android.tools.r8.ir.desugar.TypeRewriter com.android.tools.r8.ir.desugar.TypeRewriter.empty():18:18 -> r0
     2:2:com.android.tools.r8.ir.desugar.TypeRewriter getTypeRewriter():929 -> r0
     3:3:com.android.tools.r8.ir.desugar.TypeRewriter getTypeRewriter():930:930 -> r0
-    1:1:boolean canHaveDex2OatInliningIssue():2223:2223 -> s
+    1:1:boolean canHaveDex2OatInliningIssue():2224:2224 -> s
     2:2:com.android.tools.r8.utils.AndroidApiLevel com.android.tools.r8.utils.InternalOptions.getMinApiLevel():580:580 -> s
-    2:2:boolean canHaveDex2OatInliningIssue():2223 -> s
-    3:3:boolean canHaveDex2OatInliningIssue():2223:2223 -> s
+    2:2:boolean canHaveDex2OatInliningIssue():2224 -> s
+    3:3:boolean canHaveDex2OatInliningIssue():2224:2224 -> s
     1:1:boolean hasMethodsFilter():1213:1213 -> s0
-    1:1:boolean canHaveDex2OatLinkedListBug():2215:2215 -> t
+    1:1:boolean canHaveDex2OatLinkedListBug():2216:2216 -> t
     2:2:com.android.tools.r8.utils.AndroidApiLevel com.android.tools.r8.utils.InternalOptions.getMinApiLevel():580:580 -> t
-    2:2:boolean canHaveDex2OatLinkedListBug():2215 -> t
-    3:3:boolean canHaveDex2OatLinkedListBug():2215:2215 -> t
+    2:2:boolean canHaveDex2OatLinkedListBug():2216 -> t
+    3:3:boolean canHaveDex2OatLinkedListBug():2216:2216 -> t
     1:1:boolean hasProguardConfiguration():154:154 -> t0
-    1:1:boolean canHaveExceptionTargetingLoopHeaderBug():2264:2264 -> u
+    1:1:boolean canHaveExceptionTargetingLoopHeaderBug():2265:2265 -> u
     2:2:com.android.tools.r8.utils.AndroidApiLevel com.android.tools.r8.utils.InternalOptions.getMinApiLevel():580:580 -> u
-    2:2:boolean canHaveExceptionTargetingLoopHeaderBug():2264 -> u
-    3:3:boolean canHaveExceptionTargetingLoopHeaderBug():2264:2264 -> u
+    2:2:boolean canHaveExceptionTargetingLoopHeaderBug():2265 -> u
+    3:3:boolean canHaveExceptionTargetingLoopHeaderBug():2265:2265 -> u
     1:1:boolean hasUsageInformationConsumer():889:889 -> u0
     1:1:com.android.tools.r8.utils.AndroidApiLevel com.android.tools.r8.utils.InternalOptions.getMinApiLevel():580:580 -> v
-    1:1:boolean canHaveExceptionTypeBug():2343 -> v
-    2:2:boolean canHaveExceptionTypeBug():2343:2343 -> v
+    1:1:boolean canHaveExceptionTypeBug():2344 -> v
+    2:2:boolean canHaveExceptionTypeBug():2344:2344 -> v
     1:1:com.android.tools.r8.utils.InternalOptions$HorizontalClassMergerOptions horizontalClassMergerOptions():773:773 -> v0
-    1:1:boolean canHaveForwardingInitInliningBug():2252:2252 -> w
+    1:1:boolean canHaveForwardingInitInliningBug():2253:2253 -> w
     2:2:com.android.tools.r8.utils.AndroidApiLevel com.android.tools.r8.utils.InternalOptions.getMinApiLevel():580:580 -> w
-    2:2:boolean canHaveForwardingInitInliningBug():2252 -> w
-    3:3:boolean canHaveForwardingInitInliningBug():2252:2252 -> w
+    2:2:boolean canHaveForwardingInitInliningBug():2253 -> w
+    3:3:boolean canHaveForwardingInitInliningBug():2253:2253 -> w
     1:1:com.android.tools.r8.utils.InternalOptions$InlinerOptions inlinerOptions():769:769 -> w0
-    1:1:boolean canHaveInvokeInterfaceToObjectMethodBug():2440:2440 -> x
+    1:1:boolean canHaveInvokeInterfaceToObjectMethodBug():2441:2441 -> x
     2:2:com.android.tools.r8.utils.AndroidApiLevel com.android.tools.r8.utils.InternalOptions.getMinApiLevel():580:580 -> x
-    2:2:boolean canHaveInvokeInterfaceToObjectMethodBug():2440 -> x
-    3:3:boolean canHaveInvokeInterfaceToObjectMethodBug():2440:2440 -> x
+    2:2:boolean canHaveInvokeInterfaceToObjectMethodBug():2441 -> x
+    3:3:boolean canHaveInvokeInterfaceToObjectMethodBug():2441:2441 -> x
     1:2:boolean isAccessModificationEnabled():697:698 -> x0
     1:1:com.android.tools.r8.utils.AndroidApiLevel com.android.tools.r8.utils.InternalOptions.getMinApiLevel():580:580 -> y
-    1:1:boolean canHaveLongToIntBug():2330 -> y
-    2:2:boolean canHaveLongToIntBug():2330:2330 -> y
+    1:1:boolean canHaveLongToIntBug():2331 -> y
+    2:2:boolean canHaveLongToIntBug():2331:2331 -> y
     1:1:boolean com.android.tools.r8.utils.InternalOptions.isForceProguardCompatibilityEnabled():635:635 -> y0
     1:1:boolean isAnnotationRemovalEnabled():610 -> y0
-    1:1:boolean canHaveMul2AddrBug():2206:2206 -> z
+    1:1:boolean canHaveMul2AddrBug():2207:2207 -> z
     2:2:com.android.tools.r8.utils.AndroidApiLevel com.android.tools.r8.utils.InternalOptions.getMinApiLevel():580:580 -> z
-    2:2:boolean canHaveMul2AddrBug():2206 -> z
-    3:3:boolean canHaveMul2AddrBug():2206:2206 -> z
+    2:2:boolean canHaveMul2AddrBug():2207 -> z
+    3:3:boolean canHaveMul2AddrBug():2207:2207 -> z
     1:1:boolean isDesugaredLibraryCompilation():447:447 -> z0
 com.android.tools.r8.utils.InternalOptions$1 -> com.android.tools.r8.internal.pu:
     int[] $SwitchMap$com$android$tools$r8$utils$OffOrAuto -> a
-    1:1:void <clinit>():1967:1967 -> <clinit>
+    1:1:void <clinit>():1968:1968 -> <clinit>
 com.android.tools.r8.utils.InternalOptions$ApiModelTestingOptions -> com.android.tools.r8.internal.qu$a:
     java.util.function.BiConsumer tracedMethodApiLevelCallback -> h
     boolean enableApiCallerIdentification -> a
@@ -124270,83 +124275,84 @@ com.android.tools.r8.utils.InternalOptions$ProtoShrinkingOptions -> com.android.
     1:1:boolean isEnumLiteProtoShrinkingEnabled():1661:1661 -> b
     1:1:boolean isProtoShrinkingEnabled():1654:1654 -> c
 com.android.tools.r8.utils.InternalOptions$TestingOptions -> com.android.tools.r8.internal.qu$m:
-    boolean enableTestAssertions -> d0
     java.util.function.BiConsumer horizontallyMergedClassesConsumer -> i
-    int basicBlockMuncherIterationLimit -> O
-    java.util.function.Consumer inlineeIrModifier -> N
-    boolean disableMarkingClassesFinal -> f0
-    boolean dontReportFailingCheckDiscarded -> P
-    boolean checkForNotExpandingMainDexTracingResult -> b0
-    boolean enableNarrowAndWideningingChecksInD8 -> L
+    boolean disableMarkingMethodsFinal -> f0
+    boolean verifyInputs -> b0
+    boolean forceNameReflectionOptimization -> L
     boolean allowUnnecessaryDontWarnWildcards -> u
-    com.android.tools.r8.utils.InternalOptions$TestingOptions$ProguardIfRuleEvaluationData proguardIfRuleEvaluationData -> u0
-    java.lang.Runnable hookInIrConversion -> s0
-    boolean forceIRForCfToCfDesugar -> X
     boolean allowInjectedAnnotationMethods -> q
     java.util.function.BiConsumer verticallyMergedClassesConsumer -> m
-    boolean enumUnboxingRewriteJavaCGeneratedMethod -> T
+    boolean trackDesugaredAPIConversions -> T
+    java.util.Set validInliningReasons -> J
     boolean enableCheckCastAndInstanceOfRemoval -> y
-    java.util.Set allowedUnusedDontWarnPatterns -> c0
-    boolean forceJumboStringProcessing -> G
+    int verificationSizeLimitInBytesOverride -> X
+    boolean dontCreateMarkerInD8 -> G
+    com.android.tools.r8.utils.InternalOptions$TestingOptions$MinifierTestingOptions minifier -> s0
     byte[] forceDexVersionBytes -> d
     boolean forceRedundantConstNumberRemoval -> C
-    java.util.function.Predicate cfByteCodePassThrough -> w0
+    int basicBlockMuncherIterationLimit -> P
+    boolean enableNarrowAndWideningingChecksInD8 -> M
     java.util.function.Consumer waveModifier -> n
+    boolean forcePcBasedEncoding -> I
     java.util.function.Function repackagingConfigurationFactory -> h
-    boolean assertConsistentRenamingOfSignature -> U
+    boolean enumUnboxingRewriteJavaCGeneratedMethod -> U
     com.android.tools.r8.utils.TriFunction horizontalClassMergingTarget -> k
     boolean allowUnusedDontWarnRules -> v
     java.util.function.BiConsumer unboxedEnumsConsumer -> l
-    boolean disableRecordApplicationReaderMap -> Q
+    boolean dontReportFailingCheckDiscarded -> Q
     boolean allowInliningOfSynthetics -> r
-    boolean enableExperimentalMapFileVersion -> x0
-    java.util.function.Consumer callSiteOptimizationInfoInspector -> v0
     com.android.tools.r8.optimize.argumentpropagation.ArgumentPropagatorEventConsumer argumentPropagatorEventConsumer -> c
-    boolean measureProguardIfRuleEvaluations -> t0
-    boolean disableMappingToOriginalProgramVerification -> Y
+    int limitNumberOfClassesPerDex -> r0
+    boolean forceIRForCfToCfDesugar -> Y
     boolean enableDeadSwitchCaseElimination -> z
-    boolean allowOutlinerInterfaceArrayArguments -> p0
+    boolean disableStackMapVerification -> p0
     com.android.tools.r8.utils.DeterminismChecker determinismChecker -> b
-    boolean allowNonAbstractClassesWithAbstractMethods -> l0
-    boolean forcePcBasedEncoding -> H
-    boolean readInputStackMaps -> n0
+    boolean enableD8ResourcesPassThrough -> l0
+    boolean forceJumboStringProcessing -> H
+    boolean verifyKeptGraphInfo -> n0
     boolean hasReadCheckDeterminism -> a
-    boolean keepMetadataInR8IfNotRewritten -> h0
-    boolean allowConflictingSyntheticTypes -> j0
-    boolean invertConditionals -> D
-    boolean disableMarkingMethodsFinal -> e0
+    boolean testEnableTestAssertions -> h0
+    boolean enableRecordModeling -> j0
+    boolean enableExperimentalLoopUnrolling -> D
+    boolean enableTestAssertions -> e0
     boolean allowCheckDiscardedErrors -> o
-    boolean testEnableTestAssertions -> g0
-    boolean noLocalsTableOnInput -> J
-    boolean verifyInputs -> a0
-    boolean allowStaticInterfaceMethodsForPreNApiLevel -> V
+    boolean disableMarkingClassesFinal -> g0
+    boolean allowInvalidCfAccessFlags -> a0
+    boolean checkForNotExpandingMainDexTracingResult -> c0
+    boolean assertConsistentRenamingOfSignature -> V
     boolean reportUnusedProguardConfigurationRules -> w
+    com.android.tools.r8.utils.InternalOptions$TestingOptions$ProguardIfRuleEvaluationData proguardIfRuleEvaluationData -> v0
+    java.lang.Runnable hookInIrConversion -> t0
+    boolean disableRecordApplicationReaderMap -> R
     boolean allowTypeErrors -> s
-    java.io.PrintStream whyAreYouNotInliningConsumer -> R
+    java.util.function.BiConsumer irModifier -> N
     com.android.tools.r8.utils.IROrdering irOrdering -> e
-    boolean allowInvalidCfAccessFlags -> Z
-    boolean placeExceptionalBlocksLast -> E
-    com.android.tools.r8.utils.InternalOptions$TestingOptions$MinifierTestingOptions minifier -> r0
+    boolean disableMappingToOriginalProgramVerification -> Z
+    boolean invertConditionals -> E
+    java.util.Set allowedUnusedDontWarnPatterns -> d0
     boolean enableInvokeSuperToInvokeVirtualRewriting -> A
+    java.util.function.Predicate cfByteCodePassThrough -> x0
+    java.util.function.Consumer inlineeIrModifier -> O
     boolean allowClassInliningOfSynthetics -> p
     java.util.function.BiConsumer enqueuerInspector -> f
-    boolean forceNameReflectionOptimization -> K
+    boolean noLocalsTableOnInput -> K
     java.util.function.Function horizontalClassMergingPolicyRewriter -> j
+    boolean allowStaticInterfaceMethodsForPreNApiLevel -> W
     boolean alwaysUseExistingAccessInfoCollectionsInMemberRebinding -> x
-    java.util.function.BiConsumer irModifier -> M
-    boolean trackDesugaredAPIConversions -> S
+    boolean enableExperimentalMapFileVersion -> y0
+    java.util.function.Consumer callSiteOptimizationInfoInspector -> w0
     boolean allowInvokeErrors -> t
-    java.util.Set validInliningReasons -> I
-    int limitNumberOfClassesPerDex -> q0
-    boolean verifyKeptGraphInfo -> m0
+    java.io.PrintStream whyAreYouNotInliningConsumer -> S
+    boolean measureProguardIfRuleEvaluations -> u0
+    boolean allowOutlinerInterfaceArrayArguments -> q0
+    boolean allowNonAbstractClassesWithAbstractMethods -> m0
     java.util.function.Consumer processingContextsConsumer -> g
-    boolean dontCreateMarkerInD8 -> F
-    int verificationSizeLimitInBytesOverride -> W
-    boolean disableStackMapVerification -> o0
+    boolean placeExceptionalBlocksLast -> F
+    boolean readInputStackMaps -> o0
     boolean enableSwitchToIfRewriting -> B
-    boolean enableRecordModeling -> i0
-    boolean enableD8ResourcesPassThrough -> k0
-    1:199:void <init>():1665:1863 -> <init>
+    boolean keepMetadataInR8IfNotRewritten -> i0
+    boolean allowConflictingSyntheticTypes -> k0
+    1:200:void <init>():1665:1864 -> <init>
     com.android.tools.r8.graph.DexProgramClass lambda$new$0(com.android.tools.r8.graph.AppView,java.lang.Iterable,com.android.tools.r8.graph.DexProgramClass) -> a
     void lambda$new$1(java.util.Deque) -> a
     1:1:void setDeterminismChecker(com.android.tools.r8.utils.DeterminismChecker):1671:1671 -> a
@@ -124354,13 +124360,13 @@ com.android.tools.r8.utils.InternalOptions$TestingOptions -> com.android.tools.r
     11:11:void allowExperimentClassFileVersion(com.android.tools.r8.utils.InternalOptions):1689:1689 -> a
 com.android.tools.r8.utils.InternalOptions$TestingOptions$MinifierTestingOptions -> com.android.tools.r8.internal.qu$m$a:
     java.util.Comparator interfaceMethodOrdering -> a
-    1:3:void <init>():1834:1836 -> <init>
-    1:2:java.util.Comparator getInterfaceMethodOrderingOrDefault(java.util.Comparator):1840:1841 -> a
-    3:3:int lambda$getInterfaceMethodOrderingOrDefault$0(com.android.tools.r8.com.google.common.base.Equivalence$Wrapper,com.android.tools.r8.com.google.common.base.Equivalence$Wrapper):1842:1842 -> a
+    1:3:void <init>():1835:1837 -> <init>
+    1:2:java.util.Comparator getInterfaceMethodOrderingOrDefault(java.util.Comparator):1841:1842 -> a
+    3:3:int lambda$getInterfaceMethodOrderingOrDefault$0(com.android.tools.r8.com.google.common.base.Equivalence$Wrapper,com.android.tools.r8.com.google.common.base.Equivalence$Wrapper):1843:1843 -> a
 com.android.tools.r8.utils.InternalOptions$TestingOptions$ProguardIfRuleEvaluationData -> com.android.tools.r8.internal.qu$m$b:
     int numberOfProguardIfRuleMemberEvaluations -> b
     int numberOfProguardIfRuleClassEvaluations -> a
-    1:4:void <init>():1852:1855 -> <init>
+    1:4:void <init>():1853:1856 -> <init>
 com.android.tools.r8.utils.InternalOptions$TypeVersionPair -> com.android.tools.r8.internal.uu:
     com.android.tools.r8.cf.CfVersion version -> a
     com.android.tools.r8.graph.DexType type -> b
@@ -124491,10 +124497,10 @@ com.android.tools.r8.utils.LineNumberOptimizer -> com.android.tools.r8.internal.
     4:12:com.android.tools.r8.naming.ProguardMapSupplier$ProguardMapId runAndWriteMap(com.android.tools.r8.utils.AndroidApp,com.android.tools.r8.graph.AppView,com.android.tools.r8.naming.NamingLens,com.android.tools.r8.utils.Timing,com.android.tools.r8.utils.OriginalSourceFiles,com.android.tools.r8.debuginfo.DebugRepresentation$DebugRepresentationPredicate):340:348 -> a
     13:23:com.android.tools.r8.naming.ProguardMapSupplier$ProguardMapId runAndWriteMap(com.android.tools.r8.utils.AndroidApp,com.android.tools.r8.graph.AppView,com.android.tools.r8.naming.NamingLens,com.android.tools.r8.utils.Timing,com.android.tools.r8.utils.OriginalSourceFiles,com.android.tools.r8.debuginfo.DebugRepresentation$DebugRepresentationPredicate):346:356 -> a
     24:32:com.android.tools.r8.naming.ClassNameMapper run(com.android.tools.r8.graph.AppView,com.android.tools.r8.graph.DexApplication,com.android.tools.r8.utils.AndroidApp,com.android.tools.r8.naming.NamingLens,com.android.tools.r8.utils.OriginalSourceFiles,com.android.tools.r8.debuginfo.DebugRepresentation$DebugRepresentationPredicate):482:490 -> a
-    33:33:boolean com.android.tools.r8.utils.InternalOptions.allowDiscardingResidualDebugInfo():1984:1984 -> a
+    33:33:boolean com.android.tools.r8.utils.InternalOptions.allowDiscardingResidualDebugInfo():1985:1985 -> a
     33:33:com.android.tools.r8.naming.ClassNameMapper run(com.android.tools.r8.graph.AppView,com.android.tools.r8.graph.DexApplication,com.android.tools.r8.utils.AndroidApp,com.android.tools.r8.naming.NamingLens,com.android.tools.r8.utils.OriginalSourceFiles,com.android.tools.r8.debuginfo.DebugRepresentation$DebugRepresentationPredicate):490 -> a
       # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(1)"]}
-    34:34:boolean com.android.tools.r8.utils.InternalOptions.allowDiscardingResidualDebugInfo():1984:1984 -> a
+    34:34:boolean com.android.tools.r8.utils.InternalOptions.allowDiscardingResidualDebugInfo():1985:1985 -> a
     34:34:com.android.tools.r8.naming.ClassNameMapper run(com.android.tools.r8.graph.AppView,com.android.tools.r8.graph.DexApplication,com.android.tools.r8.utils.AndroidApp,com.android.tools.r8.naming.NamingLens,com.android.tools.r8.utils.OriginalSourceFiles,com.android.tools.r8.debuginfo.DebugRepresentation$DebugRepresentationPredicate):490 -> a
     35:39:com.android.tools.r8.naming.ClassNameMapper run(com.android.tools.r8.graph.AppView,com.android.tools.r8.graph.DexApplication,com.android.tools.r8.utils.AndroidApp,com.android.tools.r8.naming.NamingLens,com.android.tools.r8.utils.OriginalSourceFiles,com.android.tools.r8.debuginfo.DebugRepresentation$DebugRepresentationPredicate):490:494 -> a
     40:40:boolean com.android.tools.r8.synthesis.SyntheticItems.isSyntheticClass(com.android.tools.r8.graph.DexProgramClass):268:268 -> a
@@ -124557,11 +124563,11 @@ com.android.tools.r8.utils.LineNumberOptimizer -> com.android.tools.r8.internal.
     250:250:com.android.tools.r8.naming.ClassNameMapper run(com.android.tools.r8.graph.AppView,com.android.tools.r8.graph.DexApplication,com.android.tools.r8.utils.AndroidApp,com.android.tools.r8.naming.NamingLens,com.android.tools.r8.utils.OriginalSourceFiles,com.android.tools.r8.debuginfo.DebugRepresentation$DebugRepresentationPredicate):583 -> a
     251:328:java.util.List com.android.tools.r8.utils.LineNumberOptimizer.optimizeDexCodePositions(com.android.tools.r8.graph.DexEncodedMethod,com.android.tools.r8.graph.AppView,com.android.tools.r8.utils.LineNumberOptimizer$PositionRemapper,boolean,boolean):1011:1088 -> a
     251:328:com.android.tools.r8.naming.ClassNameMapper run(com.android.tools.r8.graph.AppView,com.android.tools.r8.graph.DexApplication,com.android.tools.r8.utils.AndroidApp,com.android.tools.r8.naming.NamingLens,com.android.tools.r8.utils.OriginalSourceFiles,com.android.tools.r8.debuginfo.DebugRepresentation$DebugRepresentationPredicate):583 -> a
-    329:329:boolean com.android.tools.r8.utils.InternalOptions.allowDiscardingResidualDebugInfo():1984:1984 -> a
+    329:329:boolean com.android.tools.r8.utils.InternalOptions.allowDiscardingResidualDebugInfo():1985:1985 -> a
     329:329:java.util.List com.android.tools.r8.utils.LineNumberOptimizer.optimizeDexCodePositions(com.android.tools.r8.graph.DexEncodedMethod,com.android.tools.r8.graph.AppView,com.android.tools.r8.utils.LineNumberOptimizer$PositionRemapper,boolean,boolean):1088 -> a
     329:329:com.android.tools.r8.naming.ClassNameMapper run(com.android.tools.r8.graph.AppView,com.android.tools.r8.graph.DexApplication,com.android.tools.r8.utils.AndroidApp,com.android.tools.r8.naming.NamingLens,com.android.tools.r8.utils.OriginalSourceFiles,com.android.tools.r8.debuginfo.DebugRepresentation$DebugRepresentationPredicate):583 -> a
       # {"id":"com.android.tools.r8.rewriteFrame","conditions":["throws(Ljava/lang/NullPointerException;)"],"actions":["removeInnerFrames(2)"]}
-    330:330:boolean com.android.tools.r8.utils.InternalOptions.allowDiscardingResidualDebugInfo():1984:1984 -> a
+    330:330:boolean com.android.tools.r8.utils.InternalOptions.allowDiscardingResidualDebugInfo():1985:1985 -> a
     330:330:java.util.List com.android.tools.r8.utils.LineNumberOptimizer.optimizeDexCodePositions(com.android.tools.r8.graph.DexEncodedMethod,com.android.tools.r8.graph.AppView,com.android.tools.r8.utils.LineNumberOptimizer$PositionRemapper,boolean,boolean):1088 -> a
     330:330:com.android.tools.r8.naming.ClassNameMapper run(com.android.tools.r8.graph.AppView,com.android.tools.r8.graph.DexApplication,com.android.tools.r8.utils.AndroidApp,com.android.tools.r8.naming.NamingLens,com.android.tools.r8.utils.OriginalSourceFiles,com.android.tools.r8.debuginfo.DebugRepresentation$DebugRepresentationPredicate):583 -> a
     331:343:java.util.List com.android.tools.r8.utils.LineNumberOptimizer.optimizeDexCodePositions(com.android.tools.r8.graph.DexEncodedMethod,com.android.tools.r8.graph.AppView,com.android.tools.r8.utils.LineNumberOptimizer$PositionRemapper,boolean,boolean):1089:1101 -> a
