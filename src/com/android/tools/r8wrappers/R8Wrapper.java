@@ -35,6 +35,7 @@ import com.android.tools.r8wrappers.utils.WrapperDiagnosticsHandler;
 import com.android.tools.r8wrappers.utils.WrapperFlag;
 import java.io.ByteArrayInputStream;
 import java.io.InputStream;
+import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Path;
@@ -63,12 +64,16 @@ public class R8Wrapper {
         new WrapperFlag("--resource-input", "Resource input for the resource shrinker."),
         new WrapperFlag("--resource-output", "Resource shrinker output."),
         new WrapperFlag("--optimized-resource-shrinking", "Use R8 optimizing resource pipeline."),
+        new WrapperFlag("--protect-api-surface", "API surface protection for libcore."),
         new WrapperFlag(
             "--store-store-fence-constructor-inlining",
             "Use aggressive R8 constructor inlining."),
         new WrapperFlag(
             "--no-implicit-default-init",
-            "Disable compat-mode behavior of keeping default constructors in full mode."));
+            "Disable compat-mode behavior of keeping default constructors in full mode."),
+        new WrapperFlag(
+            "--exclude <file>",
+            "Path to file containing name of classes that should not be compiled using R8."));
   }
 
   private static String getUsageMessage() {
@@ -94,7 +99,7 @@ public class R8Wrapper {
     return builder;
   }
 
-  public static void main(String[] args) throws CompilationFailedException {
+  public static void main(String[] args) throws CompilationFailedException, IOException {
     // Disable this optimization as it can impact weak reference semantics. See b/233432839.
     System.setProperty("com.android.tools.r8.disableEnqueuerDeferredTracing", "1");
     // Disable class merging across different files to improve attribution. See b/242881914.
@@ -103,6 +108,8 @@ public class R8Wrapper {
     System.setProperty("com.android.tools.r8.experimental.enablewhyareyounotinlining", "1");
     // Allow use of -convertchecknotnull optimization. See b/280633711.
     System.setProperty("com.android.tools.r8.experimental.enableconvertchecknotnull", "1");
+    // Allow conditional keep rule application against library references. See b/386409781.
+    System.setProperty("com.android.tools.r8.applyIfRulesToLibrary", "1");
 
     R8Wrapper wrapper = new R8Wrapper();
     String[] remainingArgs = wrapper.parseWrapperArguments(args);
@@ -142,13 +149,28 @@ public class R8Wrapper {
   private boolean optimizingResourceShrinking = false;
   private boolean forceOptimizingResourceShrinking = false;
   private boolean noImplicitDefaultInit = false;
+  private boolean protectApiSurface = false;
   private boolean storeStoreFenceConstructorInlining = false;
+  private final List<String> excludeClasses = new ArrayList<>();
 
-  private String[] parseWrapperArguments(String[] args) {
+  private String[] parseWrapperArguments(String[] args) throws IOException {
     List<String> remainingArgs = new ArrayList<>();
     for (int i = 0; i < args.length; i++) {
       String arg = args[i];
       switch (arg) {
+        case "--exclude":
+          {
+            String nextArg = args[++i];
+            Path excludeFile = Paths.get(nextArg);
+            for (String line : Files.readAllLines(excludeFile)) {
+              line = line.trim();
+              if (line.isEmpty() || line.startsWith("#")) {
+                continue;
+              }
+              excludeClasses.add(line);
+            }
+            break;
+          }
         case "--ignore-library-extends-program":
           {
             ignoreLibraryExtendsProgram = true;
@@ -240,6 +262,11 @@ public class R8Wrapper {
             pgRules.add(arg + " " + args[++i]);
             break;
           }
+        case "--protect-api-surface":
+          {
+            protectApiSurface = true;
+            break;
+          }
         case "--store-store-fence-constructor-inlining":
           {
             storeStoreFenceConstructorInlining = true;
@@ -296,8 +323,16 @@ public class R8Wrapper {
               "-keepattributes RuntimeInvisibleTypeAnnotations"),
           CLI_ORIGIN);
     }
+    if (!excludeClasses.isEmpty()) {
+      String includePatterns = "**";
+      String excludePatterns = String.join(",", excludeClasses);
+      builder.enableExperimentalPartialShrinking(includePatterns, excludePatterns);
+    }
     if (!pgRules.isEmpty()) {
       builder.addProguardConfiguration(pgRules, CLI_ORIGIN);
+    }
+    if (protectApiSurface) {
+      builder.setProtectApiSurface(true);
     }
     if (useCompatPg) {
       builder.setProguardCompatibility(useCompatPg);
